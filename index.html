@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Objective</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body"><h2 id="objective"><a class="header-link" href="#objective"></a>Objective</h2>
+<p>The goal is for each team to design and build an Autonomous Underwater Vehicle which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.</p>
+<h2 id="structure-of-the-team"><a class="header-link" href="#structure-of-the-team"></a>Structure of the Team</h2>
+<p>A team may consist of up to eight participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.</p>
+<h2 id="the-arena"><a class="header-link" href="#the-arena"></a>The Arena</h2>
+<p>The challenge will be held in an olympic sized swimming pool. There are 3 tasks in the challenge:</p>
+<ul class="list">
+<li>Swimming through the gate</li>
+<li>Dropping a ball in the correct drum</li>
+<li>Bumping a flare</li>
+</ul>
+<p>The first task, swimming through the gate is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.</p>
+<p class="img-container"><img src="img/arena.jpg" alt="arena"></p>
+<h3 id="starting-zone"><a class="header-link" href="#starting-zone"></a>Starting Zone</h3>
+<p>The starting zone is a 140×140cm area marked on the surface of water. The teams must start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge before leaving the starting zone.</p>
+<h3 id="swimming-through-the-gate"><a class="header-link" href="#swimming-through-the-gate"></a>Swimming through the gate</h3>
+<p>The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively. [10 Points]</p>
+<p class="img-container"><img src="img/gate.jpg" alt="flare"></p>
+<p>The following tasks can be done in any order.</p>
+<h3 id="dropping-the-ball"><a class="header-link" href="#dropping-the-ball"></a>Dropping the ball</h3>
+<p>There are 4 coloured drums in the arena. All of them equidistant from the gate such that they lie on an arc. The AUV needs to drop a ball in the correct drum to successfully complete this task. Points are only awarded for a ball that remains in the bucket until the end of the game.</p>
+<p>There are a few different modes of solving this challenge. The mode needs to be declared to the judges prior to each attempt. Failure to declare will result in the default mode (Optical)</p>
+<ul class="list">
+<li>Optical [20 Points]<ul class="list">
+<li>Drop the ball in the Yellow drum.</li>
+<li>Dropping the ball in any other drum will be awarded [5 Points]</li>
+</ul>
+</li>
+<li>Optical+Acoustic [30 Points]<ul class="list">
+<li>A transducer will play a tone. Each frequency corresponds to a coloured drum. The Yellow drum is not used in this mode.<ul class="list">
+<li>20kHz : Green</li>
+<li>30kHz : Red</li>
+<li>40kHz : Orange</li>
+</ul>
+</li>
+<li>Dropping the ball in any other drum will be awarded [5 Points]</li>
+</ul>
+</li>
+<li>Acoustic [50 Points]<ul class="list">
+<li>A transducer in the target bucket will play a chirp from 20-30kHz. The Yellow drum is not used in this mode.</li>
+<li>Dropping the ball in any other drum will be awarded [5 Points]</li>
+</ul>
+</li>
+</ul>
+<p>In the acoustic tasks (Optical+Acoustic/Acoustic), the target drum may change between attempts. The order of the drums may also change.</p>
+<p>Drum: Approximately 50cm in diameter
+Ball   : 3.5-4.5cm in diameter and weigh no more than 100g in air.
+In the event of multiple balls being dropped, only the first ball is taken to consideration.</p>
+<h3 id="flare"><a class="header-link" href="#flare"></a>Flare</h3>
+<p>There is a flare marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball to drop out of the flare. [40 Points]</p>
+<p>Flare Pinger: RJE International Pinger Model No. ULB-362/37.5 kHz</p>
+<p class="img-container"><img src="img/flare.jpg" alt="flare"></p>
+<h3 id="surfacing"><a class="header-link" href="#surfacing"></a>Surfacing</h3>
+<p>Upon successful completion of all tasks, the AUV must surface (anywhere in the arena) to complete the mission. Bonus points proportional to the remaining time will be awarded in accordance with the following formula</p>
+<p>Bonus points = (900 - min(RUN_TIME)) • 0.1</p>
+<p>i.e. For a best run time of 420s, Bonus = (900-420)•0.1 = 48 Points</p>
+<p>Successful completion of all tasks entails bumping the flare and dropping the ball (after swimming through the gate)</p>
+<h3 id="penalties"><a class="header-link" href="#penalties"></a>Penalties</h3>
+<p>Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Description</th>
+<th>Penalty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Touching the gate</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>If the AUV touches the bottom of the pool or wall for a duration, t</td>
+<td>5 + max(0,4•(t-10))</td>
+</tr>
+</tbody>
+</table>
+<h2 id="specification-of-auv"><a class="header-link" href="#specification-of-auv"></a>Specification of AUV</h2>
+<ul class="list">
+<li>The AUV must fit within a 140 × 100 × 100 cm box.. An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus [10 points].</li>
+<li>The AUV must not weigh more than 50 kg in air. An AUV weighing less than 40 kg in air will be given bonus [10 points].</li>
+<li>Power should be self contained. Tethers of any sort are not allowed.</li>
+<li>The voltage of the power source used by each AUV should not exceed 24VDC.</li>
+<li>Pressure of any compressed gas used must not exceed 6 bars.
+AUV should be completely autonomous. No communication of any sort is allowed during the game</li>
+<li>The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed</li>
+<li>If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.</li>
+</ul>
+<h2 id="game-procedure"><a class="header-link" href="#game-procedure"></a>Game Procedure</h2>
+<ul class="list">
+<li>Length of a game<ul class="list">
+<li>Each team is given 15 minutes to complete the tasks.</li>
+<li>In any of the following cases, the game ends immediately.<ul class="list">
+<li>Disqualification is announced in the game.</li>
+<li>When the judges determine that the game cannot continue.</li>
+</ul>
+</li>
+<li>Setting up of AUV<ul class="list">
+<li>Five minutes is given for setting up the AUV before the game starts.<ul class="list">
+<li>No more than two members of respective teams can engage in setting up of their AUV.</li>
+<li>The two designated members setting up must wear life jackets. Failure to do so may result in disqualification.</li>
+<li>Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.</li>
+<li>Setting up during the game uses the allocated time for the tasks and game.</li>
+<li>The AUV can only start from the start zone. This is the only place where the AUV is allowed to be on the water surface.</li>
+<li>The AUV should start its manoeuvre only after it has completely submerged in the water.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Retries<ul class="list">
+<li>A retry can be made only after the judge’s permission.</li>
+<li>The AUV will be passed to the two designated team members standing beside the pool by the divers.</li>
+<li>A retry would mean that the AUV starts from the start zone with zero points.</li>
+<li>A maximum of 15 minutes is allowed including all the retries.</li>
+</ul>
+</li>
+</ul>
+<h2 id="general-restrictions"><a class="header-link" href="#general-restrictions"></a>General Restrictions</h2>
+<ul class="list">
+<li>Team members are not allowed inside the swimming pool at any point during the game.</li>
+<li>Team members may not disturb the water surface once the game starts.</li>
+<li>Members of other teams are not allowed in the game area.</li>
+<li>Nobody is allowed to wear shoes near the pool area.</li>
+</ul>
+<h2 id="disqualification"><a class="header-link" href="#disqualification"></a>Disqualification</h2>
+<ul class="list">
+<li>Oil or lubrication leak causing the pollution of pool.
+battery leak causing the pollution of pool.</li>
+<li>The team damages or tries to damage the field, facilities or equipments.</li>
+<li>The team performs any acts that are not in the spirit of fair play.</li>
+<li>The team fails to obey instructions or warnings issued by the referees.</li>
+<li>The team has made a false start for three times in the same match.</li>
+<li>If the team does not abide by the the general restrictions.</li>
+</ul>
+<h2 id="safety"><a class="header-link" href="#safety"></a>Safety</h2>
+<ul class="list">
+<li>AUVs should not leak and pollute the pool.</li>
+<li>AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.</li>
+<li>AUV should have an easily accessible kill switch that turns off the vehicle. This should be marked bright yellow.</li>
+<li>The judges may suspend the challenge if weather turns unfavourable.</li>
+<li>The pool area must be evacuated in case of lightning.</li>
+</ul>
+<h2 id="others"><a class="header-link" href="#others"></a>Others</h2>
+<ul class="list">
+<li>The legitimacy of any actions not provided in this rulebook will be subject to discretion of the Judges.</li>
+<li>The dimensions, weights, etc. of the field, facilities and equipments described in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as shown in the rule book are the maximum and cannot be deviated.</li>
+<li>The judges may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.</li>
+</ul>
+<h2 id="sequence-of-events-during-the-competition"><a class="header-link" href="#sequence-of-events-during-the-competition"></a>Sequence of events during the competition</h2>
+<ul class="list">
+<li>AUV will undergo weight and size check. Bonus points, if applicable, will be awarded.</li>
+<li>AUV will be tested for battery, oil or lubricant leak. Failing the leak test would lead to disqualification of team.</li>
+<li>AUV will proceed to qualifying round. The bonus points for size and weight is applicable only if the AUV passes the qualifying round.</li>
+<li>AUV passes the qualifying round if it manages to swim between two markers separated by 10 meters and placed underwater without surfacing or touching the bottom/wall. Also the time taken to pass the qualifying decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.</li>
+<li>The qualified AUVs will proceed for the final rounds of competition.</li>
+</ul>
+    </article>
+  </body>
+</html>
