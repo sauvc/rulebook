@@ -10,70 +10,83 @@
   </head>
   <body>
     <article class="markdown-body"><h2 id="objective"><a class="header-link" href="#objective"></a>Objective</h2>
-<p>The goal is for each team to design and build an Autonomous Underwater Vehicle which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.</p>
+<p>The goal is for each team to design and build an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.</p>
 <h2 id="structure-of-the-team"><a class="header-link" href="#structure-of-the-team"></a>Structure of the Team</h2>
-<p>A team may consist of up to eight participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.</p>
+<p>A team may consist of up to <strong>eight</strong> participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.</p>
 <h2 id="the-arena"><a class="header-link" href="#the-arena"></a>The Arena</h2>
-<p>The challenge will be held in an olympic sized swimming pool. There are 3 tasks in the challenge:</p>
+<p>The challenge will be held in an olympic sized swimming pool. There are 4 tasks in the challenge:</p>
 <ul class="list">
-<li>Swimming through the gate</li>
-<li>Dropping a ball in the correct drum</li>
-<li>Bumping a flare</li>
+<li>Object Detection</li>
+<li>Target Acquisition</li>
+<li>Localization</li>
+<li>Target Reacquisition</li>
 </ul>
-<p>The first task, swimming through the gate is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.</p>
-<p class="img-container"><img src="img/arena.jpg" alt="arena"></p>
+<p>The first task, Object Detection is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.</p>
+<p><img src="img/arena.jpg" alt="arena">
+Figure 1. Map of the Arena.</p>
 <h3 id="starting-zone"><a class="header-link" href="#starting-zone"></a>Starting Zone</h3>
-<p>The starting zone is a 140×140cm area marked on the surface of water. The teams must start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge before leaving the starting zone.</p>
-<h3 id="swimming-through-the-gate"><a class="header-link" href="#swimming-through-the-gate"></a>Swimming through the gate</h3>
-<p>The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively. [10 Points]</p>
-<p class="img-container"><img src="img/gate.jpg" alt="flare"></p>
+<p>The starting zone is a 140×140cm area marked on the surface of water. The teams <strong>must</strong> start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge <strong>before</strong> leaving the starting zone.</p>
+<h3 id="object-detection-10-points-"><a class="header-link" href="#object-detection-10-points-"></a>Object Detection [10 Points]</h3>
+<p>The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.</p>
+<p><img src="img/gate.jpg" alt="flare">
+Figure 2. Structure of the gate.</p>
 <p>The following tasks can be done in any order.</p>
-<h3 id="dropping-the-ball"><a class="header-link" href="#dropping-the-ball"></a>Dropping the ball</h3>
-<p>There are 4 coloured drums in the arena. All of them equidistant from the gate such that they lie on an arc. The AUV needs to drop a ball in the correct drum to successfully complete this task. Points are only awarded for a ball that remains in the bucket until the end of the game.</p>
-<p>There are a few different modes of solving this challenge. The mode needs to be declared to the judges prior to each attempt. Failure to declare will result in the default mode (Optical)</p>
+<h3 id="target-acquisition-5-50-points-"><a class="header-link" href="#target-acquisition-5-50-points-"></a>Target Acquisition [5-50 Points]</h3>
+<p>The aim of the task is to detect and acquire a target among a series of drums lying at the bottom of the pool. There are 4 coloured drums in the arena. All of them equidistant from the gate such that they lie on an arc. One of the drums, chosen at random, will be Red in colour. The AUV needs to drop a ball in the correct drum to successfully complete this task.</p>
+<p>There are a two modes of solving this challenge.</p>
 <ul class="list">
-<li>Optical [20 Points]<ul class="list">
-<li>Drop the ball in the Yellow drum.</li>
-<li>Dropping the ball in any other drum will be awarded [5 Points]</li>
+<li>Optical <strong>[20 Points]</strong><ul class="list">
+<li>Drop the ball in the Red drum.</li>
+<li>Dropping the ball in any other drum will be awarded <strong>[10 Points]</strong></li>
 </ul>
 </li>
-<li>Optical+Acoustic [30 Points]<ul class="list">
-<li>A transducer will play a tone. Each frequency corresponds to a coloured drum. The Yellow drum is not used in this mode.<ul class="list">
-<li>20kHz : Green</li>
-<li>30kHz : Red</li>
-<li>40kHz : Orange</li>
-</ul>
-</li>
-<li>Dropping the ball in any other drum will be awarded [5 Points]</li>
-</ul>
-</li>
-<li>Acoustic [50 Points]<ul class="list">
-<li>A transducer in the target bucket will play a chirp from 20-30kHz. The Yellow drum is not used in this mode.</li>
-<li>Dropping the ball in any other drum will be awarded [5 Points]</li>
+<li>Acoustic <strong>[50 Points]</strong><ul class="list">
+<li>A pinger located in one of the buckets will play a chirp from 20-30kHz. Find the bucket and drop the ball in that bucket.</li>
+<li>Dropping the ball in any other drum will be awarded <strong>[10 Points]</strong></li>
 </ul>
 </li>
 </ul>
-<p>In the acoustic tasks (Optical+Acoustic/Acoustic), the target drum may change between attempts. The order of the drums may also change.</p>
-<p>Drum: Approximately 50cm in diameter
-Ball   : 3.5-4.5cm in diameter and weigh no more than 100g in air.
-In the event of multiple balls being dropped, only the first ball is taken to consideration.</p>
-<h3 id="flare"><a class="header-link" href="#flare"></a>Flare</h3>
-<p>There is a flare marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball to drop out of the flare. [40 Points]</p>
-<p>Flare Pinger: RJE International Pinger Model No. ULB-362/37.5 kHz</p>
-<p class="img-container"><img src="img/flare.jpg" alt="flare"></p>
+<p>The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the buckets.</p>
+<h4 id="specification-of-props-"><a class="header-link" href="#specification-of-props-"></a>Specification of props.</h4>
+<ul class="list">
+<li>Drum: Approximately 50cm in diameter</li>
+<li>Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air.
+In the event of multiple balls being dropped, only the first ball is taken to consideration.</li>
+<li>Chirp Pinger :</li>
+</ul>
+<h3 id="target-reacquisition-50-points-"><a class="header-link" href="#target-reacquisition-50-points-"></a>Target Reacquisition <strong>[50 Points]</strong></h3>
+<p>The aim of this task is to reacquire a previously detected target.</p>
+<p>A target zone is defined by a green coloured mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the drums.</p>
+<p>This task is only attemptable if the Target Acquisition has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.</p>
+<p>After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the Target Acquisition task. The AUV has to hold on to the ball till the end of the attempt to successfully complete this task.</p>
+<p>This task does not have to attempted immediately after Target Acquisition task, other tasks may be attempted in between.</p>
+<h4 id="specification-of-props--1"><a class="header-link" href="#specification-of-props--1"></a>Specification of props.</h4>
+<ul class="list">
+<li>Target zone : Green mat 8m x 2m in size.</li>
+<li>Ball : Max size (). Provided by the team.</li>
+</ul>
+<h3 id="localization-40-points-"><a class="header-link" href="#localization-40-points-"></a>Localization <strong>[40 Points]</strong></h3>
+<p>The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.</p>
+<h4 id="specification-of-props--2"><a class="header-link" href="#specification-of-props--2"></a>Specification of props.</h4>
+<ul class="list">
+<li>Flare Pinger: RJE International Pinger Model No. ULB-362/37.5 kHz</li>
+</ul>
+<p><img src="img/flare.jpg" alt="flare">
+Figure 3. Structure of the flare.</p>
 <h3 id="surfacing"><a class="header-link" href="#surfacing"></a>Surfacing</h3>
-<p>Upon successful completion of all tasks, the AUV must surface (anywhere in the arena) to complete the mission. Bonus points proportional to the remaining time will be awarded in accordance with the following formula</p>
-<p>Bonus points = (900 - min(RUN_TIME)) • 0.1</p>
-<p>i.e. For a best run time of 420s, Bonus = (900-420)•0.1 = 48 Points</p>
-<p>Successful completion of all tasks entails bumping the flare and dropping the ball (after swimming through the gate)</p>
-<h3 id="penalties"><a class="header-link" href="#penalties"></a>Penalties</h3>
 <p>Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left.</p>
+<h3 id="timing-bonus"><a class="header-link" href="#timing-bonus"></a>Timing Bonus</h3>
+<p>At the end of the attempt, bonus points proportional to the remaining time will be awarded in accordance with the following formula.</p>
+<p>Bonus points = (900 - RUN_TIME) • 0.03</p>
+<p>For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points</p>
+<h3 id="penalties"><a class="header-link" href="#penalties"></a>Penalties</h3>
+<p>There are penalty points for touching the floor of the pool at any time, and also for touching the gate. This table states the penalities.</p>
 <table>
 <thead>
 <tr>
 <th></th>
 <th>Description</th>
-<th>Penalty</th>
+<th>Penalty Points</th>
 </tr>
 </thead>
 <tbody>
@@ -90,19 +103,32 @@ In the event of multiple balls being dropped, only the first ball is taken to co
 </tbody>
 </table>
 <h2 id="specification-of-auv"><a class="header-link" href="#specification-of-auv"></a>Specification of AUV</h2>
+<h3 id="size"><a class="header-link" href="#size"></a>Size</h3>
 <ul class="list">
-<li>The AUV must fit within a 140 × 100 × 100 cm box.. An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus [10 points].</li>
-<li>The AUV must not weigh more than 50 kg in air. An AUV weighing less than 40 kg in air will be given bonus [10 points].</li>
+<li>The AUV must fit within a 140 × 100 × 100 cm box.</li>
+<li>An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus <strong>[10 points]</strong>.</li>
+<li>The AUV must not weigh more than 50 kg in air.</li>
+<li>An AUV weighing less than 40 kg in air will be given bonus <strong>[10 points]</strong>.</li>
+</ul>
+<h3 id="power"><a class="header-link" href="#power"></a>Power</h3>
+<ul class="list">
 <li>Power should be self contained. Tethers of any sort are not allowed.</li>
 <li>The voltage of the power source used by each AUV should not exceed 24VDC.</li>
+</ul>
+<h3 id="safety"><a class="header-link" href="#safety"></a>Safety</h3>
+<ul class="list">
 <li>Pressure of any compressed gas used must not exceed 6 bars.
-AUV should be completely autonomous. No communication of any sort is allowed during the game</li>
+AUV should be completely autonomous.</li>
 <li>The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed</li>
 <li>If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.</li>
 </ul>
-<h2 id="game-procedure"><a class="header-link" href="#game-procedure"></a>Game Procedure</h2>
+<h3 id="communications"><a class="header-link" href="#communications"></a>Communications</h3>
 <ul class="list">
-<li>Length of a game<ul class="list">
+<li>No communication from/to the AUV of any sort is allowed during the game</li>
+</ul>
+<h2 id="game-procedure"><a class="header-link" href="#game-procedure"></a>Game Procedure</h2>
+<h3 id="length-of-a-game"><a class="header-link" href="#length-of-a-game"></a>Length of a game</h3>
+<ul class="list">
 <li>Each team is given 15 minutes to complete the tasks.</li>
 <li>In any of the following cases, the game ends immediately.<ul class="list">
 <li>Disqualification is announced in the game.</li>
@@ -122,14 +148,12 @@ AUV should be completely autonomous. No communication of any sort is allowed dur
 </ul>
 </li>
 </ul>
-</li>
-<li>Retries<ul class="list">
+<h3 id="retries"><a class="header-link" href="#retries"></a>Retries</h3>
+<ul class="list">
 <li>A retry can be made only after the judge’s permission.</li>
 <li>The AUV will be passed to the two designated team members standing beside the pool by the divers.</li>
 <li>A retry would mean that the AUV starts from the start zone with zero points.</li>
 <li>A maximum of 15 minutes is allowed including all the retries.</li>
-</ul>
-</li>
 </ul>
 <h2 id="general-restrictions"><a class="header-link" href="#general-restrictions"></a>General Restrictions</h2>
 <ul class="list">
@@ -148,7 +172,7 @@ battery leak causing the pollution of pool.</li>
 <li>The team has made a false start for three times in the same match.</li>
 <li>If the team does not abide by the the general restrictions.</li>
 </ul>
-<h2 id="safety"><a class="header-link" href="#safety"></a>Safety</h2>
+<h2 id="safety-1"><a class="header-link" href="#safety-1"></a>Safety</h2>
 <ul class="list">
 <li>AUVs should not leak and pollute the pool.</li>
 <li>AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.</li>

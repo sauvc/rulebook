@@ -3,116 +3,148 @@ SAUVC Rulebook
 
 ## Objective
 
-The goal is for each team to design and build an Autonomous Underwater Vehicle which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
+The goal is for each team to design and build an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
 
 ## Structure of the Team
 
-A team may consist of up to eight participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.
+A team may consist of up to **eight** participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.
 
 ## The Arena
 
-The challenge will be held in an olympic sized swimming pool. There are 3 tasks in the challenge:
+The challenge will be held in an olympic sized swimming pool. There are 4 tasks in the challenge:
 
-- Swimming through the gate
-- Dropping a ball in the correct drum
-- Bumping a flare
+- Object Detection
+- Target Acquisition
+- Localization
+- Target Reacquisition
 
-The first task, swimming through the gate is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
+The first task, Object Detection is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
 
 ![arena](img/arena.jpg)
+Figure 1. Map of the Arena.
 
 ### Starting Zone
-The starting zone is a 140×140cm area marked on the surface of water. The teams must start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge before leaving the starting zone.
+The starting zone is a 140×140cm area marked on the surface of water. The teams **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
-### Swimming through the gate
-The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively. [10 Points]
+### Object Detection [10 Points]
+The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
+Figure 2. Structure of the gate.
 
 The following tasks can be done in any order.
 
-### Dropping the ball
-There are 4 coloured drums in the arena. All of them equidistant from the gate such that they lie on an arc. The AUV needs to drop a ball in the correct drum to successfully complete this task. Points are only awarded for a ball that remains in the bucket until the end of the game.
+### Target Acquisition [5-50 Points]
+The aim of the task is to detect and acquire a target among a series of drums lying at the bottom of the pool. There are 4 coloured drums in the arena. All of them equidistant from the gate such that they lie on an arc. One of the drums, chosen at random, will be Red in colour. The AUV needs to drop a ball in the correct drum to successfully complete this task.
 
-There are a few different modes of solving this challenge. The mode needs to be declared to the judges prior to each attempt. Failure to declare will result in the default mode (Optical)
+There are a two modes of solving this challenge.
 
-- Optical [20 Points]
-	- Drop the ball in the Yellow drum.
-	- Dropping the ball in any other drum will be awarded [5 Points]
-- Optical+Acoustic [30 Points]
-	- A transducer will play a tone. Each frequency corresponds to a coloured drum. The Yellow drum is not used in this mode.
-		- 20kHz : Green
-		- 30kHz : Red
-		- 40kHz : Orange
-	- Dropping the ball in any other drum will be awarded [5 Points]
-- Acoustic [50 Points]
-	- A transducer in the target bucket will play a chirp from 20-30kHz. The Yellow drum is not used in this mode.
-	- Dropping the ball in any other drum will be awarded [5 Points]
+- Optical **[20 Points]**
+	- Drop the ball in the Red drum.
+	- Dropping the ball in any other drum will be awarded **[10 Points]**
+- Acoustic **[50 Points]**
+	- A pinger located in one of the buckets will play a chirp from 20-30kHz. Find the bucket and drop the ball in that bucket.
+	- Dropping the ball in any other drum will be awarded **[10 Points]**
 
-In the acoustic tasks (Optical+Acoustic/Acoustic), the target drum may change between attempts. The order of the drums may also change.
+The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the buckets.
 
-Drum: Approximately 50cm in diameter
-Ball   : 3.5-4.5cm in diameter and weigh no more than 100g in air.
+#### Specification of props.
+
+- Drum: Approximately 50cm in diameter
+- Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air.
 In the event of multiple balls being dropped, only the first ball is taken to consideration.
+- Chirp Pinger :
 
 
-### Flare
-There is a flare marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball to drop out of the flare. [40 Points]
+### Target Reacquisition **[50 Points]**
+The aim of this task is to reacquire a previously detected target.
 
-Flare Pinger: RJE International Pinger Model No. ULB-362/37.5 kHz
+A target zone is defined by a green coloured mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the drums.
+
+This task is only attemptable if the Target Acquisition has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
+
+After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the Target Acquisition task. The AUV has to hold on to the ball till the end of the attempt to successfully complete this task.
+
+This task does not have to attempted immediately after Target Acquisition task, other tasks may be attempted in between.
+
+#### Specification of props.
+
+- Target zone : Green mat 8m x 2m in size.
+- Ball : Max size (). Provided by the team.
+
+### Localization **[40 Points]**
+The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
+
+#### Specification of props.
+
+- Flare Pinger: RJE International Pinger Model No. ULB-362/37.5 kHz
 
 ![flare](img/flare.jpg)
+Figure 3. Structure of the flare.
 
 ### Surfacing
-Upon successful completion of all tasks, the AUV must surface (anywhere in the arena) to complete the mission. Bonus points proportional to the remaining time will be awarded in accordance with the following formula
+Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left.
 
-Bonus points = (900 - min(RUN_TIME)) • 0.1
+### Timing Bonus
 
-i.e. For a best run time of 420s, Bonus = (900-420)•0.1 = 48 Points
+At the end of the attempt, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
 
-Successful completion of all tasks entails bumping the flare and dropping the ball (after swimming through the gate)
+Bonus points = (900 - RUN_TIME) • 0.03
+
+For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points
 
 ### Penalties
 
-Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left.
+There are penalty points for touching the floor of the pool at any time, and also for touching the gate. This table states the penalities.
 
-|    | Description | Penalty |
-| -- | ----------- | ------- |
+|    | Description | Penalty Points |
+| -- | ----------- | -------------- |
 | 1  | Touching the gate | 2 |
 | 2  | If the AUV touches the bottom of the pool or wall for a duration, t| 5 + max(0,4•(t-10)) |
 
 
 ## Specification of AUV
 
-- The AUV must fit within a 140 × 100 × 100 cm box.. An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus [10 points].
-- The AUV must not weigh more than 50 kg in air. An AUV weighing less than 40 kg in air will be given bonus [10 points].
+### Size
+- The AUV must fit within a 140 × 100 × 100 cm box.
+- An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus **[10 points]**.
+- The AUV must not weigh more than 50 kg in air.
+- An AUV weighing less than 40 kg in air will be given bonus **[10 points]**.
+
+### Power
 - Power should be self contained. Tethers of any sort are not allowed.
 - The voltage of the power source used by each AUV should not exceed 24VDC.
+
+### Safety
 - Pressure of any compressed gas used must not exceed 6 bars.
-AUV should be completely autonomous. No communication of any sort is allowed during the game
+AUV should be completely autonomous.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
+### Communications
+- No communication from/to the AUV of any sort is allowed during the game
+
 ## Game Procedure
 
-- Length of a game
-  - Each team is given 15 minutes to complete the tasks.
-  - In any of the following cases, the game ends immediately.
-    - Disqualification is announced in the game.
-    - When the judges determine that the game cannot continue.
-  - Setting up of AUV
-	  - Five minutes is given for setting up the AUV before the game starts.
-		- No more than two members of respective teams can engage in setting up of their AUV.
-		- The two designated members setting up must wear life jackets. Failure to do so may result in disqualification.
-		- Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.
-		- Setting up during the game uses the allocated time for the tasks and game.
-		- The AUV can only start from the start zone. This is the only place where the AUV is allowed to be on the water surface.
-		- The AUV should start its manoeuvre only after it has completely submerged in the water.
-- Retries
-	- A retry can be made only after the judge’s permission.
-	- The AUV will be passed to the two designated team members standing beside the pool by the divers.
-	- A retry would mean that the AUV starts from the start zone with zero points.
-	- A maximum of 15 minutes is allowed including all the retries.
+### Length of a game
+- Each team is given 15 minutes to complete the tasks.
+- In any of the following cases, the game ends immediately.
+  - Disqualification is announced in the game.
+  - When the judges determine that the game cannot continue.
+- Setting up of AUV
+  - Five minutes is given for setting up the AUV before the game starts.
+	- No more than two members of respective teams can engage in setting up of their AUV.
+	- The two designated members setting up must wear life jackets. Failure to do so may result in disqualification.
+	- Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.
+	- Setting up during the game uses the allocated time for the tasks and game.
+	- The AUV can only start from the start zone. This is the only place where the AUV is allowed to be on the water surface.
+	- The AUV should start its manoeuvre only after it has completely submerged in the water.
+
+### Retries
+- A retry can be made only after the judge’s permission.
+- The AUV will be passed to the two designated team members standing beside the pool by the divers.
+- A retry would mean that the AUV starts from the start zone with zero points.
+- A maximum of 15 minutes is allowed including all the retries.
 
 ## General Restrictions
 
