@@ -50,8 +50,8 @@ The target drum for the Acoustic mode may be randomized between attempts, simila
 
 #### Specification of props.
 
-- Drum: Approximately 50cm in diameter
-- Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air.
+- Drum: 60cm in diameter
+- Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams.
 In the event of multiple balls being dropped, only the first ball is taken to consideration.
 - Chirp Pinger :
 
@@ -70,7 +70,7 @@ This task does not have to attempted immediately after Target Acquisition task, 
 #### Specification of props.
 
 - Target zone : Green mat 8m x 2m in size.
-- Ball : Max size (). Provided by the team.
+- Ball : Same ball used in target acquisition task. Provided by the teams.
 
 ### Localization **[40 Points]**
 The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
@@ -92,6 +92,8 @@ At the end of the attempt, bonus points proportional to the remaining time will 
 Bonus points = (900 - RUN_TIME) • 0.03
 
 For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points
+
+Timing bonus is only awarded if the AUV completes the object detection task.
 
 ### Penalties
 
