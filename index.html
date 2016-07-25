@@ -13,6 +13,14 @@
 <p>The goal is for each team to design and build an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.</p>
 <h2 id="structure-of-the-team"><a class="header-link" href="#structure-of-the-team"></a>Structure of the Team</h2>
 <p>A team may consist of up to <strong>eight</strong> participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.</p>
+<h2 id="video-submission"><a class="header-link" href="#video-submission"></a>Video Submission</h2>
+<p>All teams are to submit a (maximum 5 minutes long) video of their AUV at least 1 week prior to the competition. The video should showcase the AUV swimming underwater for at least 10 seconds. Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.</p>
+<h2 id="qualification"><a class="header-link" href="#qualification"></a>Qualification</h2>
+<ul class="list">
+<li>AUVs have to pass a qualifying round before they can participate in the main arena.</li>
+<li>To qualify an AUV has to swim between two underwater markers separated by 10 meters and without surfacing or touching the bottom/wall.</li>
+<li>The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.</li>
+</ul>
 <h2 id="the-arena"><a class="header-link" href="#the-arena"></a>The Arena</h2>
 <p>The challenge will be held in an olympic sized swimming pool. There are 4 tasks in the challenge:</p>
 <ul class="list">
@@ -26,16 +34,18 @@
 Figure 1. Map of the Arena.</p>
 <h3 id="starting-zone"><a class="header-link" href="#starting-zone"></a>Starting Zone</h3>
 <p>The starting zone is a 140×140cm area marked on the surface of water. The teams <strong>must</strong> start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge <strong>before</strong> leaving the starting zone.</p>
-<h3 id="object-detection-10-points-"><a class="header-link" href="#object-detection-10-points-"></a>Object Detection [10 Points]</h3>
+<h3 id="visual-navigation-10-points-"><a class="header-link" href="#visual-navigation-10-points-"></a>Visual Navigation [10 Points]</h3>
 <p>The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.</p>
 <p><img src="img/gate.jpg" alt="flare">
 Figure 2. Structure of the gate.</p>
 <p>The following tasks can be done in any order.</p>
-<h3 id="target-acquisition-5-50-points-"><a class="header-link" href="#target-acquisition-5-50-points-"></a>Target Acquisition [5-50 Points]</h3>
-<p>The aim of the task is to detect and acquire a target among a series of drums lying at the bottom of the pool. There are 4 coloured drums in the arena. All of them equidistant from the gate such that they lie on an arc. One of the drums, chosen at random, will be Red in colour. The AUV needs to drop a ball in the correct drum to successfully complete this task.</p>
+<h3 id="target-acquisition-10-50-points-"><a class="header-link" href="#target-acquisition-10-50-points-"></a>Target Acquisition [10-50 Points]</h3>
+<p>The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.</p>
+<p>A target zone is defined by a green colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the drums.</p>
+<p>There are 4 colored drums in the arena. All of them equidistant from the gate such that they lie on an arc. One of the drums, chosen at random, will be <strong>Blue</strong> in color. The AUV needs to drop a ball in the correct drum to successfully complete this task.</p>
 <p>There are a two modes of solving this challenge.</p>
 <ul class="list">
-<li>Optical <strong>[20 Points]</strong><ul class="list">
+<li>Optical <strong>[30 Points]</strong><ul class="list">
 <li>Drop the ball in the Red drum.</li>
 <li>Dropping the ball in any other drum will be awarded <strong>[10 Points]</strong></li>
 </ul>
@@ -49,21 +59,20 @@ Figure 2. Structure of the gate.</p>
 <p>The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the buckets.</p>
 <h4 id="specification-of-props-"><a class="header-link" href="#specification-of-props-"></a>Specification of props.</h4>
 <ul class="list">
-<li>Drum: Approximately 50cm in diameter</li>
-<li>Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air.
+<li>Drum: 60cm in diameter</li>
+<li>Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams.
 In the event of multiple balls being dropped, only the first ball is taken to consideration.</li>
 <li>Chirp Pinger :</li>
 </ul>
-<h3 id="target-reacquisition-50-points-"><a class="header-link" href="#target-reacquisition-50-points-"></a>Target Reacquisition <strong>[50 Points]</strong></h3>
+<h3 id="target-reacquisition-60-points-"><a class="header-link" href="#target-reacquisition-60-points-"></a>Target Reacquisition <strong>[60 Points]</strong></h3>
 <p>The aim of this task is to reacquire a previously detected target.</p>
-<p>A target zone is defined by a green coloured mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the drums.</p>
 <p>This task is only attemptable if the Target Acquisition has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.</p>
 <p>After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the Target Acquisition task. The AUV has to hold on to the ball till the end of the attempt to successfully complete this task.</p>
 <p>This task does not have to attempted immediately after Target Acquisition task, other tasks may be attempted in between.</p>
 <h4 id="specification-of-props--1"><a class="header-link" href="#specification-of-props--1"></a>Specification of props.</h4>
 <ul class="list">
 <li>Target zone : Green mat 8m x 2m in size.</li>
-<li>Ball : Max size (). Provided by the team.</li>
+<li>Ball : Same ball used in target acquisition task. Provided by the teams.</li>
 </ul>
 <h3 id="localization-40-points-"><a class="header-link" href="#localization-40-points-"></a>Localization <strong>[40 Points]</strong></h3>
 <p>The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.</p>
@@ -76,11 +85,11 @@ Figure 3. Structure of the flare.</p>
 <h3 id="surfacing"><a class="header-link" href="#surfacing"></a>Surfacing</h3>
 <p>Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left.</p>
 <h3 id="timing-bonus"><a class="header-link" href="#timing-bonus"></a>Timing Bonus</h3>
-<p>At the end of the attempt, bonus points proportional to the remaining time will be awarded in accordance with the following formula.</p>
-<p>Bonus points = (900 - RUN_TIME) • 0.03</p>
+<p>At the end of an attempt, as long as the AUV has successfully completed the Visual Navigation task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.</p>
+<p><code>Bonus points = (900 - RUN_TIME) • 0.03</code></p>
 <p>For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points</p>
 <h3 id="penalties"><a class="header-link" href="#penalties"></a>Penalties</h3>
-<p>There are penalty points for touching the floor of the pool at any time, and also for touching the gate. This table states the penalities.</p>
+<p>There are penalty points for touching the floor of the pool at any time, and also for touching the gate. This table states the penalties.</p>
 <table>
 <thead>
 <tr>
@@ -142,7 +151,7 @@ AUV should be completely autonomous.</li>
 <li>Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.</li>
 <li>Setting up during the game uses the allocated time for the tasks and game.</li>
 <li>The AUV can only start from the start zone. This is the only place where the AUV is allowed to be on the water surface.</li>
-<li>The AUV should start its manoeuvre only after it has completely submerged in the water.</li>
+<li>The AUV should start its maneuver only after it has completely submerged in the water.</li>
 </ul>
 </li>
 </ul>
@@ -160,7 +169,7 @@ AUV should be completely autonomous.</li>
 <li>Team members are not allowed inside the swimming pool at any point during the game.</li>
 <li>Team members may not disturb the water surface once the game starts.</li>
 <li>Members of other teams are not allowed in the game area.</li>
-<li>Nobody is allowed to wear shoes near the pool area.</li>
+<li>Nobody is allowed to wear any footwear near the pool area.</li>
 </ul>
 <h2 id="disqualification"><a class="header-link" href="#disqualification"></a>Disqualification</h2>
 <ul class="list">
@@ -176,23 +185,43 @@ battery leak causing the pollution of pool.</li>
 <ul class="list">
 <li>AUVs should not leak and pollute the pool.</li>
 <li>AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.</li>
-<li>AUV should have an easily accessible kill switch that turns off the vehicle. This should be marked bright yellow.</li>
-<li>The judges may suspend the challenge if weather turns unfavourable.</li>
+<li>AUVs must have a <strong>kill switch</strong> that turns off the vehicle, which is easily accessible to a diver. This should be marked bright yellow.</li>
+<li>The judges may suspend the challenge if weather turns unfavorable.</li>
 <li>The pool area must be evacuated in case of lightning.</li>
 </ul>
 <h2 id="others"><a class="header-link" href="#others"></a>Others</h2>
 <ul class="list">
 <li>The legitimacy of any actions not provided in this rulebook will be subject to discretion of the Judges.</li>
-<li>The dimensions, weights, etc. of the field, facilities and equipments described in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as shown in the rule book are the maximum and cannot be deviated.</li>
+<li>The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.</li>
 <li>The judges may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.</li>
 </ul>
 <h2 id="sequence-of-events-during-the-competition"><a class="header-link" href="#sequence-of-events-during-the-competition"></a>Sequence of events during the competition</h2>
 <ul class="list">
-<li>AUV will undergo weight and size check. Bonus points, if applicable, will be awarded.</li>
-<li>AUV will be tested for battery, oil or lubricant leak. Failing the leak test would lead to disqualification of team.</li>
-<li>AUV will proceed to qualifying round. The bonus points for size and weight is applicable only if the AUV passes the qualifying round.</li>
-<li>AUV passes the qualifying round if it manages to swim between two markers separated by 10 meters and placed underwater without surfacing or touching the bottom/wall. Also the time taken to pass the qualifying decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.</li>
+<li>AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.</li>
+<li>AUVs will be tested for battery, oil or lubricant leak. Failing the leak test would lead to disqualification of team.</li>
+<li>AUVs will proceed to qualifying round. The bonus points for size and weight is applicable only if the AUV passes the qualifying round.</li>
 <li>The qualified AUVs will proceed for the final rounds of competition.</li>
+</ul>
+<h2 id="certificate-of-participation"><a class="header-link" href="#certificate-of-participation"></a>Certificate of Participation</h2>
+<ul class="list">
+<li>Teams whose AUVs successfully complete the qualifier round will receive Certificate of Participation.</li>
+<li>Teams whose video submissions have been accepted will receive a Certificate of Participation.</li>
+<li>Failing the above two criteria, no Certificate of Participation will be awarded.</li>
+</ul>
+<h2 id="technical-presentation-40-points-"><a class="header-link" href="#technical-presentation-40-points-"></a>Technical Presentation [40 Points]</h2>
+<ul class="list">
+<li>Teams have to make a 10 minutes presentation about their AUVs and their design and engineering process on the &quot;seminar day&quot; of the competition.</li>
+<li>The date and venue of the presentation will be confirmed 1 week before the competition.</li>
+<li>The presentation will be judged and a maximum of <strong>40</strong> points can be earned towards the competition.</li>
+</ul>
+<h3 id="presentation-rubrics"><a class="header-link" href="#presentation-rubrics"></a>Presentation Rubrics</h3>
+<p>The presentation will be judged on the following Rubrics</p>
+<ul class="list">
+<li>Timeliness (&lt;= 10min)</li>
+<li>Technical Overview (for eg. Mechanical &amp; Electronics &amp; Software architecture of the AUV.)</li>
+<li>Design Innovation (for eg. Novel ideas/techniques you implemented in your AUV.)</li>
+<li>Challenges (for eg. Major challenges and how you overcame them.)</li>
+<li>What did we learn (for eg. Lessons learnt from the competition.)</li>
 </ul>
     </article>
   </body>
