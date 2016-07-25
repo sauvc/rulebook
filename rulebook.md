@@ -31,7 +31,7 @@ The challenge will be held in an olympic sized swimming pool. There are 4 tasks 
 The first task, Object Detection is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
 
 ![arena](img/arena.jpg)
-Figure 1. Map of the Arena.
+<div style="text-align:center"> Figure 1. Map of the Arena. </div>
 
 ### Starting Zone
 The starting zone is a 140×140cm area marked on the surface of water. The teams **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
@@ -40,9 +40,11 @@ The starting zone is a 140×140cm area marked on the surface of water. The teams
 The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
-Figure 2. Structure of the gate.
+<div style="text-align:center"> Figure 2. Structure of the gate. </div>
 
-The following tasks can be done in any order.
+<br>
+
+** The following tasks can be done in any order. **
 
 ### Target Acquisition [10-50 Points]
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
@@ -92,7 +94,7 @@ The aim of the this task is to localize on a flare. The flare is marked with an 
 - Flare Pinger: RJE International Pinger Model No. ULB-362/37.5 kHz
 
 ![flare](img/flare.jpg)
-Figure 3. Structure of the flare.
+<div style="text-align:center"> Figure 3. Structure of the flare. </div>
 
 ### Surfacing
 Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left.
