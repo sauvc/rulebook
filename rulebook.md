@@ -9,6 +9,16 @@ The goal is for each team to design and build an Autonomous Underwater Vehicle (
 
 A team may consist of up to **eight** participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.
 
+## Video Submission
+
+All teams are to submit a (maximum 5 minutes long) video of their AUV at least 1 week prior to the competition. The video should showcase the AUV swimming underwater for at least 10 seconds. Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.
+
+## Qualification
+
+- AUVs have to pass a qualifying round before they can participate in the main arena.
+- To qualify an AUV has to swim between two underwater markers separated by 10 meters and without surfacing or touching the bottom/wall.
+- The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
+
 ## The Arena
 
 The challenge will be held in an olympic sized swimming pool. There are 4 tasks in the challenge:
@@ -26,7 +36,7 @@ Figure 1. Map of the Arena.
 ### Starting Zone
 The starting zone is a 140×140cm area marked on the surface of water. The teams **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
-### Object Detection [10 Points]
+### Visual Navigation [10 Points]
 The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
@@ -34,12 +44,16 @@ Figure 2. Structure of the gate.
 
 The following tasks can be done in any order.
 
-### Target Acquisition [5-50 Points]
-The aim of the task is to detect and acquire a target among a series of drums lying at the bottom of the pool. There are 4 coloured drums in the arena. All of them equidistant from the gate such that they lie on an arc. One of the drums, chosen at random, will be Red in colour. The AUV needs to drop a ball in the correct drum to successfully complete this task.
+### Target Acquisition [10-50 Points]
+The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
+
+A target zone is defined by a green colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the drums.
+
+There are 4 colored drums in the arena. All of them equidistant from the gate such that they lie on an arc. One of the drums, chosen at random, will be **Blue** in color. The AUV needs to drop a ball in the correct drum to successfully complete this task.
 
 There are a two modes of solving this challenge.
 
-- Optical **[20 Points]**
+- Optical **[30 Points]**
 	- Drop the ball in the Red drum.
 	- Dropping the ball in any other drum will be awarded **[10 Points]**
 - Acoustic **[50 Points]**
@@ -56,10 +70,8 @@ In the event of multiple balls being dropped, only the first ball is taken to co
 - Chirp Pinger :
 
 
-### Target Reacquisition **[50 Points]**
+### Target Reacquisition **[60 Points]**
 The aim of this task is to reacquire a previously detected target.
-
-A target zone is defined by a green coloured mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the drums.
 
 This task is only attemptable if the Target Acquisition has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
 
@@ -87,17 +99,15 @@ Breaching the surface any point during the mission causes the current attempt to
 
 ### Timing Bonus
 
-At the end of the attempt, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
+At the end of an attempt, as long as the AUV has successfully completed the Visual Navigation task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
 
-Bonus points = (900 - RUN_TIME) • 0.03
+`Bonus points = (900 - RUN_TIME) • 0.03`
 
 For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points
 
-Timing bonus is only awarded if the AUV completes the object detection task.
-
 ### Penalties
 
-There are penalty points for touching the floor of the pool at any time, and also for touching the gate. This table states the penalities.
+There are penalty points for touching the floor of the pool at any time, and also for touching the gate. This table states the penalties.
 
 |    | Description | Penalty Points |
 | -- | ----------- | -------------- |
@@ -140,7 +150,7 @@ AUV should be completely autonomous.
 	- Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.
 	- Setting up during the game uses the allocated time for the tasks and game.
 	- The AUV can only start from the start zone. This is the only place where the AUV is allowed to be on the water surface.
-	- The AUV should start its manoeuvre only after it has completely submerged in the water.
+	- The AUV should start its maneuver only after it has completely submerged in the water.
 
 ### Retries
 - A retry can be made only after the judge’s permission.
@@ -153,7 +163,7 @@ AUV should be completely autonomous.
 - Team members are not allowed inside the swimming pool at any point during the game.
 - Team members may not disturb the water surface once the game starts.
 - Members of other teams are not allowed in the game area.
-- Nobody is allowed to wear shoes near the pool area.
+- Nobody is allowed to wear any footwear near the pool area.
 
 ## Disqualification
 
@@ -169,20 +179,41 @@ battery leak causing the pollution of pool.
 
 - AUVs should not leak and pollute the pool.
 - AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
-- AUV should have an easily accessible kill switch that turns off the vehicle. This should be marked bright yellow.
-- The judges may suspend the challenge if weather turns unfavourable.
+- AUVs must have a **kill switch** that turns off the vehicle, which is easily accessible to a diver. This should be marked bright yellow.
+- The judges may suspend the challenge if weather turns unfavorable.
 - The pool area must be evacuated in case of lightning.
 
 ## Others
 
 - The legitimacy of any actions not provided in this rulebook will be subject to discretion of the Judges.
-- The dimensions, weights, etc. of the field, facilities and equipments described in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as shown in the rule book are the maximum and cannot be deviated.
+- The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
 - The judges may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
 
 ## Sequence of events during the competition
 
-- AUV will undergo weight and size check. Bonus points, if applicable, will be awarded.
-- AUV will be tested for battery, oil or lubricant leak. Failing the leak test would lead to disqualification of team.
-- AUV will proceed to qualifying round. The bonus points for size and weight is applicable only if the AUV passes the qualifying round.
-- AUV passes the qualifying round if it manages to swim between two markers separated by 10 meters and placed underwater without surfacing or touching the bottom/wall. Also the time taken to pass the qualifying decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
+- AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
+- AUVs will be tested for battery, oil or lubricant leak. Failing the leak test would lead to disqualification of team.
+- AUVs will proceed to qualifying round. The bonus points for size and weight is applicable only if the AUV passes the qualifying round.
 - The qualified AUVs will proceed for the final rounds of competition.
+
+## Certificate of Participation
+
+- Teams whose AUVs successfully complete the qualifier round will receive Certificate of Participation.
+- Teams whose video submissions have been accepted will receive a Certificate of Participation.
+- Failing the above two criteria, no Certificate of Participation will be awarded.
+
+## Technical Presentation [40 Points]
+
+- Teams have to make a 10 minutes presentation about their AUVs and their design and engineering process on the "seminar day" of the competition.
+- The date and venue of the presentation will be confirmed 1 week before the competition.
+- The presentation will be judged and a maximum of **40** points can be earned towards the competition.
+
+### Presentation Rubrics
+
+The presentation will be judged on the following Rubrics
+
+- Timeliness (<= 10min)
+- Technical Overview (for eg. Mechanical & Electronics & Software architecture of the AUV.)
+- Design Innovation (for eg. Novel ideas/techniques you implemented in your AUV.)
+- Challenges (for eg. Major challenges and how you overcame them.)
+- What did we learn (for eg. Lessons learnt from the competition.)
