@@ -23,12 +23,12 @@ All teams are to submit a (maximum 5 minutes long) video of their AUV at least 1
 
 The challenge will be held in an olympic sized swimming pool. There are 4 tasks in the challenge:
 
-- Object Detection
+- Visual Navigation
 - Target Acquisition
 - Localization
 - Target Reacquisition
 
-The first task, Object Detection is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
+The first task, Visual Navigation is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
 
 ![arena](img/arena.jpg)
 <div style="text-align:center"> Figure 1. Map of the Arena. </div>
@@ -44,25 +44,20 @@ The aim of the this task is to swim through a gate in water. The gate is approxi
 
 <br>
 
-** The following tasks can be done in any order. **
-
 ### Target Acquisition [10-50 Points]
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
-A target zone is defined by a green colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the drums.
+A target zone is defined by a green colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the arena.
 
-There are 4 colored drums in the arena. All of them equidistant from the gate such that they lie on an arc. One of the drums, chosen at random, will be **Blue** in color. The AUV needs to drop a ball in the correct drum to successfully complete this task.
+There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be **Blue** in color. One of the Red drums, chosen at random, will contain an acoustic pinger which will emit a chirp. The AUV needs to drop a ball in one of the drums to successfully complete this task.
 
-There are a two modes of solving this challenge.
+Points will be awarded as follows.
 
-- Optical **[30 Points]**
-	- Drop the ball in the Red drum.
-	- Dropping the ball in any other drum will be awarded **[10 Points]**
-- Acoustic **[50 Points]**
-	- A pinger located in one of the buckets will play a chirp from 20-30kHz. Find the bucket and drop the ball in that bucket.
-	- Dropping the ball in any other drum will be awarded **[10 Points]**
+- Drop the ball in the Blue drum. **[30 Points]**
+- Drop the ball in the Red drum with the chirp pinger. **[50 Points]**
+- Dropping the ball in any other Red drum. **[10 Points]**
 
-The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the buckets.
+The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the drums.
 
 #### Specification of props.
 
@@ -79,7 +74,7 @@ This task is only attemptable if the Target Acquisition has been successfully co
 
 After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the Target Acquisition task. The AUV has to hold on to the ball till the end of the attempt to successfully complete this task.
 
-This task does not have to attempted immediately after Target Acquisition task, other tasks may be attempted in between.
+This task does not have to be attempted immediately after Target Acquisition task, other tasks may be attempted in between.
 
 #### Specification of props.
 
@@ -87,7 +82,7 @@ This task does not have to attempted immediately after Target Acquisition task, 
 - Ball : Same ball used in target acquisition task. Provided by the teams.
 
 ### Localization **[40 Points]**
-The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger (37.5 kHz). This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
+The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
 
 #### Specification of props.
 
@@ -109,7 +104,7 @@ For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points
 
 ### Penalties
 
-There are penalty points for touching the floor of the pool at any time, and also for touching the gate. This table states the penalties.
+There are penalty points for touching the floor or wall of the pool at any time, and also for touching the gate. This table states the penalties.
 
 |    | Description | Penalty Points |
 | -- | ----------- | -------------- |
@@ -130,10 +125,14 @@ There are penalty points for touching the floor of the pool at any time, and als
 - The voltage of the power source used by each AUV should not exceed 24VDC.
 
 ### Safety
+- AUVs should not leak and pollute the pool.
+- AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
+- AUVs must have a **kill switch** that turns off the vehicle, which is easily accessible to a diver. This should be marked bright yellow.
 - Pressure of any compressed gas used must not exceed 6 bars.
 AUV should be completely autonomous.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
+
 
 ### Communications
 - No communication from/to the AUV of any sort is allowed during the game
@@ -166,6 +165,8 @@ AUV should be completely autonomous.
 - Team members may not disturb the water surface once the game starts.
 - Members of other teams are not allowed in the game area.
 - Nobody is allowed to wear any footwear near the pool area.
+- The judges may suspend the challenge if weather turns unfavorable.
+- The pool area must be evacuated in case of lightning.
 
 ## Disqualification
 
@@ -176,14 +177,6 @@ battery leak causing the pollution of pool.
 - The team fails to obey instructions or warnings issued by the referees.
 - The team has made a false start for three times in the same match.
 - If the team does not abide by the the general restrictions.
-
-## Safety
-
-- AUVs should not leak and pollute the pool.
-- AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
-- AUVs must have a **kill switch** that turns off the vehicle, which is easily accessible to a diver. This should be marked bright yellow.
-- The judges may suspend the challenge if weather turns unfavorable.
-- The pool area must be evacuated in case of lightning.
 
 ## Others
 
@@ -201,7 +194,7 @@ battery leak causing the pollution of pool.
 ## Certificate of Participation
 
 - Teams whose AUVs successfully complete the qualifier round will receive Certificate of Participation.
-- Teams whose video submissions have been accepted will receive a Certificate of Participation.
+- Teams whose video submissions have been accepted & participate in the competition will receive a Certificate of Participation.
 - Failing the above two criteria, no Certificate of Participation will be awarded.
 
 ## Technical Presentation [40 Points]
