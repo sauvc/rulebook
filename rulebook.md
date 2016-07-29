@@ -1,4 +1,4 @@
-SAUVC Rulebook
+title: SAUVC Rulebook
 ----------------
 
 ## Objective
@@ -61,7 +61,7 @@ The target drum for the Acoustic mode may be randomized between attempts, simila
 
 #### Specification of props.
 
-- Drum: 60cm in diameter
+- Drum: 60cm in diameter and 30cm in depth.
 - Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams.
 In the event of multiple balls being dropped, only the first ball is taken to consideration.
 - Chirp Pinger :
@@ -82,7 +82,7 @@ This task does not have to be attempted immediately after Target Acquisition tas
 - Ball : Same ball used in target acquisition task. Provided by the teams.
 
 ### Localization **[40 Points]**
-The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be anywhere within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
+The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
 
 #### Specification of props.
 
@@ -92,7 +92,7 @@ The aim of the this task is to localize on a flare. The flare is marked with an 
 <div style="text-align:center"> Figure 3. Structure of the flare. </div>
 
 ### Surfacing
-Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left.
+Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left. When the AUV surfaces, and the current attempt comes to an end, the total points for that attempt will be computed based on the tasks accomplished and the timing bonus.
 
 ### Timing Bonus
 
@@ -154,10 +154,11 @@ AUV should be completely autonomous.
 	- The AUV should start its maneuver only after it has completely submerged in the water.
 
 ### Retries
-- A retry can be made only after the judge’s permission.
+- A retry attempt can be made only after the judge’s permission.
 - The AUV will be passed to the two designated team members standing beside the pool by the divers.
 - A retry would mean that the AUV starts from the start zone with zero points.
 - A maximum of 15 minutes is allowed including all the retries.
+- The attempt with the highest score (including retries) will be considered for final scoring.
 
 ## General Restrictions
 
@@ -202,6 +203,7 @@ battery leak causing the pollution of pool.
 - Teams have to make a 10 minutes presentation about their AUVs and their design and engineering process on the "seminar day" of the competition.
 - The date and venue of the presentation will be confirmed 1 week before the competition.
 - The presentation will be judged and a maximum of **40** points can be earned towards the competition.
+- There will be a 5 minutes Q&A session after the presentation.
 
 ### Presentation Rubrics
 
