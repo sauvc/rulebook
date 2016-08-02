@@ -198,16 +198,16 @@ battery leak causing the pollution of pool.
 - Teams whose video submissions have been accepted & participate in the competition will receive a Certificate of Participation.
 - Failing the above two criteria, no Certificate of Participation will be awarded.
 
-## Technical Presentation [40 Points]
+## Technical Presentation [15 Points]
 
 - Teams have to make a 10 minutes presentation about their AUVs and their design and engineering process on the "seminar day" of the competition.
 - The date and venue of the presentation will be confirmed 1 week before the competition.
-- The presentation will be judged and a maximum of **40** points can be earned towards the competition.
+- The presentation will be judged and a maximum of **15** points can be earned towards the competition.
 - There will be a 5 minutes Q&A session after the presentation.
 
 ### Presentation Rubrics
 
-The presentation will be judged on the following Rubrics
+The presentation will be judged on the following Rubrics (3 points each).
 
 - Timeliness (<= 10min)
 - Technical Overview (for eg. Mechanical & Electronics & Software architecture of the AUV.)
