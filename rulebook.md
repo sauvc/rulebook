@@ -9,7 +9,7 @@ The goal is for each team to design and build an Autonomous Underwater Vehicle (
 
 ## Structure of the Team
 
-A team may consist of up to **eight** participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.
+A team may consist of up to  **eight** participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.
 
 ## Video Submission
 
@@ -36,9 +36,9 @@ The first task, Visual Navigation is mandatory and must be completed before atte
 <div style="text-align:center"> Figure 1. Map of the Arena. </div>
 
 ### Starting Zone
-The starting zone is a 140×140cm area marked on the surface of water. The teams **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
+The starting zone is a 140×140cm area marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
-### Visual Navigation [10 Points]
+### Navigation [10 Points]
 The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
@@ -55,9 +55,9 @@ There are 4 colored drums in the arena. All of them are on the mat. One of the d
 
 Points will be awarded as follows.
 
-- Drop the ball in the Blue drum. **[30 Points]**
-- Drop the ball in the Red drum with the chirp pinger. **[50 Points]**
-- Dropping the ball in any other Red drum. **[10 Points]**
+- Drop the ball in the Blue drum.  **[30 Points]**
+- Drop the ball in the Red drum with the chirp pinger.  **[50 Points]**
+- Dropping the ball in any other Red drum.  **[10 Points]**
 
 The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the drums.
 
@@ -69,7 +69,7 @@ In the event of multiple balls being dropped, only the first ball is taken to co
 - Chirp Pinger : To Be Confirmed
 
 
-### Target Reacquisition **[60 Points]**
+### Target Reacquisition [60 Points]
 The aim of this task is to reacquire a previously detected target.
 
 This task is only attemptable if the Target Acquisition has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
@@ -83,7 +83,7 @@ This task does not have to be attempted immediately after Target Acquisition tas
 - Target zone : Green mat 8m x 2m in size.
 - Ball : Same ball used in target acquisition task. Provided by the teams.
 
-### Localization **[40 Points]**
+### Localization [40 Points]
 The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
 
 #### Specification of props.
@@ -118,9 +118,9 @@ There are penalty points for touching the floor or wall of the pool at any time,
 
 ### Size
 - The AUV must fit within a 140 × 100 × 100 cm box.
-- An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus **[10 points]**.
+- An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus  **[10 points]**.
 - The AUV must not weigh more than 50 kg in air.
-- An AUV weighing less than 40 kg in air will be given bonus **[10 points]**.
+- An AUV weighing less than 40 kg in air will be given bonus  **[10 points]**.
 
 ### Power
 - Power should be self contained. Tethers of any sort are not allowed.
