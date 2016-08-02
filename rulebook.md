@@ -64,7 +64,7 @@ The target drum for the Acoustic mode may be randomized between attempts, simila
 - Drum: 60cm in diameter and 30cm in depth.
 - Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams.
 In the event of multiple balls being dropped, only the first ball is taken to consideration.
-- Chirp Pinger :
+- Chirp Pinger : To Be Confirmed
 
 
 ### Target Reacquisition **[60 Points]**
