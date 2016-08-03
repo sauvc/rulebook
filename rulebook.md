@@ -25,12 +25,12 @@ All teams are to submit a (maximum 5 minutes long) video of their AUV at least 1
 
 The challenge will be held in an olympic sized swimming pool. There are 4 tasks in the challenge:
 
-- Visual Navigation
+- Navigation
 - Target Acquisition
 - Localization
 - Target Reacquisition
 
-The first task, Visual Navigation is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
+The first task, Navigation is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
 
 ![arena](img/arena.jpg)
 <div style="text-align:center"> Figure 1. Map of the Arena. </div>
@@ -98,7 +98,7 @@ Breaching the surface any point during the mission causes the current attempt to
 
 ### Timing Bonus
 
-At the end of an attempt, as long as the AUV has successfully completed the Visual Navigation task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
+At the end of an attempt, as long as the AUV has successfully completed the Navigation task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
 
 `Bonus points = (900 - RUN_TIME) • 0.03`
 
