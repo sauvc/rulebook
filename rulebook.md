@@ -51,12 +51,12 @@ The aim of the task is to detect and acquire a target among a series of drums at
 
 A target zone is defined by a green colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the arena.
 
-There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be **Blue** in color. One of the Red drums, chosen at random, will contain an acoustic pinger which will emit a chirp. The AUV needs to drop a ball in one of the drums to successfully complete this task.
+There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be **Blue** in color. One of the Red drums, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task.
 
 Points will be awarded as follows.
 
 - Drop the ball in the Blue drum.  **[30 Points]**
-- Drop the ball in the Red drum with the chirp pinger.  **[50 Points]**
+- Drop the ball in the Red drum with the pinger.  **[50 Points]**
 - Dropping the ball in any other Red drum.  **[10 Points]**
 
 The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the drums.
@@ -66,7 +66,7 @@ The target drum for the Acoustic mode may be randomized between attempts, simila
 - Drum: 60cm in diameter and 30cm in depth.
 - Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams.
 In the event of multiple balls being dropped, only the first ball is taken to consideration.
-- Chirp Pinger : To Be Confirmed
+- Bucket Pinger : RJE International Pinger Model No. ULB-362B/45 kHz
 
 
 ### Target Reacquisition [60 Points]
@@ -88,7 +88,7 @@ The aim of the this task is to localize on a flare. The flare is marked with an 
 
 #### Specification of props.
 
-- Flare Pinger: RJE International Pinger Model No. ULB-362/37.5 kHz
+- Flare Pinger: RJE International Pinger Model No. ULB-362B/37.5 kHz
 
 ![flare](img/flare.jpg)
 <div style="text-align:center"> Figure 3. Structure of the flare. </div>
