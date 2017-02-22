@@ -84,7 +84,7 @@ This task does not have to be attempted immediately after Target Acquisition tas
 - Ball : Same ball used in target acquisition task. Provided by the teams.
 
 ### Localization [40 Points]
-The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out.
+The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out. The flare will be yellow in color.
 
 #### Specification of props.
 
