@@ -1,7 +1,7 @@
 title: SAUVC Rulebook
 ---
 
-# SAUVC 2017 Rulebook
+# SAUVC 2018 Rulebook
 
 ## Objective
 
@@ -93,12 +93,24 @@ The aim of the this task is to localize on a flare. The flare is marked with an 
 ![flare](img/flare.jpg)
 <div style="text-align:center"> Figure 3. Structure of the flare. </div>
 
-### Surfacing
-Breaching the surface any point during the mission causes the current attempt to come to an end. The team may wish to try again if they still have time left. When the AUV surfaces, and the current attempt comes to an end, the total points for that attempt will be computed based on the tasks accomplished and the timing bonus.
+### Surfacing [5 Points]
+Breaching the surface any point during the mission causes the current attempt to come to an __end__. The team may wish to retry if they still have time left. 
+
+When the AUV surfaces, and the current attempt comes to an end, the total points for that attempt will be computed based on the tasks accomplished and the timing bonus and a __[5 points]__ bonus for ending.
+
+### Aborting
+At any time during the mission, current attempt can be __aborted__, by indicating to the Game Master. The divers would then retreive the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
+
+In the case of an aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the current attempt.
+
+### Automatic Abort
+If the AUV touches the bottom or the side walls of the pool for cumulative time of more than 10 seconds, the current attempt would be automatically __aborted__. The divers would then retreive the AUV back to the starting zone. The team may wish to retry if they still have time left.
+
+In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt. 
 
 ### Timing Bonus
 
-At the end of an attempt, as long as the AUV has successfully completed the Navigation task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
+At the __end__ of an attempt, as long as the AUV has successfully completed 2 tasks, the Navigation task and any other task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
 
 `Bonus points = (900 - RUN_TIME) • 0.03`
 
@@ -108,10 +120,10 @@ For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points
 
 There are penalty points for touching the floor or wall of the pool at any time, and also for touching the gate. This table states the penalties.
 
-|    | Description | Penalty Points |
-| -- | ----------- | -------------- |
-| 1  | Touching the gate | 2 |
-| 2  | If the AUV touches the bottom of the pool or wall for a duration, t| 5 + max(0,4•(t-10)) |
+|   |               Description               | Penalty Points |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Touching the gate                       |        2       |
+| 2 | Touching the bottom of the pool or wall |        5       |
 
 
 ## Specification of AUV
@@ -161,6 +173,11 @@ AUV should be completely autonomous.
 - A retry would mean that the AUV starts from the start zone with zero points.
 - A maximum of 15 minutes is allowed including all the retries.
 - The attempt with the highest score (including retries) will be considered for final scoring.
+
+### Practice Rounds
+- Teams will be allowed to practice in the main arena after qualifications, subject to availability of time slots and the schedule during the competition.
+- No tethers are allowed at ANY time inside the main arena.
+- Team will be allowed calibrate their AUV sensors with tethers, at the side of the pool, with the vehicle held __stationary__.
 
 ## General Restrictions
 
