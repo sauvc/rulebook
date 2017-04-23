@@ -18,27 +18,30 @@ All teams are to submit a (maximum 5 minutes long) video of their AUV at least 1
 ## Qualification
 
 - AUVs have to pass a qualifying round before they can participate in the main arena.
-- To qualify an AUV has to swim between two underwater markers separated by 10 meters and without surfacing or touching the bottom/wall.
+- To qualify, an AUV has to swim between two underwater markers separated by 10 meters and without surfacing or touching the bottom/wall.
 - The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
 ## The Arena
 
-The challenge will be held in an olympic sized swimming pool. There are 4 tasks in the challenge:
-
-- Navigation
-- Target Acquisition
-- Localization
-- Target Reacquisition
-
-The first task, Navigation is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
+The challenge will be held in an olympic sized swimming pool.
 
 ![arena](img/arena.jpg)
-<div style="text-align:center"> Figure 1. Map of the Arena. </div>
+<div style="text-align:center"> Figure 1. Top view of the Arena. </div>
 
 ### Starting Zone
 The starting zone is a 140×140cm area marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
-### Navigation [10 Points]
+## Tasks
+There are 4 tasks in the challenge:
+
+1. Navigation
+1. Target Acquisition
+1. Localization
+1. Target Reacquisition
+
+The first task, Navigation is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
+
+### 1. Navigation [10 Points]
 The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
@@ -46,7 +49,7 @@ The aim of the this task is to swim through a gate in water. The gate is approxi
 
 <br>
 
-### Target Acquisition [10-50 Points]
+### 2. Target Acquisition [10-50 Points]
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
 A target zone is defined by a green colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the arena.
@@ -69,7 +72,7 @@ In the event of multiple balls being dropped, only the first ball is taken to co
 - Bucket Pinger : RJE International Pinger Model No. ULB-362B/45 kHz
 
 
-### Target Reacquisition [60 Points]
+### 3. Target Reacquisition [60 Points]
 The aim of this task is to reacquire a previously detected target.
 
 This task is only attemptable if the Target Acquisition has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
@@ -83,7 +86,7 @@ This task does not have to be attempted immediately after Target Acquisition tas
 - Target zone : Green mat 8m x 2m in size.
 - Ball : Same ball used in target acquisition task. Provided by the teams.
 
-### Localization [40 Points]
+### 4. Localization [40 Points]
 The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out. The flare will be yellow in color.
 
 #### Specification of props.
@@ -94,7 +97,7 @@ The aim of the this task is to localize on a flare. The flare is marked with an 
 <div style="text-align:center"> Figure 3. Structure of the flare. </div>
 
 ### Surfacing [5 Points]
-Breaching the surface any point during the mission causes the current attempt to come to an __end__. The team may wish to retry if they still have time left. 
+Breaching the surface any point during the mission causes the current attempt to come to an __end__. The team may wish to retry if they still have time left.
 
 When the AUV surfaces, and the current attempt comes to an end, the total points for that attempt will be computed based on the tasks accomplished and the timing bonus and a __[5 points]__ bonus for ending.
 
@@ -106,7 +109,7 @@ In the case of an aborted attempt, the team would be awarded the points for all 
 ### Automatic Abort
 If the AUV touches the bottom or the side walls of the pool for cumulative time of more than 10 seconds, the current attempt would be automatically __aborted__. The divers would then retreive the AUV back to the starting zone. The team may wish to retry if they still have time left.
 
-In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt. 
+In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt.
 
 ### Timing Bonus
 
