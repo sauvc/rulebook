@@ -1,4 +1,4 @@
-title: SAUVC Rulebook
+title: SAUVC'18 Rulebook
 ---
 
 # SAUVC 2018 Rulebook
@@ -7,54 +7,85 @@ title: SAUVC Rulebook
 
 The goal is for each team to design and build an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
 
+![arena](img/sauvc-2017.jpg)
+<div style="text-align:center"> SAUVC 2017 Competition. </div>
+
 ## Structure of the Team
 
 A team may consist of up to  **eight** participants and up to 3 faculty co-supervisors. At least half of the participants must be students at the time of registration.
 
+![arena](img/team.jpg)
+<div style="text-align:center"> Figure 1. One of the team with faculty co-supervisors in the 2017 Competition. </div>
+
 ## Video Submission
 
-All teams are to submit a (maximum 5 minutes long) video of their AUV at least 1 week prior to the competition. The video should showcase the AUV swimming underwater for at least 10 seconds. Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.
+All teams are to submit a video of their AUV prior to the competition. The video has to
+-  be maximum 5 minutes long,
+-  be submitted at least 1 week prior to the competition,
+-  showcase the AUV swimming underwater for at least 10 seconds.
+
+Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.
 
 ## Qualification
 
 - AUVs have to pass a qualifying round before they can participate in the main arena.
-- To qualify, an AUV has to swim between two underwater markers separated by 10 meters and without surfacing or touching the bottom/wall.
+- To qualify, an AUV has to swim between two markers separated by 10m and without surfacing or touching the bottom/wall.
 - The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
 ## The Arena
 
-The challenge will be held in an olympic sized swimming pool.
+The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
 ![arena](img/arena.jpg)
-<div style="text-align:center"> Figure 1. Top view of the Arena. </div>
+<div style="text-align:center"> Figure 2. Top-view of the Arena. </div>
+
+<br>
+
+![arena](img/arena-2017.jpg)
+<div style="text-align:center"> Figure 3. Picture of the Arena from 2017 Competition. </div>
+
+<br>
+
+![arena](img/arena-2-2017.jpg)
+<div style="text-align:center"> Figure 4. Picture of the Arena from 2017 Competition. </div>
 
 ### Starting Zone
 The starting zone is a 140×140cm area marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
+![arena](img/starting-zone-2017.jpg)
+<div style="text-align:center"> Figure 5. Picture of the Starting Zone from 2017 Competition. </div>
+
 ## Tasks
 There are 4 tasks in the challenge:
 
-1. Navigation
-1. Target Acquisition
-1. Localization
-1. Target Reacquisition
+1. [Navigation](#1.-navigation-[10-points])
+1. [Target Acquisition](#2.-target-acquisition-[10-50-points])
+1. [Localization](#3.-target-reacquisition-[60-points])
+1. [Target Reacquisition](#4.-localization-[40-points])
+
+<span style="color:green">green</span>
 
 The first task, Navigation is mandatory and must be completed before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies end of mission.
 
 ### 1. Navigation [10 Points]
-The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate. The gate will have red and green sides marking port and starboard sides respectively.
+The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate.
+
+![flare](img/gate-2016.jpg)
+<div style="text-align:center"> Figure 6. Picture of the gate from 2016 Competition. </div>
+
+#### Specification of props.
+
+- Gate: 150cm wide and 150cm high gate with <span style="color:red">red</span> and <span style="color:green">green</span> markings on port and starboard sides respectively. 
 
 ![flare](img/gate.jpg)
-<div style="text-align:center"> Figure 2. Structure of the gate. </div>
-
-<br>
+<div style="text-align:center"> Figure 7. Front-view of the gate. </div>
 
 ### 2. Target Acquisition [10-50 Points]
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
-A target zone is defined by a green colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 1. shows the location of the mat with respect to the arena.
+A target zone is defined by a <span style="color:green">green</span> colored mat laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 2. shows the location of the mat with respect to the arena.
 
-There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be **Blue** in color. One of the Red drums, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task.
+There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span style="color:blue">blue</span> in color. One of the <span style="color:red">red</span> drums, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task.
 
 Points will be awarded as follows.
 
@@ -62,39 +93,54 @@ Points will be awarded as follows.
 - Drop the ball in the Red drum with the pinger.  **[50 Points]**
 - Dropping the ball in any other Red drum.  **[10 Points]**
 
-The target drum for the Acoustic mode may be randomized between attempts, similarly for the order of the drums.
+The location of the <span style="color:red">red</span> drum which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums.
 
 #### Specification of props.
 
 - Drum: 60cm in diameter and 30cm in depth.
 - Ball : 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams.
 In the event of multiple balls being dropped, only the first ball is taken to consideration.
-- Bucket Pinger : RJE International Pinger Model No. ULB-362B/45 kHz
+- Bucket Pinger : [RJE International Pinger Model No. ULB-362B/45 kHz]((http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf))
+
+![flare](img/buckets-2017.jpg)
+<div style="text-align:center"> Figure 9. Picture target zone and buckets from the 2017 Competition. </div>
 
 
 ### 3. Target Reacquisition [60 Points]
 The aim of this task is to reacquire a previously detected target.
 
-This task is only attemptable if the Target Acquisition has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
+This task is only attemptable if the [Target Acquisition](#2.-target-acquisition-[10-50-points]) has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
 
-After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the Target Acquisition task. The AUV has to hold on to the ball till the end of the attempt to successfully complete this task.
+After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the [Target Acquisition](#2.-target-acquisition-[10-50-points])task. The AUV has to hold on to the ball till the end of the attempt to successfully complete this task.
 
 This task does not have to be attempted immediately after Target Acquisition task, other tasks may be attempted in between.
 
 #### Specification of props.
 
-- Target zone : Green mat 8m x 2m in size.
+- Target zone : <span style="color:green">Green</span> mat 8m x 2m in size.
 - Ball : Same ball used in target acquisition task. Provided by the teams.
 
 ### 4. Localization [40 Points]
-The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball in the flare to drop out. The flare will be yellow in color.
+The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball on the flare to drop out. The flare will be <span style="color:#E0D000">yellow</span> in color.
 
 #### Specification of props.
 
-- Flare Pinger: RJE International Pinger Model No. ULB-362B/37.5 kHz
+- Flare : 150cm high and <span style="color:#E0D000">yellow</span> in color
+- Flare Pinger: [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf)
 
 ![flare](img/flare.jpg)
-<div style="text-align:center"> Figure 3. Structure of the flare. </div>
+<div style="text-align:center"> Figure 10. Side-view of the flare. </div>
+
+<br>
+
+![flare](img/flare-2-2016.jpg)
+<div style="text-align:center"> Figure 11. Picture of the flare from 2016 Competition. </div>
+
+<br>
+
+![flare](img/flare-2016.jpg)
+<div style="text-align:center"> Figure 12. Picture of the flare from 2016 Competition. </div>
+
 
 ### Surfacing [5 Points]
 Breaching the surface any point during the mission causes the current attempt to come to an __end__. The team may wish to retry if they still have time left.
@@ -150,6 +196,9 @@ AUV should be completely autonomous.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
+![flare](img/killswitch.jpg)
+<div style="text-align:center"> Figure 13. Example a kill switch on an AUV from 2016 Competition. </div>
+
 
 ### Communications
 - No communication from/to the AUV of any sort is allowed during the game
@@ -163,7 +212,7 @@ AUV should be completely autonomous.
   - When the judges determine that the game cannot continue.
 - Setting up of AUV
   - Five minutes is given for setting up the AUV before the game starts.
-	- No more than two members of respective teams can engage in setting up of their AUV.
+	- No more than two members of respective teams can engage in setting up of their AUV at the poolside.
 	- The two designated members setting up must wear life jackets. Failure to do so may result in disqualification.
 	- Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.
 	- Setting up during the game uses the allocated time for the tasks and game.
@@ -171,7 +220,7 @@ AUV should be completely autonomous.
 	- The AUV should start its maneuver only after it has completely submerged in the water.
 
 ### Retries
-- A retry attempt can be made only after the judge’s permission.
+- A retry attempt can be made only after the judges' permission.
 - The AUV will be passed to the two designated team members standing beside the pool by the divers.
 - A retry would mean that the AUV starts from the start zone with zero points.
 - A maximum of 15 minutes is allowed including all the retries.
@@ -180,7 +229,7 @@ AUV should be completely autonomous.
 ### Practice Rounds
 - Teams will be allowed to practice in the main arena after qualifications, subject to availability of time slots and the schedule during the competition.
 - No tethers are allowed at ANY time inside the main arena.
-- Team will be allowed calibrate their AUV sensors with tethers, at the side of the pool, with the vehicle held __stationary__.
+- Team will be allowed calibrate their AUV sensors with tethers, at the edge of the pool, with the vehicle held __stationary__.
 
 ## General Restrictions
 
@@ -194,7 +243,7 @@ AUV should be completely autonomous.
 ## Disqualification
 
 - Oil or lubrication leak causing the pollution of pool.
-battery leak causing the pollution of pool.
+- Battery leak causing the pollution of pool.
 - The team damages or tries to damage the field, facilities or equipments.
 - The team performs any acts that are not in the spirit of fair play.
 - The team fails to obey instructions or warnings issued by the referees.
@@ -203,7 +252,7 @@ battery leak causing the pollution of pool.
 
 ## Others
 
-- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the Judges.
+- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the judges.
 - The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
 - The judges may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
 
@@ -224,12 +273,12 @@ battery leak causing the pollution of pool.
 
 - Teams have to make a 10 minutes presentation about their AUVs and their design and engineering process on the "seminar day" of the competition.
 - The date and venue of the presentation will be confirmed 1 week before the competition.
-- The presentation will be judged and a maximum of **15** points can be earned towards the competition.
+- The presentation will be judged and a maximum of **[15 points]** can be earned towards the competition.
 - There will be a 5 minutes Q&A session after the presentation.
 
 ### Presentation Rubrics
 
-The presentation will be judged on the following Rubrics (3 points each).
+The presentation will be judged on the following rubrics (3 points each).
 
 - Timeliness (<= 10min)
 - Technical Overview (for eg. Mechanical & Electronics & Software architecture of the AUV.)
