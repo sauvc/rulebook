@@ -92,6 +92,8 @@ All teams are to submit a video of their AUV prior to the competition. The video
 
 Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.
 
+The origanisers reserve the right to publish the video submissions after the competition.
+
 ## Qualification
 
 - AUVs have to pass a qualifying round before they can participate in the main arena.
@@ -135,7 +137,7 @@ There are 4 tasks in the challenge:
 The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="end"><em>end of attempt</em></span>.
 
 ### 1. Navigation
-The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate.
+The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horitontal line, parallel to the side of the swimmin pool, approximately 800 cm away from the starting point. See Figure 3. The AUV has to swim through the 150 cm high gate without touching the gate.
 
 ![flare](img/gate-2016.jpg)
 <div class="caption"> Figure 7. Picture of the gate from 2016 Competition.</div>
@@ -241,13 +243,13 @@ At any time during the mission, current attempt can be <span class="abort"><em>a
 In the case of an aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the current attempt.
 
 ### Automatic Abort
-If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds**, the current attempt would be automatically <span class="abort"><em>aborted</em></span>. The divers would then retreive the AUV back to the starting zone. The team may wish to retry if they still have time left.
+If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds or 5 discrete bottom touches**, the current attempt would be automatically <span class="abort"><em>aborted</em></span>. The divers would then retreive the AUV back to the starting zone. The team may wish to retry if they still have time left.
 
 In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt.
 
 ### Timing Bonus
 
-At the <span class="end"><em>end of an attempt</em></span>, as long as the AUV has successfully completed **2 tasks**, the Navigation task and any other task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
+At the <span class="end"><em>end of an attempt</em></span>, as long as the AUV has successfully completed at least **2 tasks**, the Navigation task and any other task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
 
 `Bonus points = (900 - RUN_TIME) • 0.03`
 
@@ -278,14 +280,14 @@ There are penalty points for touching the floor or wall of the pool at any time,
 ### Safety
 - AUVs should not leak and pollute the pool.
 - AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
-- AUVs **must have a kill switch** that turns off the vehicle, which is easily accessible to a diver. This should be marked bright yellow.
+- AUVs **must have a kill switch** that turns off the vehicle, which is easily accessible to a diver. This should be marked in bright color.
 - Pressure of any compressed gas used must not exceed **6 bars**.
 AUV should be completely autonomous.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
 ![flare](img/killswitch.jpg)
-<div class="caption"> Figure 13. Example a kill switch on an AUV from 2016 Competition.</div>
+<div class="caption"> Figure 13. Example a kill switch on an AUV from 2015 Competition.</div>
 
 
 ### Communications
