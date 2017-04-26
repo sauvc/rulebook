@@ -176,7 +176,7 @@ At any time during the mission, current attempt can be <span style="text-decorat
 In the case of an aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the current attempt.
 
 ### Automatic Abort
-If the AUV touches the bottom or the side walls of the pool for cumulative time of more than 10 seconds, the current attempt would be automatically <span style="text-decoration:underline; color: #bd1717;"><em>aborted</em></span>. The divers would then retreive the AUV back to the starting zone. The team may wish to retry if they still have time left.
+If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds**, the current attempt would be automatically <span style="text-decoration:underline; color: #bd1717;"><em>aborted</em></span>. The divers would then retreive the AUV back to the starting zone. The team may wish to retry if they still have time left.
 
 In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt.
 
