@@ -336,8 +336,8 @@ Here are some examples scenarios and how they would be scored.
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
 | 1 | Navigation Task                         |        10      |
-| 1 | Target Acquisation Task (Visual)        |        30      |
-| 1 | Localization Task                       |        40      |
+| 2 | Target Acquisation Task (Visual)        |        30      |
+| 3 | Localization Task                       |        40      |
 |   | **Attempt Total**                       |        80      |
 
 ## Specification of AUV
