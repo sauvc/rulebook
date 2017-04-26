@@ -264,6 +264,81 @@ There are penalty points for touching the floor or wall of the pool at any time,
 | 1 | Touching the gate                       |        2       |
 | 2 | Touching the bottom of the pool or wall |        5       |
 
+### Examples
+
+Here are some examples scenarios and how they would be scored.
+
+#### Example 1
+
+ - Team launches AUV from starting zone.
+ - AUV crosses the gate and completes the Navigation task, but touches the side of the gate while passing through.
+ - AUV can't find the location next task and ends the mission by rising to the surface.
+
+|   |                 Task                    |     Points     |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Navigation Task                         |        10      |
+| 2 | Touching the gate                       |        -2      |
+| 3 | Surfacing                               |        5       |
+|   | **Attempt Total**                       |        13      |
+
+#### Example 2
+
+ - Team launches AUV from starting zone.
+ - AUV crosses the gate and completes the Navigation task.
+ - AUV can't find the location next task and has to aborted and retreived by divers.
+
+|   |                 Task                    |     Points     |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Navigation Task                         |        10      |
+|   | **Attempt Total**                       |        10      |
+
+
+#### Example 3
+
+ - Team launches AUV from starting zone.
+ - AUV crosses the gate and completes the Navigation task.
+ - AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>, but touches the side of the wall momentarily while looking for the drum.
+ - AUV tries to find the flare, but can't find it and has to be aborted and retreived by divers.
+
+|   |                 Task                    |     Points     |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Navigation Task                         |        10      |
+| 2 | Target Acquisation Task (Visual)        |        30      |
+| 3 | Touching the wall                       |        -5      |
+|   | **Attempt Total**                       |        35      |
+
+
+#### Example 3
+
+ - Team launches AUV from starting zone.
+ - AUV crosses the gate and completes the Navigation task.
+ - AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
+ - AUV locates the flare and knocks off the golf ball.
+ - AUV surfaces with run time of 400 seconds.
+
+|   |                 Task                    |     Points     |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Navigation Task                         |        10      |
+| 2 | Target Acquisation Task (Visual)        |        30      |
+| 3 | Localization Task                       |        40      |
+| 4 | Surface Bonus                           |         5      |
+| 5 | Run time Bonus                          |        15      |
+|   | **Attempt Total**                       |        100     |
+
+#### Example 4
+
+ - Team launches AUV from starting zone.
+ - AUV crosses the gate and completes the Navigation task.
+ - AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
+ - AUV locates the flare and knocks off the golf ball.
+ - AUV stays touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.
+
+|   |                 Task                    |     Points     |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Navigation Task                         |        10      |
+| 1 | Target Acquisation Task (Visual)        |        30      |
+| 1 | Localization Task                       |        40      |
+|   | **Attempt Total**                       |        80      |
 
 ## Specification of AUV
 

@@ -320,6 +320,198 @@
 </tr>
 </tbody>
 </table>
+<h3 id="examples"><a class="header-link" href="#examples"></a>Examples</h3>
+<p>Here are some examples scenarios and how they would be scored.</p>
+<h4 id="example-1"><a class="header-link" href="#example-1"></a>Example 1</h4>
+<ul class="list">
+<li>Team launches AUV from starting zone.</li>
+<li>AUV crosses the gate and completes the Navigation task, but touches the side of the gate while passing through.</li>
+<li>AUV can&#39;t find the location next task and ends the mission by rising to the surface.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">Task</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align:center">Navigation Task</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align:center">Touching the gate</td>
+<td style="text-align:center">-2</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align:center">Surfacing</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:center"><strong>Attempt Total</strong></td>
+<td style="text-align:center">13</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-2"><a class="header-link" href="#example-2"></a>Example 2</h4>
+<ul class="list">
+<li>Team launches AUV from starting zone.</li>
+<li>AUV crosses the gate and completes the Navigation task.</li>
+<li>AUV can&#39;t find the location next task and has to aborted and retreived by divers.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">Task</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align:center">Navigation Task</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:center"><strong>Attempt Total</strong></td>
+<td style="text-align:center">10</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-3"><a class="header-link" href="#example-3"></a>Example 3</h4>
+<ul class="list">
+<li>Team launches AUV from starting zone.</li>
+<li>AUV crosses the gate and completes the Navigation task.</li>
+<li>AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>, but touches the side of the wall momentarily while looking for the drum.</li>
+<li>AUV tries to find the flare, but can&#39;t find it and has to be aborted and retreived by divers.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">Task</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align:center">Navigation Task</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align:center">Target Acquisation Task (Visual)</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align:center">Touching the wall</td>
+<td style="text-align:center">-5</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:center"><strong>Attempt Total</strong></td>
+<td style="text-align:center">35</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-3-1"><a class="header-link" href="#example-3-1"></a>Example 3</h4>
+<ul class="list">
+<li>Team launches AUV from starting zone.</li>
+<li>AUV crosses the gate and completes the Navigation task.</li>
+<li>AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.</li>
+<li>AUV locates the flare and knocks off the golf ball.</li>
+<li>AUV surfaces with run time of 400 seconds.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">Task</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align:center">Navigation Task</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align:center">Target Acquisation Task (Visual)</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align:center">Localization Task</td>
+<td style="text-align:center">40</td>
+</tr>
+<tr>
+<td>4</td>
+<td style="text-align:center">Surface Bonus</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td>5</td>
+<td style="text-align:center">Run time Bonus</td>
+<td style="text-align:center">15</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:center"><strong>Attempt Total</strong></td>
+<td style="text-align:center">100</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-4"><a class="header-link" href="#example-4"></a>Example 4</h4>
+<ul class="list">
+<li>Team launches AUV from starting zone.</li>
+<li>AUV crosses the gate and completes the Navigation task.</li>
+<li>AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.</li>
+<li>AUV locates the flare and knocks off the golf ball.</li>
+<li>AUV stays touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">Task</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align:center">Navigation Task</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align:center">Target Acquisation Task (Visual)</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align:center">Localization Task</td>
+<td style="text-align:center">40</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:center"><strong>Attempt Total</strong></td>
+<td style="text-align:center">80</td>
+</tr>
+</tbody>
+</table>
 <h2 id="specification-of-auv"><a class="header-link" href="#specification-of-auv"></a>Specification of AUV</h2>
 <h3 id="size"><a class="header-link" href="#size"></a>Size</h3>
 <ul class="list">
