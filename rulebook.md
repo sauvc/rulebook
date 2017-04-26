@@ -32,28 +32,31 @@ Videos will be reviewed by the organizing committee and accepted videos will cou
 - To qualify, an AUV has to swim between two markers separated by 10m and without surfacing or touching the bottom/wall.
 - The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
+![flare](img/qualification.jpg)
+<div style="text-align:center"> Figure 2. A team attempting qualification in the 2017 Competition. </div>
+
 ## The Arena
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
 ![arena](img/arena.jpg)
-<div style="text-align:center"> Figure 2. Top-view of the Arena. </div>
+<div style="text-align:center"> Figure 3. Top-view of the Arena. </div>
 
 <br>
 
 ![arena](img/arena-2017.jpg)
-<div style="text-align:center"> Figure 3. Picture of the Arena from 2017 Competition. </div>
+<div style="text-align:center"> Figure 4. Picture of the Arena from 2017 Competition. </div>
 
 <br>
 
 ![arena](img/arena-2-2017.jpg)
-<div style="text-align:center"> Figure 4. Picture of the Arena from 2017 Competition. </div>
+<div style="text-align:center"> Figure 5. Picture of the Arena from 2017 Competition. </div>
 
 ### Starting Zone
 The starting zone is a 140×140cm area marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
 ![arena](img/starting-zone-2017.jpg)
-<div style="text-align:center"> Figure 5. Picture of the Starting Zone from 2017 Competition. </div>
+<div style="text-align:center"> Figure 6. Picture of the Starting Zone from 2017 Competition. </div>
 
 ## Tasks
 There are 4 tasks in the challenge:
@@ -71,14 +74,14 @@ The first task, Navigation is mandatory and must be completed before attempting 
 The aim of the this task is to swim through a gate in water. The gate is approximately 800 cm away from the starting point. The AUV has to swim through the 150 cm high gate.
 
 ![flare](img/gate-2016.jpg)
-<div style="text-align:center"> Figure 6. Picture of the gate from 2016 Competition. </div>
+<div style="text-align:center"> Figure 7. Picture of the gate from 2016 Competition. </div>
 
 #### Specification of props.
 
 - Gate: 150cm wide and 150cm high gate with <span style="color:red">red</span> and <span style="color:green">green</span> markings on port and starboard sides respectively. 
 
 ![flare](img/gate.jpg)
-<div style="text-align:center"> Figure 7. Front-view of the gate. </div>
+<div style="text-align:center"> Figure 8. Front-view of the gate. </div>
 
 ### 2. Target Acquisition [10-50 Points]
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
