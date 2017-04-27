@@ -1,4 +1,4 @@
-title: SAUVC'18 Rulebook
+title: The Singapore AUV Challenge 2018 Rulebook
 ---
 
 <style>
@@ -22,12 +22,12 @@ title: SAUVC'18 Rulebook
   }
 </style>
 
-# SAUVC 2018 Rulebook
+# The Singapore AUV Challenge 2018 Rulebook
 
 Table of Contents
 =================
 
-  * [Objective](#objective)
+  * [Objectives](#objectives)
   * [Structure of the Team](#structure-of-the-team)
   * [Video Submission](#video-submission)
   * [Qualification](#qualification)
@@ -68,19 +68,19 @@ Table of Contents
   * [Disqualification](#disqualification)
   * [Others](#others)
 
-## Objective
+## Objectives
 
 The goal is for each team to design and build an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
 
 ![arena](img/sauvc-2017.jpg)
-<div class="caption"> SAUVC 2017 Competition.</div>
+<div class="caption"> The SAUVC 2017 Participants.</div>
 
 ## Structure of the Team
 
 A team may consist of up to **8 participants** and up to **3 faculty co-supervisors**. At least half of the participants must be students at the time of registration.
 
 ![arena](img/team.jpg)
-<div class="caption"> Figure 1. One of the team with faculty co-supervisors in the 2017 Competition.</div>
+<div class="caption"> Figure 1. One of the teams with faculty co-supervisors from the 2017 Competition.</div>
 
 ## Video Submission
 
@@ -137,7 +137,7 @@ There are 4 tasks in the challenge:
 The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="end"><em>end of attempt</em></span>.
 
 ### 1. Navigation
-The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horitontal line, parallel to the side of the swimmin pool, approximately 800 cm away from the starting point. See Figure 3. The AUV has to swim through the 150 cm high gate without touching the gate.
+The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 3. The AUV has to swim through the 150 cm high gate without touching the gate.
 
 ![flare](img/gate-2016.jpg)
 <div class="caption"> Figure 7. Picture of the gate from 2016 Competition.</div>
@@ -257,7 +257,7 @@ For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points
 
 ### Penalties
 
-There are penalty points for touching the floor or wall of the pool at any time, and also for touching the gate. This penalty points are:
+There are penalty points for touching the floor or wall of the pool at any time, and also for touching the gate during a specific attempt. This penalty points are:
 
 |   |               Description               | Penalty Points |
 |---|:---------------------------------------:|:--------------:|
@@ -285,7 +285,7 @@ Here are some examples scenarios and how they would be scored.
 
  - Team launches AUV from starting zone.
  - AUV crosses the gate and completes the Navigation task.
- - AUV can't find the location next task and has to aborted and retreived by divers.
+ - AUV can't find the location of the next task and has to aborted and retreived by divers.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
@@ -349,7 +349,8 @@ Here are some examples scenarios and how they would be scored.
 - An AUV weighing less than 40 kg in air will be given bonus <span class="points"><strong>10 points</strong></span>.
 
 ### Power
-- Power should be self contained. **Tethers of any sort are not allowed**.
+- Power should be self contained.
+- **Tethers of any sort are not allowed**.
 - The voltage of the power source used by each AUV should not exceed 24VDC.
 
 ### Safety
@@ -394,12 +395,12 @@ AUV should be completely autonomous.
   - Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.
   - Setting up during the game uses the allocated time for the tasks and game.
   - The AUV can only start from the start zone. This is the only place where the AUV is allowed to be on the water surface.
-  - The AUV should start its maneuver only after it has completely submerged in the water.
+  - The AUV should start its maneuver only after it has **completely submerged** in the water.
 
 ### Retries
 - A retry attempt can be made only after the judges' permission.
 - The AUV will be passed to the two designated team members standing beside the pool by the divers.
-- A retry would mean that the AUV starts from the start zone with zero points.
+- A retry would mean that the AUV starts from the start zone with 0 points.
 - A maximum of 15 minutes is allowed including all the retries.
 - The attempt with the highest score (including retries) will be considered for final scoring.
 
