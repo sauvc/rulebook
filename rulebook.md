@@ -70,7 +70,7 @@ Table of Contents
 
 ## Objectives
 
-The goal is for each team to design and build an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
+The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
 
 ![arena](img/sauvc-2017.jpg)
 <div class="caption"> The SAUVC 2017 Participants.</div>
@@ -87,7 +87,7 @@ A team may consist of up to **8 participants** and up to **3 faculty co-supervis
 All teams are to submit a video of their AUV prior to the competition. The video has to
 
 -  be maximum **5 minutes** long,
--  be submitted at least **1 week** prior to the competition,
+-  be submitted before March 2, 2018,
 -  showcase the AUV swimming underwater for at least **10 seconds**.
 
 Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.
@@ -160,9 +160,9 @@ The aim of the task is to detect and acquire a target among a series of drums at
 
 A target zone is defined by a <span style="color:green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 3. shows the location of the mat with respect to the arena.
 
-There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span style="color:blue">blue</span> in color. One of the <span style="color:red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
+There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span style="color:blue">blue</span> in color, while the rest are <span style="color:red">red</span> in color. One of the <span style="color:red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
 
-The location of the <span style="color:red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums.
+The location of the <span style="color:red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums. The order or the drums and location of the pinger will be decided by the organizing committee.
 
 #### Points.
 
@@ -178,7 +178,7 @@ Points will be awarded as follows.
 |---|:----------------:|:---------------------------------------:|
 | 1 | Drum             | 60cm in diameter and 30cm in depth.     |
 | 2 | Ball             | 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams. |
-| 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz]((http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
+| 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
 <div class="caption"> Figure 9. Picture target zone and drums from the 2017 Competition.</div>
@@ -233,9 +233,8 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 
 
 ### Surfacing
-Breaching the surface any point during the mission causes <span class="end"><em>end of the current attempt</em></span>. The team may wish to retry if they still have time left.
 
-When the AUV surfaces, and the current attempt comes to an end, the total points for that attempt will be computed based on the tasks accomplished and the timing bonus and a <span class="points"><strong>5 Points</strong></span> bonus for ending.
+Breaching the surface any point during the mission causes <span class="end"><em>end of the current attempt</em></span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="points"><strong>5 Points</strong></span> bonus for ending. The team may wish to retry if they still have time left.
 
 ### Aborting
 At any time during the mission, current attempt can be <span class="abort"><em>aborted</em></span>, by indicating to the Game Master. The divers would then retreive the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
@@ -331,7 +330,7 @@ Here are some examples scenarios and how they would be scored.
  - AUV crosses the gate and completes the Navigation task.
  - AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
  - AUV locates the flare and knocks off the golf ball.
- - AUV stays touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.
+ - AUV touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
@@ -349,16 +348,16 @@ Here are some examples scenarios and how they would be scored.
 - An AUV weighing less than 40 kg in air will be given bonus <span class="points"><strong>10 points</strong></span>.
 
 ### Power
-- Power should be self contained.
-- **Tethers of any sort are not allowed**.
-- The voltage of the power source used by each AUV should not exceed 24VDC.
+- Power must be self contained.
+- **Tethers of any sort are not allowed**, except when [calibrating AUV sensors during practice rounds](#practice-rounds).
+- The voltage of the power source used by each AUV must not exceed 24VDC.
 
 ### Safety
-- AUVs should not leak and pollute the pool.
+- AUVs must not leak and pollute the pool.
 - AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
-- AUVs **must have a kill switch** that turns off the vehicle, which is easily accessible to a diver. This should be marked in bright color.
+- AUVs **must have a kill switch** that turns off the vehicle, which is easily accessible to a diver. This must be marked in bright color.
 - Pressure of any compressed gas used must not exceed **6 bars**.
-AUV should be completely autonomous.
+AUV must be completely autonomous.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
@@ -374,14 +373,14 @@ AUV should be completely autonomous.
 ### Sequence of events during the competition
 
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
-- AUVs will be tested for battery, oil or lubricant leak. Failing the leak test would lead to disqualification of team.
+- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
 - AUVs will proceed to qualifying round. The bonus points for size and weight is applicable only if the AUV passes the qualifying round.
 - The qualified AUVs will proceed for the final rounds of competition.
 
 ### Practice Rounds
-- Teams will be allowed to practice in the main arena after qualifications, subject to availability of time slots and the schedule during the competition.
+- Teams will be allowed to practice in the main arena after they successfully complete the qualifying round, subject to availability of time slots and the schedule during the competition.
 - No tethers are allowed at ANY time inside the main arena.
-- Team will be allowed calibrate their AUV sensors with tethers, at the edge of the pool, with the vehicle held **stationary**.
+- Teams will be allowed calibrate their AUV sensors with tethers, at the edge of the pool, with the vehicle held **stationary**.
 
 ### Length of a game
 - Each team is given **15 minutes** to complete the tasks.
@@ -395,7 +394,7 @@ AUV should be completely autonomous.
   - Any team that fails to complete setting their AUV within five minutes can resume the setting up again once the game starts.
   - Setting up during the game uses the allocated time for the tasks and game.
   - The AUV can only start from the start zone. This is the only place where the AUV is allowed to be on the water surface.
-  - The AUV should start its maneuver only after it has **completely submerged** in the water.
+  - The AUV must start its maneuver only after it has **completely submerged** in the water.
 
 ### Retries
 - A retry attempt can be made only after the judges' permission.
@@ -440,10 +439,9 @@ The presentation will be judged on the following rubrics <span class="points"><s
 
 - Oil or lubrication leak causing the pollution of pool.
 - Battery leak causing the pollution of pool.
-- The team damages or tries to damage the field, facilities or equipments.
+- The AUV damages or tries to damage the field, facilities or equipments.
 - The team performs any acts that are not in the spirit of fair play.
 - The team fails to obey instructions or warnings issued by the referees.
-- The team has made a false start for three times in the same match.
 - If the team does not abide by the the general restrictions.
 
 ## Others
