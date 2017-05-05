@@ -205,7 +205,7 @@ If the AUV successfully picks up the ball and holds on to it till the <span clas
 | 2 | Ball             | Same ball used in target acquisition task. Provided by the teams.|
 
 ### 4. Localization
-The aim of the this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball on the flare to drop out. The flare will be <span style="color:#E0D000">yellow</span> in color.
+The aim of this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball on the flare to drop out. The flare will be <span style="color:#E0D000">yellow</span> in color.
 
 #### Points.
 
