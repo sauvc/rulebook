@@ -131,8 +131,8 @@ There are 4 tasks in the challenge:
 
 1. [Navigation](#1.-navigation)
 1. [Target Acquisition](#2.-target-acquisition)
-1. [Localization](#3.-target-reacquisition)
-1. [Target Reacquisition](#4.-localization)
+1. [Target Reacquisition](#3.-target-reacquisition)
+1. [Localization](#4.-localization)
 
 The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="end"><em>end of attempt</em></span>.
 
