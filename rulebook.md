@@ -20,9 +20,17 @@ title: The Singapore AUV Challenge 2018 Rulebook
     text-decoration:underline;
     color: #bd1717;
   }
+
+  .role{
+    font-weight: 600;
+    color: #0139b1;
+  }
 </style>
 
 # The Singapore AUV Challenge 2018 Rulebook
+
+<center>Version : 1.1</center>
+<center>Updated : 13th Oct 2017</center>
 
 Table of Contents
 =================
@@ -177,11 +185,14 @@ Points will be awarded as follows.
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
 | 1 | Drum             | 60cm in diameter and 30cm in depth.     |
-| 2 | Ball             | 3.5-4.5cm in diameter and weigh no more than 100g in air. Provided by teams. |
+| 2 | Ball             | 3.5-4.5cm in diameter and weigh no more than 200g in air. Provided by teams. |
 | 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
 <div class="caption"> Figure 9. Picture target zone and drums from the 2017 Competition.</div>
+<br>
+![pinger](img/pinger.jpg)
+<div class="caption"> Figure 10. Picture of a 45kHz pinger.</div>
 
 
 ### 3. Target Reacquisition
@@ -219,17 +230,17 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/flare.jpg)
-<div class="caption"> Figure 10. Side-view of the flare. </div>
+<div class="caption"> Figure 11. Side-view of the flare. </div>
 
 <br>
 
 ![flare](img/flare-2-2016.jpg)
-<div class="caption"> Figure 11. Picture of the flare from 2016 Competition.</div>
+<div class="caption"> Figure 12. Picture of the flare from 2016 Competition.</div>
 
 <br>
 
 ![flare](img/flare-2016.jpg)
-<div class="caption"> Figure 12. Picture of the flare from 2016 Competition.</div>
+<div class="caption"> Figure 13. Picture of the flare from 2016 Competition.</div>
 
 
 ### Surfacing
@@ -237,7 +248,7 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 Breaching the surface any point during the mission causes <span class="end"><em>end of the current attempt</em></span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="points"><strong>5 Points</strong></span> bonus for ending. The team may wish to retry if they still have time left.
 
 ### Aborting
-At any time during the mission, current attempt can be <span class="abort"><em>aborted</em></span>, by indicating to the Game Master. The divers would then retreive the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
+At any time during the mission, current attempt can be <span class="abort"><em>aborted</em></span>, by indicating to the <span class="role">Game Master</span>. The divers would then retreive the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
 
 In the case of an aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the current attempt.
 
@@ -362,7 +373,7 @@ AUV must be completely autonomous.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
 ![flare](img/killswitch.jpg)
-<div class="caption"> Figure 13. Example a kill switch on an AUV from 2015 Competition.</div>
+<div class="caption"> Figure 14. Example a kill switch on an AUV from 2015 Competition.</div>
 
 
 ### Communications
@@ -386,7 +397,7 @@ AUV must be completely autonomous.
 - Each team is given **15 minutes** to complete the tasks.
 - In any of the following cases, the game ends immediately.
   - Disqualification is announced in the game.
-  - When the judges determine that the game cannot continue.
+  - When the <span class="role">Judges</span> determine that the game cannot continue.
 - Setting up of AUV
   - Five minutes is given for setting up the AUV before the game starts.
   - No more than two members of respective teams can engage in setting up of their AUV at the poolside.
@@ -397,7 +408,7 @@ AUV must be completely autonomous.
   - The AUV must start its maneuver only after it has **completely submerged** in the water.
 
 ### Retries
-- A retry attempt can be made only after the judges' permission.
+- A retry attempt can be made only after the <span class="role">Judges'</span> permission.
 - The AUV will be passed to the two designated team members standing beside the pool by the divers.
 - A retry would mean that the AUV starts from the start zone with 0 points.
 - A maximum of 15 minutes is allowed including all the retries.
@@ -432,7 +443,7 @@ The presentation will be judged on the following rubrics <span class="points"><s
 - Team members may not disturb the water surface once the game starts.
 - Members of other teams are not allowed in the game area.
 - Nobody is allowed to wear any footwear near the pool area.
-- The judges may suspend the challenge if weather turns unfavorable.
+- The <span class="role">Judges</span> may suspend the challenge if weather turns unfavorable.
 - The pool area must be evacuated in case of lightning.
 
 ## Disqualification
@@ -446,6 +457,6 @@ The presentation will be judged on the following rubrics <span class="points"><s
 
 ## Others
 
-- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the judges.
+- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="role">Judges</span>.
 - The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
-- The judges may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
+- The <span class="role">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
