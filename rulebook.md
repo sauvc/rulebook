@@ -92,13 +92,13 @@ A team may consist of up to **8 participants** and up to **3 faculty co-supervis
 
 ## Video Submission
 
-All teams are to submit a video of their AUV prior to the competition. The video has to
+All teams have to submit a video of their AUV prior to the competition. The video has to
 
 -  be maximum **5 minutes** long,
--  be submitted before March 2, 2018,
+-  be submitted before February 8, 2018,
 -  showcase the AUV swimming underwater for at least **10 seconds**.
 
-Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.
+Videos will be reviewed by the organizing committee and **only teams with accepted videos be allowed to attend the competition**.
 
 The origanisers reserve the right to publish the video submissions after the competition.
 
@@ -106,6 +106,7 @@ The origanisers reserve the right to publish the video submissions after the com
 
 - AUVs have to pass a qualifying round before they can participate in the main arena.
 - To qualify, an AUV has to swim between two markers separated by **10 meters** and without surfacing or touching the bottom/wall.
+- From the list of all qualified teams, **only 15** teams, with the fastest time for the qualification round, will advance to the final round.
 - The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
 ![flare](img/qualification.jpg)
@@ -434,7 +435,7 @@ The presentation will be judged on the following rubrics <span class="points"><s
 ## Certificate of Participation
 
 - Teams whose AUVs successfully complete the qualifier round will receive Certificate of Participation.
-- Teams whose video submissions have been accepted & participate in the competition will receive a Certificate of Participation.
+- Teams whose video submissions have been accepted & attend the competition will receive a Certificate of Participation.
 - Failing the above two criteria, no Certificate of Participation will be awarded.
 
 ## General Restrictions
