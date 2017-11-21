@@ -29,8 +29,8 @@ title: The Singapore AUV Challenge 2018 Rulebook
 
 # The Singapore AUV Challenge 2018 Rulebook
 
-<center>Version : 1.1</center>
-<center>Updated : 13th Oct 2017</center>
+<center>Version : 2</center>
+<center>Updated : 19th Nov 2017</center>
 
 Table of Contents
 =================
@@ -92,13 +92,13 @@ A team may consist of up to **8 participants** and up to **3 faculty co-supervis
 
 ## Video Submission
 
-All teams are to submit a video of their AUV prior to the competition. The video has to
+All teams have to submit a video of their AUV prior to the competition. The video has to
 
 -  be maximum **5 minutes** long,
--  be submitted before March 2, 2018,
+-  be submitted before February 8, 2018,
 -  showcase the AUV swimming underwater for at least **10 seconds**.
 
-Videos will be reviewed by the organizing committee and accepted videos will count towards the Certificate of Participation.
+Videos will be reviewed by the organizing committee and **only teams with accepted videos be allowed to attend the competition**.
 
 The origanisers reserve the right to publish the video submissions after the competition.
 
@@ -106,6 +106,9 @@ The origanisers reserve the right to publish the video submissions after the com
 
 - AUVs have to pass a qualifying round before they can participate in the main arena.
 - To qualify, an AUV has to swim between two markers separated by **10 meters** and without surfacing or touching the bottom/wall.
+- Teams will be allocated a time slot for the qualification round. Teams may attempt multiple qualifying runs during the qualifying slot.
+- If multiple qualifying runs are attempted during the qualifying slot, the fastest successful run will be considered for the final round.
+- **Only the top 15** qualified teams, with the fastest time for the qualifying round, will advance to the final round.
 - The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
 ![flare](img/qualification.jpg)
@@ -369,7 +372,7 @@ Here are some examples scenarios and how they would be scored.
 - AUVs **must have a kill switch** that turns off the vehicle, which is easily accessible to a diver. This must be marked in bright color.
 - Pressure of any compressed gas used must not exceed **6 bars**.
 AUV must be completely autonomous.
-- The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed
+- The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
 ![flare](img/killswitch.jpg)
@@ -377,7 +380,7 @@ AUV must be completely autonomous.
 
 
 ### Communications
-- No communication from/to the AUV of any sort is allowed during the game
+- No communication from/to the AUV of any sort is allowed during the game.
 
 ## Game Procedure
 
@@ -385,8 +388,8 @@ AUV must be completely autonomous.
 
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
 - AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
-- AUVs will proceed to qualifying round. The bonus points for size and weight is applicable only if the AUV passes the qualifying round.
-- The qualified AUVs will proceed for the final rounds of competition.
+- Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
+- Top 15 qualified teams (accroding to fastest qualifying round times) will proceed to the final rounds of competition.
 
 ### Practice Rounds
 - Teams will be allowed to practice in the main arena after they successfully complete the qualifying round, subject to availability of time slots and the schedule during the competition.
@@ -425,16 +428,16 @@ AUV must be completely autonomous.
 
 The presentation will be judged on the following rubrics <span class="points"><strong>3 points</strong></span> each).
 
-- Timeliness (<= 10min)
-- Technical Overview (for eg. Mechanical & Electronics & Software architecture of the AUV.)
-- Design Innovation (for eg. Novel ideas/techniques you implemented in your AUV.)
-- Challenges (for eg. Major challenges and how you overcame them.)
-- What did we learn (for eg. Lessons learnt from the competition.)
+- Timeliness (<= 10min).
+- Technical Overview (for eg. Mechanical & Electronics & Software architecture of the AUV).
+- Design Innovation (for eg. Novel ideas/techniques you implemented in your AUV).
+- Challenges (for eg. Major challenges and how you overcame them).
+- What did we learn (for eg. Lessons learnt from the competition).
 
 ## Certificate of Participation
 
 - Teams whose AUVs successfully complete the qualifier round will receive Certificate of Participation.
-- Teams whose video submissions have been accepted & participate in the competition will receive a Certificate of Participation.
+- Teams whose video submissions have been accepted & attend the competition will receive a Certificate of Participation.
 - Failing the above two criteria, no Certificate of Participation will be awarded.
 
 ## General Restrictions
@@ -452,11 +455,11 @@ The presentation will be judged on the following rubrics <span class="points"><s
 - Battery leak causing the pollution of pool.
 - The AUV damages or tries to damage the field, facilities or equipments.
 - The team performs any acts that are not in the spirit of fair play.
-- The team fails to obey instructions or warnings issued by the referees.
+- The team fails to obey instructions or warnings issued by the <span class="role">Judges</span> or <span class="role">Game Master</span>.
 - If the team does not abide by the the general restrictions.
 
 ## Others
 
-- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="role">Judges</span>.
+- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="role">Jgit dudges</span>.
 - The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
 - The <span class="role">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
