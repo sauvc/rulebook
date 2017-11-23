@@ -460,6 +460,6 @@ The presentation will be judged on the following rubrics <span class="points"><s
 
 ## Others
 
-- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="role">Jgit dudges</span>.
+- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="role">Judges</span>.
 - The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
 - The <span class="role">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
