@@ -69,8 +69,6 @@ Table of Contents
      * [Practice Rounds](#practice-rounds)
      * [Length of a game](#length-of-a-game)
      * [Retries](#retries)
-  * [Technical Presentation](#technical-presentation)
-     * [Presentation Rubrics](#presentation-rubrics)
   * [Certificate of Participation](#certificate-of-participation)
   * [General Restrictions](#general-restrictions)
   * [Disqualification](#disqualification)
@@ -416,23 +414,6 @@ AUV must be completely autonomous.
 - A retry would mean that the AUV starts from the start zone with 0 points.
 - A maximum of 15 minutes is allowed including all the retries.
 - The attempt with the highest score (including retries) will be considered for final scoring.
-
-## Technical Presentation
-
-- Teams have to make a 10 minutes presentation about their AUVs and their design and engineering process on the "seminar day" of the competition.
-- The date and venue of the presentation will be confirmed 1 week before the competition.
-- The presentation will be judged and a maximum of <span class="points"><strong>15 points</strong></span> can be earned towards the competition.
-- There will be a 5 minutes Q&A session after the presentation.
-
-### Presentation Rubrics
-
-The presentation will be judged on the following rubrics <span class="points"><strong>3 points</strong></span> each).
-
-- Timeliness (<= 10min).
-- Technical Overview (for eg. Mechanical & Electronics & Software architecture of the AUV).
-- Design Innovation (for eg. Novel ideas/techniques you implemented in your AUV).
-- Challenges (for eg. Major challenges and how you overcame them).
-- What did we learn (for eg. Lessons learnt from the competition).
 
 ## Certificate of Participation
 
