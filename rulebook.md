@@ -29,8 +29,8 @@ title: The Singapore AUV Challenge 2018 Rulebook
 
 # The Singapore AUV Challenge 2018 Rulebook
 
-<center>Version : 2</center>
-<center>Updated : 19th Nov 2017</center>
+<center>Version : 2.01</center>
+<center>Updated : 1st Mar 2018</center>
 
 Table of Contents
 =================
@@ -171,7 +171,7 @@ A target zone is defined by a <span style="color:green">green colored mat</span>
 
 There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span style="color:blue">blue</span> in color, while the rest are <span style="color:red">red</span> in color. One of the <span style="color:red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
 
-The location of the <span style="color:red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums. The order or the drums and location of the pinger will be decided by the organizing committee.
+The location of the <span style="color:red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums. The order of the drums and location of the pinger will be decided by the organizing committee.
 
 #### Points.
 
