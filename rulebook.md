@@ -369,7 +369,7 @@ Here are some examples scenarios and how they would be scored.
 - AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
 - AUVs **must have a kill switch** that turns off the vehicle, which is easily accessible to a diver. This must be marked in bright color.
 - Pressure of any compressed gas used must not exceed **6 bars**.
-AUV must be completely autonomous.
+- AUV must be completely autonomous.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
