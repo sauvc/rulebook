@@ -1,6 +1,6 @@
 .PHONY: clean
 
-index.html rulebook.pdf: rulebook.md
+index.html rulebook.pdf: rulebook.md template/page.html
 	# create PDF file
 	generate-md --layout github --input rulebook.md --output .
 	wkhtmltopdf --no-print-media-type rulebook.html rulebook.pdf
