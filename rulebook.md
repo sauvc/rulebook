@@ -27,13 +27,7 @@ title: The Singapore AUV Challenge 2018 Rulebook
   }
 </style>
 
-# The Singapore AUV Challenge 2018 Rulebook
-
-<center>Version : 2.01</center>
-<center>Updated : 1st Mar 2018</center>
-
-Table of Contents
-=================
+## Table of Contents
 
   * [Objectives](#objectives)
   * [Structure of the Team](#structure-of-the-team)
