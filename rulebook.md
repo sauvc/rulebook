@@ -221,7 +221,7 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Flare            | 150cm high and <span style="color:#E0D000">yellow</span> in color.|
+| 1 | Flare            | 80cm high and <span style="color:#E0D000">yellow</span> in color.|
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/flare.jpg)
