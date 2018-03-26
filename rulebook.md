@@ -34,44 +34,44 @@ year: 2018
 
 ## Table of Contents
 
-  * [Objectives](#objectives)
-  * [Structure of the Team](#structure-of-the-team)
-  * [Video Submission](#video-submission)
-  * [Qualification](#qualification)
-  * [The Arena](#the-arena)
-     * [Starting Zone](#starting-zone)
-  * [Tasks](#tasks)
-     * [1. Navigation](#1.-navigation)
-        * [Points.](#points)
-        * [Specification of props.](#specification-of-props)
-     * [2. Target Acquisition](#2.-target-acquisition)
-        * [Points.](#points-1)
-        * [Specification of props.](#specification-of-props-1)
-     * [3. Target Reacquisition](#3.-target-reacquisition)
-        * [Points.](#points-2)
-        * [Specification of props.](#specification-of-props-2)
-     * [4. Localization](#4.-localization)
-        * [Points.](#points-3)
-        * [Specification of props.](#specification-of-props-3)
-     * [Surfacing](#surfacing)
-     * [Aborting](#aborting)
-     * [Automatic Abort](#automatic-abort)
-     * [Timing Bonus](#timing-bonus)
-     * [Penalties](#penalties)
-  * [Specification of AUV](#specification-of-auv)
-     * [Size](#size)
-     * [Power](#power)
-     * [Safety](#safety)
-     * [Communications](#communications)
-  * [Game Procedure](#game-procedure)
-     * [Sequence of events during the competition](#sequence-of-events-during-the-competition)
-     * [Practice Rounds](#practice-rounds)
-     * [Length of a game](#length-of-a-game)
-     * [Retries](#retries)
-  * [Certificate of Participation](#certificate-of-participation)
-  * [General Restrictions](#general-restrictions)
-  * [Disqualification](#disqualification)
-  * [Others](#others)
+* [Objectives](#objectives)
+* [Structure of the Team](#structure-of-the-team)
+* [Video Submission](#video-submission)
+* [Qualification](#qualification)
+* [The Arena](#the-arena)
+  * [Starting Zone](#starting-zone)
+* [Tasks](#tasks)
+	* [1. Navigation](#1.-navigation)
+	  * [Points.](#points)
+	  * [Specification of props.](#specification-of-props)
+	* [2. Target Acquisition](#2.-target-acquisition)
+	  * [Points.](#points-1)
+	  * [Specification of props.](#specification-of-props-1)
+	* [3. Target Reacquisition](#3.-target-reacquisition)
+	  * [Points.](#points-2)
+	  * [Specification of props.](#specification-of-props-2)
+	* [4. Localization](#4.-localization)
+	  * [Points.](#points-3)
+	  * [Specification of props.](#specification-of-props-3)
+	* [Surfacing](#surfacing)
+	* [Aborting](#aborting)
+	* [Automatic Abort](#automatic-abort)
+	* [Timing Bonus](#timing-bonus)
+	* [Penalties](#penalties)
+* [Specification of AUV](#specification-of-auv)
+	* [Size](#size)
+	* [Power](#power)
+	* [Safety](#safety)
+	* [Communications](#communications)
+* [Game Procedure](#game-procedure)
+	* [Sequence of events during the competition](#sequence-of-events-during-the-competition)
+	* [Practice Rounds](#practice-rounds)
+	* [Length of a game](#length-of-a-game)
+	* [Retries](#retries)
+* [Certificate of Participation](#certificate-of-participation)
+* [General Restrictions](#general-restrictions)
+* [Disqualification](#disqualification)
+* [Others](#others)
 
 ## Objectives
 
@@ -293,9 +293,9 @@ Here are some examples scenarios and how they would be scored.
 
 #### Example 2
 
- - Team launches AUV from starting zone.
- - AUV crosses the gate and completes the Navigation task.
- - AUV can't find the location of the next task and has to aborted and retreived by divers.
+- Team launches AUV from starting zone.
+- AUV crosses the gate and completes the Navigation task.
+- AUV can't find the location of the next task and has to aborted and retrieved by divers.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
@@ -305,10 +305,10 @@ Here are some examples scenarios and how they would be scored.
 
 #### Example 3
 
- - Team launches AUV from starting zone.
- - AUV crosses the gate and completes the Navigation task.
- - AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>, but touches the side of the wall momentarily while looking for the drum.
- - AUV tries to find the flare, but can't find it and has to be aborted and retreived by divers.
+- Team launches AUV from starting zone.
+- AUV crosses the gate and completes the Navigation task.
+- AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>, but touches the side of the wall momentarily while looking for the drum.
+- AUV tries to find the flare, but can't find it and has to be aborted and retrieved by divers.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
@@ -320,11 +320,11 @@ Here are some examples scenarios and how they would be scored.
 
 #### Example 3
 
- - Team launches AUV from starting zone.
- - AUV crosses the gate and completes the Navigation task.
- - AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
- - AUV locates the flare and knocks off the golf ball.
- - AUV surfaces with run time of 400 seconds.
+- Team launches AUV from starting zone.
+- AUV crosses the gate and completes the Navigation task.
+- AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
+- AUV locates the flare and knocks off the golf ball.
+- AUV surfaces with run time of 400 seconds.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
@@ -337,11 +337,11 @@ Here are some examples scenarios and how they would be scored.
 
 #### Example 4
 
- - Team launches AUV from starting zone.
- - AUV crosses the gate and completes the Navigation task.
- - AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
- - AUV locates the flare and knocks off the golf ball.
- - AUV touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.
+- Team launches AUV from starting zone.
+- AUV crosses the gate and completes the Navigation task.
+- AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
+- AUV locates the flare and knocks off the golf ball.
+- AUV touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
