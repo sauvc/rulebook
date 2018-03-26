@@ -128,7 +128,7 @@ If the AUV successfully passes through the gate,<span class="info">10 Points</sp
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Gate             | 150cm wide and 150cm high gate with <span style="color:red">red</span> and <span style="color:green">green</span> markings on port and starboard sides respectively.
+| 1 | Gate             | 150cm wide and 150cm high gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
 <p class="image-caption"> Figure 8. Front-view of the gate.</p>
@@ -136,19 +136,19 @@ If the AUV successfully passes through the gate,<span class="info">10 Points</sp
 ### 2. Target Acquisition
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
-A target zone is defined by a <span style="color:green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 3. shows the location of the mat with respect to the arena.
+A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 3. shows the location of the mat with respect to the arena.
 
-There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span style="color:blue">blue</span> in color, while the rest are <span style="color:red">red</span> in color. One of the <span style="color:red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
+There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span class="indicate-blue">blue</span> in color, while the rest are <span class="indicate-red">red</span> in color. One of the <span class="indicate-red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
 
-The location of the <span style="color:red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums. The order of the drums and location of the pinger will be decided by the organizing committee.
+The location of the <span class="indicate-red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums. The order of the drums and location of the pinger will be decided by the organizing committee.
 
 #### Points.
 
 Points will be awarded as follows.
 
-- Drop the ball in the <span style="color:blue">blue drum</span>: <span class="info">30 Points</span>
-- Drop the ball in the <span style="color:red">red drum</span> with the pinger: <span class="info">50 Points</span>
-- Dropping the ball in any other <span style="color:red">red drum</span>: <span class="info">10 Points</span>
+- Drop the ball in the <span class="indicate-blue">blue drum</span>: <span class="info">30 Points</span>
+- Drop the ball in the <span class="indicate-red">red drum</span> with the pinger: <span class="info">50 Points</span>
+- Dropping the ball in any other <span class="indicate-red">red drum</span>: <span class="info">10 Points</span>
 
 #### Specification of props.
 
@@ -182,11 +182,11 @@ If the AUV successfully picks up the ball and holds on to it till the <span clas
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Target zone      | <span style="color:green">Green</span> mat 8m x 2m in size.|
+| 1 | Target zone      | <span class="indicate-green">Green</span> mat 8m x 2m in size.|
 | 2 | Ball             | Same ball used in target acquisition task. Provided by the teams.|
 
 ### 4. Localization
-The aim of this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball on the flare to drop out. The flare will be <span style="color:#E0D000">yellow</span> in color.
+The aim of this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball on the flare to drop out. The flare will be <span class="indicate-yellow">yellow</span> in color.
 
 #### Points.
 
@@ -196,7 +196,7 @@ If the AUV successfully causes the ball to drop from the flare, <span class="inf
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Flare            | 80cm high and <span style="color:#E0D000">yellow</span> in color.|
+| 1 | Flare            | 80cm high and <span class="indicate-yellow">yellow</span> in color.|
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/flare.jpg)
@@ -272,7 +272,7 @@ Here are some examples scenarios and how they would be scored.
 
 - Team launches AUV from starting zone.
 - AUV crosses the gate and completes the Navigation task.
-- AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>, but touches the side of the wall momentarily while looking for the drum.
+- AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>, but touches the side of the wall momentarily while looking for the drum.
 - AUV tries to find the flare, but can't find it and has to be aborted and retrieved by divers.
 
 |   |                 Task                    |     Points     |
@@ -287,7 +287,7 @@ Here are some examples scenarios and how they would be scored.
 
 - Team launches AUV from starting zone.
 - AUV crosses the gate and completes the Navigation task.
-- AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
+- AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>.
 - AUV locates the flare and knocks off the golf ball.
 - AUV surfaces with run time of 400 seconds.
 
@@ -304,7 +304,7 @@ Here are some examples scenarios and how they would be scored.
 
 - Team launches AUV from starting zone.
 - AUV crosses the gate and completes the Navigation task.
-- AUV find the drums and successfully drops the ball in the <span style="color:blue">blue drum</span>.
+- AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>.
 - AUV locates the flare and knocks off the golf ball.
 - AUV touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.
 
