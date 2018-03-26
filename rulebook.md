@@ -5,10 +5,6 @@ year: 2018
 ---
 
 <style>
-	.caption {
-		text-align:center
-	}
-
   .points {
     text-decoration:underline;
     color: #21a796;
@@ -78,14 +74,14 @@ year: 2018
 The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
 
 ![arena](img/sauvc-2017.jpg)
-<div class="caption"> The SAUVC 2017 Participants.</div>
+<p class="image-caption"> The SAUVC 2017 Participants.</p>
 
 ## Structure of the Team
 
 A team may consist of up to **8 participants** and up to **3 faculty co-supervisors**. At least half of the participants must be students at the time of registration.
 
 ![arena](img/team.jpg)
-<div class="caption"> Figure 1. One of the teams with faculty co-supervisors from the 2017 Competition.</div>
+<p class="image-caption"> Figure 1. One of the teams with faculty co-supervisors from the 2017 Competition.</p>
 
 ## Video Submission
 
@@ -109,26 +105,26 @@ The organizers reserve the right to publish the video submissions after the comp
 - The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
 ![flare](img/qualification.jpg)
-<div class="caption"> Figure 2. A team attempting qualification in the 2017 Competition.</div>
+<p class="image-caption"> Figure 2. A team attempting qualification in the 2017 Competition.</p>
 
 ## The Arena
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
 ![arena](img/arena.jpg)
-<div class="caption"> Figure 3. Top-view of the Arena. </div>
+<p class="image-caption"> Figure 3. Top-view of the Arena. </p>
 
 ![arena](img/arena-2017.jpg)
-<div class="caption"> Figure 4. Picture of the Arena from 2017 Competition.</div>
+<p class="image-caption"> Figure 4. Picture of the Arena from 2017 Competition.</p>
 
 ![arena](img/arena-2-2017.jpg)
-<div class="caption"> Figure 5. Picture of the Arena from 2017 Competition.</div>
+<p class="image-caption"> Figure 5. Picture of the Arena from 2017 Competition.</p>
 
 ### Starting Zone
 The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
 ![arena](img/starting-zone-2017.jpg)
-<div class="caption"> Figure 6. Picture of the Starting Zone from 2017 Competition.</div>
+<p class="image-caption"> Figure 6. Picture of the Starting Zone from 2017 Competition.</p>
 
 ## Tasks
 There are 4 tasks in the challenge:
@@ -144,7 +140,7 @@ The first task, Navigation, is mandatory and **must be completed** before attemp
 The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 3. The AUV has to swim through the 150 cm high gate without touching the gate.
 
 ![flare](img/gate-2016.jpg)
-<div class="caption"> Figure 7. Picture of the gate from 2016 Competition.</div>
+<p class="image-caption"> Figure 7. Picture of the gate from 2016 Competition.</p>
 
 #### Points.
 
@@ -157,7 +153,7 @@ If the AUV successfully passes through the gate,<span class="points"><strong>10 
 | 1 | Gate             | 150cm wide and 150cm high gate with <span style="color:red">red</span> and <span style="color:green">green</span> markings on port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
-<div class="caption"> Figure 8. Front-view of the gate. </div>
+<p class="image-caption"> Figure 8. Front-view of the gate.</p>
 
 ### 2. Target Acquisition
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
@@ -185,10 +181,10 @@ Points will be awarded as follows.
 | 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
-<div class="caption"> Figure 9. Picture target zone and drums from the 2017 Competition.</div>
+<p class="image-caption"> Figure 9. Picture target zone and drums from the 2017 Competition.</p>
 
 ![pinger](img/pinger.jpg)
-<div class="caption"> Figure 10. Picture of a 45kHz pinger.</div>
+<p class="image-caption"> Figure 10. Picture of a 45kHz pinger.</p>
 
 
 ### 3. Target Reacquisition
@@ -226,13 +222,13 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/flare.jpg)
-<div class="caption"> Figure 11. Side-view of the flare. </div>
+<p class="image-caption"> Figure 11. Side-view of the flare. </p>
 
 ![flare](img/flare-2-2016.jpg)
-<div class="caption"> Figure 12. Picture of the flare from 2016 Competition.</div>
+<p class="image-caption"> Figure 12. Picture of the flare from 2016 Competition.</p>
 
 ![flare](img/flare-2016.jpg)
-<div class="caption"> Figure 13. Picture of the flare from 2016 Competition.</div>
+<p class="image-caption"> Figure 13. Picture of the flare from 2016 Competition.</p>
 
 ### Surfacing
 
@@ -364,7 +360,7 @@ Here are some examples scenarios and how they would be scored.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
 ![flare](img/killswitch.jpg)
-<div class="caption"> Figure 14. Example a kill switch on an AUV from 2015 Competition.</div>
+<p class="image-caption"> Figure 14. Example a kill switch on an AUV from 2015 Competition.</p>
 
 
 ### Communications
