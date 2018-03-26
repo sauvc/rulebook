@@ -4,28 +4,6 @@ last_updated_date: 9 March 2018
 year: 2018
 ---
 
-<style>
-  .points {
-    text-decoration:underline;
-    color: #21a796;
-  }
-
-  .end {
-    text-decoration:underline ;
-    color: #35b720 ;
-  }
-
-  .abort {
-    text-decoration:underline;
-    color: #bd1717;
-  }
-
-  .role{
-    font-weight: 600;
-    color: #0139b1;
-  }
-</style>
-
 <h1 class="print-only">The Singapore AUV Challenge 2018 Rulebook</h1>
 
 ## Table of Contents
@@ -134,7 +112,7 @@ There are 4 tasks in the challenge:
 1. [Target Reacquisition](#3.-target-reacquisition)
 1. [Localization](#4.-localization)
 
-The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="end"><em>end of attempt</em></span>.
+The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="emphasis">end of attempt</span>.
 
 ### 1. Navigation
 The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 3. The AUV has to swim through the 150 cm high gate without touching the gate.
@@ -144,7 +122,7 @@ The aim of the this task is to swim through a gate in water. The gate may be loc
 
 #### Points.
 
-If the AUV successfully passes through the gate,<span class="points"><strong>10 Points</strong></span> will be awarded.
+If the AUV successfully passes through the gate,<span class="info">10 Points</span> will be awarded.
 
 #### Specification of props.
 
@@ -168,9 +146,9 @@ The location of the <span style="color:red">red drum</span> which contains the a
 
 Points will be awarded as follows.
 
-- Drop the ball in the <span style="color:blue">blue drum</span>: <span class="points"><strong>30 Points</strong></span>
-- Drop the ball in the <span style="color:red">red drum</span> with the pinger: <span class="points"><strong>50 Points</strong></span>
-- Dropping the ball in any other <span style="color:red">red drum</span>: <span class="points"><strong>10 Points</strong></span>
+- Drop the ball in the <span style="color:blue">blue drum</span>: <span class="info">30 Points</span>
+- Drop the ball in the <span style="color:red">red drum</span> with the pinger: <span class="info">50 Points</span>
+- Dropping the ball in any other <span style="color:red">red drum</span>: <span class="info">10 Points</span>
 
 #### Specification of props.
 
@@ -192,13 +170,13 @@ The aim of this task is to reacquire a previously detected target.
 
 This task is only attemptable if the [Target Acquisition](#2.-target-acquisition) has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
 
-After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the [Target Acquisition](#2.-target-acquisition) task. The AUV has to hold on to the ball till the <span class="end"><em>end of attempt</em></span> to successfully complete this task.
+After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the [Target Acquisition](#2.-target-acquisition) task. The AUV has to hold on to the ball till the <span class="emphasis">end of attempt</span> to successfully complete this task.
 
 This task does not have to be attempted immediately after Target Acquisition task, other tasks may be attempted in between.
 
 #### Points.
 
-If the AUV successfully picks up the ball and holds on to it till the <span class="end"><em>end of the attempt</em></span>, <span class="points"><strong>60 Points</strong></span> will be awarded.
+If the AUV successfully picks up the ball and holds on to it till the <span class="emphasis">end of the attempt</span>, <span class="info">60 Points</span> will be awarded.
 
 #### Specification of props.
 
@@ -212,7 +190,7 @@ The aim of this task is to localize on a flare. The flare is marked with an acou
 
 #### Points.
 
-If the AUV successfully causes the ball to drop from the flare, <span class="points"><strong>40 Points</strong></span> will be awarded.
+If the AUV successfully causes the ball to drop from the flare, <span class="info">40 Points</span> will be awarded.
 
 #### Specification of props.
 
@@ -232,21 +210,21 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 
 ### Surfacing
 
-Breaching the surface any point during the mission causes <span class="end"><em>end of the current attempt</em></span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="points"><strong>5 Points</strong></span> bonus for ending. The team may wish to retry if they still have time left.
+Breaching the surface any point during the mission causes <span class="emphasis">end of the current attempt</span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="info">5 Points</span> bonus for ending. The team may wish to retry if they still have time left.
 
 ### Aborting
-At any time during the mission, current attempt can be <span class="abort"><em>aborted</em></span>, by indicating to the <span class="role">Game Master</span>. The divers would then retrieve the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
+At any time during the mission, current attempt can be <span class="important">aborted</span>, by indicating to the <span class="inverse">Game Master</span>. The divers would then retrieve the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
 
 In the case of an aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the current attempt.
 
 ### Automatic Abort
-If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds or 5 discrete touches**, the current attempt would be automatically <span class="abort"><em>aborted</em></span>. The divers would then retrieve the AUV back to the starting zone. The team may wish to retry if they still have time left.
+If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds or 5 discrete touches**, the current attempt would be automatically <span class="important">aborted</span>. The divers would then retrieve the AUV back to the starting zone. The team may wish to retry if they still have time left.
 
 In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt.
 
 ### Timing Bonus
 
-At the <span class="end"><em>end of an attempt</em></span>, as long as the AUV has successfully completed at least **2 tasks**, the Navigation task and any other task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
+At the <span class="emphasis">end of an attempt</span>, as long as the AUV has successfully completed at least **2 tasks**, the Navigation task and any other task, bonus points proportional to the remaining time will be awarded in accordance with the following formula.
 
 `Bonus points = (900 - RUN_TIME) • 0.03`
 
@@ -341,9 +319,9 @@ Here are some examples scenarios and how they would be scored.
 
 ### Size
 - The AUV must fit within a 140 × 100 × 100 cm box.
-- An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus <span class="points"><strong>10 points</strong></span>.
+- An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus <span class="info">10 points</span>.
 - The AUV must not weigh more than 50 kg in air.
-- An AUV weighing less than 40 kg in air will be given bonus <span class="points"><strong>10 points</strong></span>.
+- An AUV weighing less than 40 kg in air will be given bonus <span class="info">10 points</span>.
 
 ### Power
 - Power must be self contained.
@@ -384,7 +362,7 @@ Here are some examples scenarios and how they would be scored.
 - Each team is given **15 minutes** to complete the tasks.
 - In any of the following cases, the game ends immediately.
   - Disqualification is announced in the game.
-  - When the <span class="role">Judges</span> determine that the game cannot continue.
+  - When the <span class="inverse">Judges</span> determine that the game cannot continue.
 - Setting up of AUV
   - Five minutes is given for setting up the AUV before the game starts.
   - No more than two members of respective teams can engage in setting up of their AUV at the poolside.
@@ -395,7 +373,7 @@ Here are some examples scenarios and how they would be scored.
   - The AUV must start its maneuver only after it has **completely submerged** in the water.
 
 ### Retries
-- A retry attempt can be made only after the <span class="role">Judges'</span> permission.
+- A retry attempt can be made only after the <span class="inverse">Judges'</span> permission.
 - The AUV will be passed to the two designated team members standing beside the pool by the divers.
 - A retry would mean that the AUV starts from the start zone with 0 points.
 - A maximum of 15 minutes is allowed including all the retries.
@@ -413,7 +391,7 @@ Here are some examples scenarios and how they would be scored.
 - Team members may not disturb the water surface once the game starts.
 - Members of other teams are not allowed in the game area.
 - Nobody is allowed to wear any footwear near the pool area.
-- The <span class="role">Judges</span> may suspend the challenge if weather turns unfavorable.
+- The <span class="inverse">Judges</span> may suspend the challenge if weather turns unfavorable.
 - The pool area must be evacuated in case of lightning.
 
 ## Disqualification
@@ -422,11 +400,11 @@ Here are some examples scenarios and how they would be scored.
 - Battery leak causing the pollution of pool.
 - The AUV damages or tries to damage the field, facilities or equipments.
 - The team performs any acts that are not in the spirit of fair play.
-- The team fails to obey instructions or warnings issued by the <span class="role">Judges</span> or <span class="role">Game Master</span>.
+- The team fails to obey instructions or warnings issued by the <span class="inverse">Judges</span> or <span class="inverse">Game Master</span>.
 - If the team does not abide by the the general restrictions.
 
 ## Others
 
-- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="role">Judges</span>.
+- The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="inverse">Judges</span>.
 - The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
-- The <span class="role">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
+- The <span class="inverse">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
