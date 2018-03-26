@@ -30,6 +30,8 @@ year: 2018
   }
 </style>
 
+<h1 class="print-only">The Singapore AUV Challenge 2018 Rulebook</h1>
+
 ## Table of Contents
 
   * [Objectives](#objectives)

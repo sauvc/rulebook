@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>{{title}}</title>
     <link rel="stylesheet" href="https://sauvc.org/css/style.css"/>
+    <style>
+      @media screen {
+        .print-only {
+          display: none;
+        }
+      }
+      @media print {
+        .print-only{}
+      }
+    </style>
   </head>
   <body>
     <nav class="nav">
