@@ -118,12 +118,8 @@ The challenge will be held in an olympic sized swimming pool (50m x 25m).
 ![arena](img/arena.jpg)
 <div class="caption"> Figure 3. Top-view of the Arena. </div>
 
-<br>
-
 ![arena](img/arena-2017.jpg)
 <div class="caption"> Figure 4. Picture of the Arena from 2017 Competition.</div>
-
-<br>
 
 ![arena](img/arena-2-2017.jpg)
 <div class="caption"> Figure 5. Picture of the Arena from 2017 Competition.</div>
@@ -190,7 +186,7 @@ Points will be awarded as follows.
 
 ![flare](img/drums-2017.jpg)
 <div class="caption"> Figure 9. Picture target zone and drums from the 2017 Competition.</div>
-<br>
+
 ![pinger](img/pinger.jpg)
 <div class="caption"> Figure 10. Picture of a 45kHz pinger.</div>
 
@@ -232,16 +228,11 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 ![flare](img/flare.jpg)
 <div class="caption"> Figure 11. Side-view of the flare. </div>
 
-<br>
-
 ![flare](img/flare-2-2016.jpg)
 <div class="caption"> Figure 12. Picture of the flare from 2016 Competition.</div>
 
-<br>
-
 ![flare](img/flare-2016.jpg)
 <div class="caption"> Figure 13. Picture of the flare from 2016 Competition.</div>
-
 
 ### Surfacing
 
@@ -280,9 +271,9 @@ Here are some examples scenarios and how they would be scored.
 
 #### Example 1
 
- - Team launches AUV from starting zone.
- - AUV crosses the gate and completes the Navigation task, but touches the side of the gate while passing through.
- - AUV can't find the location next task and ends the mission by rising to the surface.
+- Team launches AUV from starting zone.
+- AUV crosses the gate and completes the Navigation task, but touches the side of the gate while passing through.
+- AUV can't find the location next task and ends the mission by rising to the surface.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
