@@ -97,7 +97,7 @@ All teams have to submit a video of their AUV prior to the competition. The vide
 
 Videos will be reviewed by the organizing committee and **only teams with accepted videos be allowed to attend the competition**.
 
-The origanisers reserve the right to publish the video submissions after the competition.
+The organizers reserve the right to publish the video submissions after the competition.
 
 ## Qualification
 
@@ -248,12 +248,12 @@ If the AUV successfully causes the ball to drop from the flare, <span class="poi
 Breaching the surface any point during the mission causes <span class="end"><em>end of the current attempt</em></span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="points"><strong>5 Points</strong></span> bonus for ending. The team may wish to retry if they still have time left.
 
 ### Aborting
-At any time during the mission, current attempt can be <span class="abort"><em>aborted</em></span>, by indicating to the <span class="role">Game Master</span>. The divers would then retreive the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
+At any time during the mission, current attempt can be <span class="abort"><em>aborted</em></span>, by indicating to the <span class="role">Game Master</span>. The divers would then retrieve the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
 
 In the case of an aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the current attempt.
 
 ### Automatic Abort
-If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds or 5 discrete touches**, the current attempt would be automatically <span class="abort"><em>aborted</em></span>. The divers would then retreive the AUV back to the starting zone. The team may wish to retry if they still have time left.
+If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds or 5 discrete touches**, the current attempt would be automatically <span class="abort"><em>aborted</em></span>. The divers would then retrieve the AUV back to the starting zone. The team may wish to retry if they still have time left.
 
 In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt.
 
@@ -329,7 +329,7 @@ Here are some examples scenarios and how they would be scored.
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
 | 1 | Navigation Task                         |        10      |
-| 2 | Target Acquisation Task (Visual)        |        30      |
+| 2 | Target Acquisition Task (Visual)        |        30      |
 | 3 | Localization Task                       |        40      |
 | 4 | Surface Bonus                           |         5      |
 | 5 | Run time Bonus                          |        15      |
@@ -386,7 +386,7 @@ Here are some examples scenarios and how they would be scored.
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
 - AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
-- Top 15 qualified teams (accroding to fastest qualifying round times) will proceed to the final rounds of competition.
+- Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
 
 ### Practice Rounds
 - Teams will be allowed to practice in the main arena after they successfully complete the qualifying round, subject to availability of time slots and the schedule during the competition.
