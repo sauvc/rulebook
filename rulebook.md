@@ -1,4 +1,7 @@
 title: The Singapore AUV Challenge 2018 Rulebook
+version: 3.0-beta
+last_updated_date: 9 March 2018
+year: 2018
 ---
 
 <style>
