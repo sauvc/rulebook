@@ -1,5 +1,7 @@
 # rulebook
 
+[![Build Status](https://travis-ci.org/sauvc/rulebook.svg?branch=master)](https://travis-ci.org/sauvc/rulebook)
+
 Rules for the Singapore AUV Challenge
 
 ## Development
