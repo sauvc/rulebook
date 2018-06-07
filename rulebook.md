@@ -438,3 +438,9 @@ Here are some examples scenarios and how they would be scored.
 - The legitimacy of any actions not provided in this rulebook will be subject to discretion of the <span class="role">Judges</span>.
 - The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
 - The <span class="role">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
+
+
+## Feedback
+
+- If you spot any errors or inconsistancies in the rulebook, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).
+- If you have any queries or clarifications about the rules, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).
