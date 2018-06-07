@@ -1,10 +1,10 @@
-title: The Singapore AUV Challenge 2018 Rulebook
+title: The Singapore AUV Challenge 2019 Rulebook
 version: 3.0-beta
-last_updated_date: 9 March 2018
-year: 2018
+last_updated_date: 7 June 2018
+year: 2019
 ---
 
-<h1 class="print-only">The Singapore AUV Challenge 2018 Rulebook</h1>
+<h1 class="print-only">The Singapore AUV Challenge 2019 Rulebook</h1>
 
 ## Table of Contents
 
@@ -66,7 +66,7 @@ A team may consist of up to **8 participants** and up to **3 faculty co-supervis
 All teams have to submit a video of their AUV prior to the competition. The video has to
 
 -  be maximum **5 minutes** long,
--  be submitted before February 8, 2018,
+-  be submitted before February 8, 2019,
 -  showcase the AUV swimming underwater for at least **10 seconds**.
 
 Videos will be reviewed by the organizing committee and **only teams with accepted videos be allowed to attend the competition**.
