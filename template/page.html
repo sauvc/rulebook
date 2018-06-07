@@ -1,50 +1,42 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="https://sauvc.org/css/style.css"/>
-  </head>
-  <body>
-    <nav class="nav">
-    <ul class="menu">
-      <li><a href="/" class="title"><img src="https://sauvc.org/img/logo_notext.png" class="logo-menu" alt="SAUVC"></a></li>
-      <li><a href="/">Main</a></li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="https://sauvc.org/css/style.css"/>
+  <style>
+    @media screen {
+      .print-only {
+        display: none;
+      }
+    }
+    @media print {
+      .print-only{}
+    }
+  </style>
+</head>
+<body>
+  <div class="hero bubbles">
+    <h3 class="synopsis">The Singapore AUV Challenge {{year}}<br>
+      <strong style="font-size:1.2em;">Rulebook</strong>
+    </h3>
+
+    <ul class="stats">
+      <li>
+        <div class="num">{{version}}</div>
+        <div class="caption">Current Rulebook version</div>
+      </li>
     </ul>
-  </nav>
 
-  <nav class="mobile-menu">
-    <label for="show-menu" class="show-menu">
-      <span class="mobile-title">SAUVC Rulebook</span>
-      <div class="lines"></div>
-    </label>
-    <input type="checkbox" id="show-menu">
-    <ul id="menu">
-      <li><a href="/">Main</a></li>
-    </ul>
-  </nav>
+    <h3 class="welcome">
+      Last updated on<br>
+      <span class="welcome-info">{{last_updated_date}}</span>
+    </h3>
+  </div>
 
-    <div class="hero bubbles">
-      <h3 class="synopsis">The Singapore AUV Challenge 2018<br>
-        <strong style="font-size:1.2em;">Rulebook</strong>
-      </h3>
-
-      <ul class="stats">
-        <li>
-          <div class="num">3.0-beta</div>
-          <div class="caption">Current Rulebook version</div>
-        </li>
-      </ul>
-
-      <h3 class="welcome">
-        Last updated on<br>
-        <span class="welcome-info">9 March 2018</span>
-      </h3>
-    </div>
-
-    <section>
-      {{~> content}}
-    </section>
-  </body>
+  <section>
+    {{~> content}}
+  </section>
+</body>
 </html>
