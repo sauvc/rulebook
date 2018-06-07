@@ -16,17 +16,17 @@ year: 2019
   * [Starting Zone](#starting-zone)
 * [Tasks](#tasks)
 	* [1. Navigation](#1.-navigation)
-	  * [Points.](#points)
-	  * [Specification of props.](#specification-of-props)
+	  * [Points](#points)
+	  * [Specification of props](#specification-of-props)
 	* [2. Target Acquisition](#2.-target-acquisition)
-	  * [Points.](#points-1)
-	  * [Specification of props.](#specification-of-props-1)
+	  * [Points](#points-1)
+	  * [Specification of props](#specification-of-props-1)
 	* [3. Target Reacquisition](#3.-target-reacquisition)
-	  * [Points.](#points-2)
-	  * [Specification of props.](#specification-of-props-2)
+	  * [Points](#points-2)
+	  * [Specification of props](#specification-of-props-2)
 	* [4. Localization](#4.-localization)
-	  * [Points.](#points-3)
-	  * [Specification of props.](#specification-of-props-3)
+	  * [Points](#points-3)
+	  * [Specification of props](#specification-of-props-3)
 	* [Surfacing](#surfacing)
 	* [Aborting](#aborting)
 	* [Automatic Abort](#automatic-abort)
@@ -120,11 +120,11 @@ The aim of the this task is to swim through a gate in water. The gate may be loc
 ![flare](img/gate-2016.jpg)
 <p class="image-caption"> Figure 7. Picture of the gate from 2016 Competition.</p>
 
-#### Points.
+#### Points
 
 If the AUV successfully passes through the gate,<span class="info">10 Points</span> will be awarded.
 
-#### Specification of props.
+#### Specification of props
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
@@ -142,7 +142,7 @@ There are 4 colored drums in the arena. All of them are on the mat. One of the d
 
 The location of the <span class="indicate-red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums. The order of the drums and location of the pinger will be decided by the organizing committee.
 
-#### Points.
+#### Points
 
 Points will be awarded as follows.
 
@@ -150,7 +150,7 @@ Points will be awarded as follows.
 - Drop the ball in the <span class="indicate-red">red drum</span> with the pinger: <span class="info">50 Points</span>
 - Dropping the ball in any other <span class="indicate-red">red drum</span>: <span class="info">10 Points</span>
 
-#### Specification of props.
+#### Specification of props
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
@@ -174,11 +174,11 @@ After the AUV is outside the target zone, it needs to reacquire the target and p
 
 This task does not have to be attempted immediately after Target Acquisition task, other tasks may be attempted in between.
 
-#### Points.
+#### Points
 
 If the AUV successfully picks up the ball and holds on to it till the <span class="emphasis">end of the attempt</span>, <span class="info">60 Points</span> will be awarded.
 
-#### Specification of props.
+#### Specification of props
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
@@ -188,11 +188,11 @@ If the AUV successfully picks up the ball and holds on to it till the <span clas
 ### 4. Localization
 The aim of this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball on the flare to drop out. The flare will be <span class="indicate-yellow">yellow</span> in color.
 
-#### Points.
+#### Points
 
 If the AUV successfully causes the ball to drop from the flare, <span class="info">40 Points</span> will be awarded.
 
-#### Specification of props.
+#### Specification of props
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
@@ -375,7 +375,7 @@ Here are some examples scenarios and how they would be scored.
 ### Retries
 - A retry attempt can be made only after the <span class="inverse">Judges'</span> permission.
 - The AUV will be passed to the two designated team members standing beside the pool by the divers.
-- A retry would mean that the AUV starts from the start zone with 0 points.
+- A retry would mean that the AUV starts from the start zone with 0 points
 - A maximum of 15 minutes is allowed including all the retries.
 - The attempt with the highest score (including retries) will be considered for final scoring.
 
