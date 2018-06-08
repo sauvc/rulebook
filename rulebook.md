@@ -409,6 +409,6 @@ Here are some examples scenarios and how they would be scored.
 - The dimensions, weights, etc. of the field, facilities and equipments stated in this rulebook have a margin of error of ±5% unless otherwise stated. However the dimensions and weights of the AUVs as stated in the rule book are the maximum and cannot be deviated.
 - The <span class="inverse">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
 
+## Feedback
 
-
-<p>If you spot any errors/inconsistancies in the rulebook or have queries/clarifications about the rules, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).</p>
+If you spot any errors in the rulebook or have queries about the rules, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).
