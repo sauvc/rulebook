@@ -1,4 +1,4 @@
-title: The Singapore AUV Challenge 2019 Rulebook
+stitle: The Singapore AUV Challenge 2019 Rulebook
 version: 3.0-beta
 last_updated_date: 7 June 2018
 year: 2019
@@ -410,7 +410,5 @@ Here are some examples scenarios and how they would be scored.
 - The <span class="inverse">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.
 
 
-## Feedback
 
-- If you spot any errors or inconsistancies in the rulebook, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).
-- If you have any queries or clarifications about the rules, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).
+<p>If you spot any errors/inconsistancies in the rulebook or have queries/clarifications about the rules, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).</p>
