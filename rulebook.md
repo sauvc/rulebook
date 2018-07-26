@@ -1,6 +1,6 @@
 stitle: The Singapore AUV Challenge 2019 Rulebook
-version: 3.0-beta
-last_updated_date: 7 June 2018
+version: "3.0"
+last_updated_date: 26 July 2018
 year: 2019
 ---
 
@@ -56,7 +56,7 @@ The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) whic
 
 ## Structure of the Team
 
-A team may consist of up to **8 participants** and up to **3 faculty co-supervisors**. At least half of the participants must be students at the time of registration.
+A team may consist of up to **11 participants** including **faculty supervisors**. At least half of the participants must be non-professionals (students, hobbyists, hackerspace members, etc) at the time of registration.
 
 ![arena](img/team.jpg)
 <p class="image-caption"> Figure 1. One of the teams with faculty co-supervisors from the 2017 Competition.</p>
@@ -68,6 +68,7 @@ All teams have to submit a video of their AUV prior to the competition. The vide
 -  be maximum **5 minutes** long,
 -  be submitted before February 8, 2019,
 -  showcase the AUV swimming underwater for at least **10 seconds**.
+-  showcase the **operation and safety** of the [Kill Switch](#safety).
 
 Videos will be reviewed by the organizing committee and **only teams with accepted videos be allowed to attend the competition**.
 
@@ -76,7 +77,8 @@ The organizers reserve the right to publish the video submissions after the comp
 ## Qualification
 
 - AUVs have to pass a qualifying round before they can participate in the main arena.
-- To qualify, an AUV has to swim between two markers separated by **10 meters** and without surfacing or touching the bottom/wall.
+- To qualify, an AUV has to swim from **qualification starting line** and pass through the **qualification gate** without surfacing, touching the bottom/wall or the qualification gate.
+- The time taken for the **last part** of the AUV to pass through the **qualification gate** will be counted towards the qualification time.
 - Teams will be allocated a time slot for the qualification round. Teams may attempt multiple qualifying runs during the qualifying slot.
 - If multiple qualifying runs are attempted during the qualifying slot, the fastest successful run will be considered for the final round.
 - **Only the top 15** qualified teams, with the fastest time for the qualifying round, will advance to the final round.
@@ -98,11 +100,27 @@ The challenge will be held in an olympic sized swimming pool (50m x 25m).
 ![arena](img/arena-2-2017.jpg)
 <p class="image-caption"> Figure 5. Picture of the Arena from 2017 Competition.</p>
 
+### Qualification Arena(s)
+The qualification rounds would be held on the side of the main arena.
+
+The qualification starting line is a marked 1m wide section of the pool wall from where the AUV should be deployed from. The AUV **has to touch the wall** at the begining of the run.
+
+At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate to qualify.
+
+#### Specification of props
+
+|   |       Prop           |              Description                |
+|---|:--------------------:|:---------------------------------------:|
+| 1 | Qualification Gate   | 150cm wide and ~100cm deep gate hanging from the water surface with <span class="indicate-orange">orange</span> markings on both port and starboard sides.
+
+![flare](img/qualification-gate.jpg)
+<p class="image-caption"> Figure 6. Front-view of the qualification gate.</p>
+
 ### Starting Zone
 The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
 ![arena](img/starting-zone-2017.jpg)
-<p class="image-caption"> Figure 6. Picture of the Starting Zone from 2017 Competition.</p>
+<p class="image-caption"> Figure 7. Picture of the Starting Zone from 2017 Competition.</p>
 
 ## Tasks
 There are 4 tasks in the challenge:
@@ -115,10 +133,10 @@ There are 4 tasks in the challenge:
 The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="emphasis">end of attempt</span>.
 
 ### 1. Navigation
-The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 3. The AUV has to swim through the 150 cm high gate without touching the gate.
+The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 4. The AUV has to swim through the 150 cm high gate without touching the gate.
 
 ![flare](img/gate-2016.jpg)
-<p class="image-caption"> Figure 7. Picture of the gate from 2016 Competition.</p>
+<p class="image-caption"> Figure 8. Picture of the gate from 2016 Competition.</p>
 
 #### Points
 
@@ -131,12 +149,12 @@ If the AUV successfully passes through the gate,<span class="info">10 Points</sp
 | 1 | Gate             | 150cm wide and 150cm high gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively.
 
 ![flare](img/gate.jpg)
-<p class="image-caption"> Figure 8. Front-view of the gate.</p>
+<p class="image-caption"> Figure 9. Front-view of the gate.</p>
 
 ### 2. Target Acquisition
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
-A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 3. shows the location of the mat with respect to the arena.
+A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 4. shows the location of the mat with respect to the arena.
 
 There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span class="indicate-blue">blue</span> in color, while the rest are <span class="indicate-red">red</span> in color. One of the <span class="indicate-red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
 
@@ -159,10 +177,10 @@ Points will be awarded as follows.
 | 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
-<p class="image-caption"> Figure 9. Picture target zone and drums from the 2017 Competition.</p>
+<p class="image-caption"> Figure 10. Picture target zone and drums from the 2017 Competition.</p>
 
 ![pinger](img/pinger.jpg)
-<p class="image-caption"> Figure 10. Picture of a 45kHz pinger.</p>
+<p class="image-caption"> Figure 11. Picture of a 45kHz pinger.</p>
 
 
 ### 3. Target Reacquisition
@@ -200,13 +218,13 @@ If the AUV successfully causes the ball to drop from the flare, <span class="inf
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/flare.jpg)
-<p class="image-caption"> Figure 11. Side-view of the flare. </p>
+<p class="image-caption"> Figure 12. Side-view of the flare. </p>
 
 ![flare](img/flare-2-2016.jpg)
-<p class="image-caption"> Figure 12. Picture of the flare from 2016 Competition.</p>
+<p class="image-caption"> Figure 13. Picture of the flare from 2016 Competition.</p>
 
 ![flare](img/flare-2016.jpg)
-<p class="image-caption"> Figure 13. Picture of the flare from 2016 Competition.</p>
+<p class="image-caption"> Figure 14. Picture of the flare from 2016 Competition.</p>
 
 ### Surfacing
 
@@ -338,7 +356,7 @@ Here are some examples scenarios and how they would be scored.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
 ![flare](img/killswitch.jpg)
-<p class="image-caption"> Figure 14. Example a kill switch on an AUV from 2015 Competition.</p>
+<p class="image-caption"> Figure 15. Example a kill switch on an AUV from 2015 Competition.</p>
 
 
 ### Communications
