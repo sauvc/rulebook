@@ -49,7 +49,7 @@ year: 2019
 
 ## Objectives
 
-The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time. Also to learn and have fun in the process.
+The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time and at the same time, to learn about underwater robotics and have fun in the process.
 
 ![arena](img/sauvc-2017.jpg)
 <p class="image-caption"> The SAUVC 2017 Participants.</p>
@@ -92,7 +92,7 @@ The organizers reserve the right to publish the video submissions after the comp
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
 ![arena](img/arena.jpg)
-<p class="image-caption"> Figure 3. Top-view of the Arena. </p>
+<p class="image-caption"> Figure 3. Top & side views of the Arena. </p>
 
 ![arena](img/arena-2017.jpg)
 <p class="image-caption"> Figure 4. Picture of the Arena from 2017 Competition.</p>
@@ -133,7 +133,7 @@ There are 4 tasks in the challenge:
 The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="emphasis">end of attempt</span>.
 
 ### 1. Navigation
-The aim of the this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 4. The AUV has to swim through the 150 cm high gate without touching the gate.
+The aim of this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 4. The AUV has to swim through the 150 cm high gate without touching the gate.
 
 ![flare](img/gate-2016.jpg)
 <p class="image-caption"> Figure 8. Picture of the gate from 2016 Competition.</p>
@@ -154,7 +154,7 @@ If the AUV successfully passes through the gate,<span class="info">10 Points</sp
 ### 2. Target Acquisition
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
-A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 4. shows the location of the mat with respect to the arena.
+A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 5. shows the location of the mat with respect to the arena.
 
 There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span class="indicate-blue">blue</span> in color, while the rest are <span class="indicate-red">red</span> in color. One of the <span class="indicate-red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
 
