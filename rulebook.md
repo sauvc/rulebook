@@ -235,6 +235,10 @@ Points would be awarded as follows. If the AUV successfully causes the ball to d
 ![flare](img/flare-2016.jpg)
 <p class="image-caption"> Figure 15. Picture of the yellow flare from 2016 Competition.</p>
 
+### 5. Bonus Task
+
+Details to be announced soon!
+
 ### Surfacing
 
 Breaching the surface any point during the mission causes <span class="emphasis">end of the current attempt</span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="info">5 Points</span> bonus for ending. The team may wish to retry if they still have time left.
@@ -266,10 +270,6 @@ There are penalty points for touching the floor or wall of the pool at any time,
 | 1 | Touching the gate                       |        2       |
 | 2 | Touching the bottom of the pool or wall |        5       |
 
-
-### 5. Bonus Task
-
-Details to be announced soon!
 
 ### Examples
 
