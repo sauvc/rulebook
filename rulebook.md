@@ -91,7 +91,7 @@ The organizers reserve the right to publish the video submissions after the comp
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
-![arena](img/arena.jpg)
+![arena](img/arena-2020.jpg)
 <p class="image-caption"> Figure 3. Top & side views of the Arena. </p>
 
 ![arena](img/arena-2017.jpg)
@@ -149,10 +149,13 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
 | 1 | Gate             | 150cm wide and 150cm high gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
-| 2 | Red Flare        | 100cm long and having ~15cm diameter flare, <span class="indicate-red">red</span> in color. |
+| 2 | Red Flare        | 100cm long and ~15cm diameter flare, and <span class="indicate-red">red</span> in color. |
 
 ![flare](img/gate.jpg)
 <p class="image-caption"> Figure 9. Front-view of the gate.</p>
+
+![flare](img/red-flare.jpg)
+<p class="image-caption"> Figure 10. Front-view of the red flare. </p>
 
 ### 2. Target Acquisition
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
@@ -180,10 +183,10 @@ Points will be awarded as follows.
 | 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
-<p class="image-caption"> Figure 10. Picture target zone and drums from the 2017 Competition.</p>
+<p class="image-caption"> Figure 11. Picture target zone and drums from the 2017 Competition.</p>
 
 ![pinger](img/pinger.jpg)
-<p class="image-caption"> Figure 11. Picture of a 45kHz pinger.</p>
+<p class="image-caption"> Figure 12. Picture of a 45kHz pinger.</p>
 
 
 ### 3. Target Reacquisition
@@ -223,14 +226,14 @@ Points would be awarded as follows. If the AUV successfully causes the ball to d
 | 1 | Yellow Flares    | 80cm high, ~4cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
-![flare](img/flare.jpg)
-<p class="image-caption"> Figure 12. Side-view of the yellow flare. </p>
+![flare](img/yellow-flare.jpg)
+<p class="image-caption"> Figure 13. Side-view of the yellow flare. </p>
 
 ![flare](img/flare-2-2016.jpg)
-<p class="image-caption"> Figure 13. Picture of the yellow flare from 2016 Competition.</p>
+<p class="image-caption"> Figure 14. Picture of the yellow flare from 2016 Competition (with pinger).</p>
 
 ![flare](img/flare-2016.jpg)
-<p class="image-caption"> Figure 14. Picture of the yellow flare from 2016 Competition.</p>
+<p class="image-caption"> Figure 15. Picture of the yellow flare from 2016 Competition.</p>
 
 ### Surfacing
 
@@ -324,7 +327,7 @@ Here are some examples scenarios and how they would be scored.
 |---|:---------------------------------------:|:--------------:|
 | 1 | Navigation Task                         |        10      |
 | 2 | Target Acquisition Task (Visual)        |        30      |
-| 3 | Localization Task                       |        40      |
+| 3 | Localization Task (Acoustic)            |        40      |
 | 4 | Surface Bonus                           |         5      |
 | 5 | Run time Bonus                          |        15      |
 |   | **Attempt Total**                       |        100     |
@@ -341,8 +344,8 @@ Here are some examples scenarios and how they would be scored.
 |---|:---------------------------------------:|:--------------:|
 | 1 | Navigation Task                         |        10      |
 | 2 | Target Acquisation Task (Visual)        |        30      |
-| 3 | Localization Task                       |        40      |
-|   | **Attempt Total**                       |        80      |
+| 3 | Localization Task (Visual)              |        20      |
+|   | **Attempt Total**                       |        60      |
 
 ## Specification of AUV
 
@@ -368,7 +371,7 @@ Here are some examples scenarios and how they would be scored.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
 ![flare](img/killswitch.jpg)
-<p class="image-caption"> Figure 15. Example a kill switch on an AUV from 2015 Competition.</p>
+<p class="image-caption"> Figure 16. Example a kill switch on an AUV from 2015 Competition.</p>
 
 
 ### Communications
