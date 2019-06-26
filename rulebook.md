@@ -1,10 +1,10 @@
-stitle: The Singapore AUV Challenge 2019 Rulebook
-version: "3.1"
-last_updated_date: 29 Sept 2018
-year: 2019
+stitle: The Singapore AUV Challenge 2020 Rulebook
+version: "4.0"
+last_updated_date: 26 June 2019
+year: 2020
 ---
 
-<h1 class="print-only">The Singapore AUV Challenge 2019 Rulebook</h1>
+<h1 class="print-only">The Singapore AUV Challenge 2020 Rulebook</h1>
 
 ## Table of Contents
 
@@ -63,14 +63,14 @@ A team may consist of up to **11 participants** including **faculty supervisors*
 
 ## Video Submission
 
-All teams have to submit a video of their AUV prior to the competition. The video has to
+All teams have to submit a video of their AUV prior to the competition. The video **HAS TO**
 
--  be maximum **5 minutes** long,
--  be submitted before December 31, 2018,
--  showcase the AUV swimming underwater for at least **10 seconds**.
--  showcase the **operation and safety** of the [Kill Switch](#safety).
+-  be maximum **1 minute** long,
+-  be submitted before December 31, 2019,
+-  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
+-  showcase the **operation** of the [Kill Switch](#safety); pressing the Kill Switch should stop all thrusters immediately.
 
-Videos will be reviewed by the organizing committee and **only teams with accepted videos be allowed to attend the competition**.
+Videos will be reviewed by the organizing committee and **30 teams with the best vehicles will be allowed to attend the competition**.
 
 The organizers reserve the right to publish the video submissions after the competition.
 
@@ -130,23 +130,26 @@ There are 4 tasks in the challenge:
 1. [Target Reacquisition](#3.-target-reacquisition)
 1. [Localization](#4.-localization)
 
-The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="emphasis">end of attempt</span>.
+The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="emphasis">end of the attempt</span>.
 
 ### 1. Navigation
-The aim of this task is to swim through a gate in water. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 8m away from the starting point. See Figure 4. The AUV has to swim through the 150 cm high gate without touching the gate.
+The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 12m away from the starting zone. See Figure 4. The AUV has to swim through the 150 cm high gate without touching the gate.
+
+**A red flare** may be located anywhere on a horizontal line approximately 8m from starting zone, before the gate. The AUV **has to avoid** touching the red flare. Any part of the AUV touching the red flare causes an immediate <span class="important">abort</span> of the attempt.
 
 ![flare](img/gate-2016.jpg)
 <p class="image-caption"> Figure 8. Picture of the gate from 2016 Competition.</p>
 
 #### Points
 
-If the AUV successfully passes through the gate,<span class="info">10 Points</span> will be awarded.
+If the AUV successfully passes through the gate,<span class="info">15 Points</span> will be awarded.
 
 #### Specification of props
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Gate             | 150cm wide and 150cm high gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively.
+| 1 | Gate             | 150cm wide and 150cm high gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
+| 2 | Red Flare        | 100cm long and having ~15cm diameter flare, <span class="indicate-red">red</span> in color. |
 
 ![flare](img/gate.jpg)
 <p class="image-caption"> Figure 9. Front-view of the gate.</p>
@@ -186,7 +189,7 @@ Points will be awarded as follows.
 ### 3. Target Reacquisition
 The aim of this task is to reacquire a previously detected target.
 
-This task is only attemptable if the [Target Acquisition](#2.-target-acquisition) has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
+This task is only attempt-able if the [Target Acquisition](#2.-target-acquisition) has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
 
 After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the [Target Acquisition](#2.-target-acquisition) task. The AUV has to hold on to the ball till the <span class="emphasis">end of attempt</span> to successfully complete this task.
 
@@ -204,27 +207,30 @@ If the AUV successfully picks up the ball and holds on to it till the <span clas
 | 2 | Ball             | Same ball used in target acquisition task. Provided by the teams.|
 
 ### 4. Localization
-The aim of this task is to localize on a flare. The flare is marked with an acoustic pinger. This flare could be located **anywhere** within the main arena. The AUV should locate and bump the flare causing the golf ball on the flare to drop out. The flare will be <span class="indicate-yellow">yellow</span> in color.
+The aim of this task is to localize on a yellow flare. There are **two yellow flares** in the arena, only one yellow flare is marked with an acoustic pinger. These flare could be located **anywhere** within the main arena. The AUV should locate and bump a flare causing the golf ball on the flare to drop out. The flares will be <span class="indicate-yellow">yellow</span> in color. Only the **first flare** that is successfully bumped by the AUV is taken into consideration.
 
 #### Points
 
-If the AUV successfully causes the ball to drop from the flare, <span class="info">40 Points</span> will be awarded.
+Points would be awarded as follows. If the AUV successfully causes the ball to drop from :
+
+- flare with the pinger: <span class="info">40 Points</span>
+- flare without the pinger: <span class="info">20 Points</span>
 
 #### Specification of props
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Flare            | 80cm high and <span class="indicate-yellow">yellow</span> in color.|
+| 1 | Yellow Flares    | 80cm high, ~4cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/flare.jpg)
-<p class="image-caption"> Figure 12. Side-view of the flare. </p>
+<p class="image-caption"> Figure 12. Side-view of the yellow flare. </p>
 
 ![flare](img/flare-2-2016.jpg)
-<p class="image-caption"> Figure 13. Picture of the flare from 2016 Competition.</p>
+<p class="image-caption"> Figure 13. Picture of the yellow flare from 2016 Competition.</p>
 
 ![flare](img/flare-2016.jpg)
-<p class="image-caption"> Figure 14. Picture of the flare from 2016 Competition.</p>
+<p class="image-caption"> Figure 14. Picture of the yellow flare from 2016 Competition.</p>
 
 ### Surfacing
 
@@ -256,6 +262,11 @@ There are penalty points for touching the floor or wall of the pool at any time,
 |---|:---------------------------------------:|:--------------:|
 | 1 | Touching the gate                       |        2       |
 | 2 | Touching the bottom of the pool or wall |        5       |
+
+
+### 5. Bonus Task
+
+Details to be announced soon!
 
 ### Examples
 
@@ -349,7 +360,8 @@ Here are some examples scenarios and how they would be scored.
 ### Safety
 - AUVs must not leak and pollute the pool.
 - AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
-- AUVs **must have a kill switch** that turns off the vehicle, which is easily accessible to a diver. This must be marked in bright color.
+- AUVs **must have a kill switch** that turns off the vehicle including thrusters, or any other population mechanism.
+- The kill switch must be **easily accessible** to a diver. This must be marked in bright color.
 - Pressure of any compressed gas used must not exceed **6 bars**.
 - AUV must be completely autonomous.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed.
@@ -414,9 +426,11 @@ Here are some examples scenarios and how they would be scored.
 
 ## Disqualification
 
-- Oil or lubrication leak causing the pollution of pool.
+Teams may be disqualified if :
+
+- Oil or lubrication leaks causing the pollution of pool.
 - Battery leak causing the pollution of pool.
-- The AUV damages or tries to damage the field, facilities or equipments.
+- The AUV damages or tries to damage the arena, facilities or equipment.
 - The team performs any acts that are not in the spirit of fair play.
 - The team fails to obey instructions or warnings issued by the <span class="inverse">Judges</span> or <span class="inverse">Game Master</span>.
 - If the team does not abide by the the general restrictions.
