@@ -3,7 +3,7 @@
 index.html rulebook.pdf: rulebook.md template/page.html
 	# create PDF file
 	generate-md --layout github --input rulebook.md --output .
-	wkhtmltopdf --no-print-media-type rulebook.html rulebook.pdf
+	wkhtmltopdf --disable-smart-shrinking --no-print-media-type rulebook.html rulebook.pdf
 
 	# create web page
 	generate-md --layout template --input rulebook.md --output .
