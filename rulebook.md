@@ -1,10 +1,8 @@
 stitle: The Singapore AUV Challenge 2020 Rulebook
-version: "4.0"
-last_updated_date: 26 June 2019
+version: "4.1"
+last_updated_date: 8 Dec 2019
 year: 2020
 ---
-
-<h1 class="print-only">The Singapore AUV Challenge 2020 Rulebook</h1>
 
 ## Table of Contents
 
@@ -133,7 +131,7 @@ There are 4 tasks in the challenge:
 The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="emphasis">end of the attempt</span>.
 
 ### 1. Navigation
-The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 12m away from the starting zone. See Figure 4. The AUV has to swim through the 150 cm high gate without touching the gate.
+The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 12m away from the starting zone. See Figure 4. The AUV has to swim through the 150 cm tall gate without touching the gate.
 
 **A red flare** may be located anywhere on a horizontal line approximately 8m from starting zone, before the gate. The AUV **has to avoid** touching the red flare. Any part of the AUV touching the red flare causes an immediate <span class="important">abort</span> of the attempt.
 
@@ -148,8 +146,8 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Gate             | 150cm wide and 150cm high gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
-| 2 | Red Flare        | 100cm long and ~15cm diameter flare, and <span class="indicate-red">red</span> in color. |
+| 1 | Gate             | 150cm wide and 150cm tall gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
+| 2 | Red Flare        | 150cm tall and ~15cm diameter flare, and <span class="indicate-red">red</span> in color. |
 
 ![flare](img/gate.jpg)
 <p class="image-caption"> Figure 9. Front-view of the gate.</p>
@@ -223,7 +221,7 @@ Points would be awarded as follows. If the AUV successfully causes the ball to d
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Yellow Flares    | 80cm high, ~4cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
+| 1 | Yellow Flares    | 80cm tall, ~4cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/yellow-flare.jpg)
