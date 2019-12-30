@@ -1,6 +1,6 @@
 stitle: The Singapore AUV Challenge 2020 Rulebook
-version: "4.1"
-last_updated_date: 8 Dec 2019
+version: "4.2"
+last_updated_date: 30 Dec 2019
 year: 2020
 ---
 
@@ -64,7 +64,7 @@ A team may consist of up to **11 participants** including **faculty supervisors*
 All teams have to submit a video of their AUV prior to the competition. The video **HAS TO**
 
 -  be maximum **1 minute** long,
--  be submitted before December 31, 2019,
+-  be submitted before 23:59 December 31, 2019, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
 -  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
 -  showcase the **operation** of the [Kill Switch](#safety); pressing the Kill Switch should stop all thrusters immediately.
 
