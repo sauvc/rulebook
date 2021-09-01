@@ -3,7 +3,7 @@
 index.html rulebook.pdf: rulebook.md template/page.html
 	# create PDF file
 	generate-md --layout template --input rulebook.md --output .
-	wkhtmltopdf --disable-smart-shrinking --no-print-media-type rulebook.html rulebook.pdf
+	wkhtmltopdf --enable-local-file-access --disable-smart-shrinking --no-print-media-type --dpi 300 rulebook.html rulebook.pdf
 
 	# create web page
 	mv rulebook.html index.html
