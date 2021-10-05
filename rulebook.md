@@ -1,7 +1,7 @@
-stitle: The Singapore AUV Challenge 2020 Rulebook
-version: "4.2"
-last_updated_date: 30 Dec 2019
-year: 2020
+stitle: The Singapore AUV Challenge 2022 Rulebook
+version: "4.3"
+last_updated_date: 1 Sep 2021
+year: 2022
 ---
 
 ## Table of Contents
@@ -64,11 +64,11 @@ A team may consist of up to **11 participants** including **faculty supervisors*
 All teams have to submit a video of their AUV prior to the competition. The video **HAS TO**
 
 -  be maximum **1 minute** long,
--  be submitted before 23:59 December 31, 2019, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
+-  be submitted before 23:59 May 15, 2022, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
 -  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
 -  showcase the **operation** of the [Kill Switch](#safety); pressing the Kill Switch should stop all thrusters immediately.
 
-Videos will be reviewed by the organizing committee and **30 teams with the best vehicles will be allowed to attend the competition**.
+Videos will be reviewed by the organizing committee and **30 teams with the best vehicles will be short-listed to attend the competition**.
 
 The organizers reserve the right to publish the video submissions after the competition.
 
@@ -89,7 +89,7 @@ The organizers reserve the right to publish the video submissions after the comp
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
-![arena](img/arena-2020.jpg)
+![arena](img/arena-2021.jpg)
 <p class="image-caption"> Figure 3. Top & side views of the Arena. </p>
 
 ![arena](img/arena-2017.jpg)
@@ -133,7 +133,7 @@ The first task, Navigation, is mandatory and **must be completed** before attemp
 ### 1. Navigation
 The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 12m away from the starting zone. See Figure 4. The AUV has to swim through the 150 cm tall gate without touching the gate.
 
-**A red flare** may be located anywhere on a horizontal line approximately 8m from starting zone, before the gate. The AUV **has to avoid** touching the red flare. Any part of the AUV touching the red flare causes an immediate <span class="important">abort</span> of the attempt.
+**A red flare** may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV **has to avoid** touching the red flare. Any part of the AUV touching the red flare causes an immediate <span class="important">abort</span> of the attempt.
 
 ![flare](img/gate-2016.jpg)
 <p class="image-caption"> Figure 8. Picture of the gate from 2016 Competition.</p>
