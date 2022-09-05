@@ -444,4 +444,4 @@ Teams may be disqualified if :
 
 ## Feedback
 
-If you spot any errors in the rulebook or have queries about the rules, please email auvc.singapore@gmail.com or contact us through [our website](https://sauvc.org/#contact).
+If you spot any errors in the rulebook or have queries about the rules, please email auvc.singapore@outlook.com or contact us through [our website](https://sauvc.org/#contact).
