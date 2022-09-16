@@ -1,6 +1,6 @@
 stitle: The Singapore AUV Challenge 2022 Rulebook
-version: "4.3"
-last_updated_date: 1 Sep 2021
+version: "4.4"
+last_updated_date: 16 Sep 2022
 year: 2022
 ---
 
@@ -89,7 +89,7 @@ The organizers reserve the right to publish the video submissions after the comp
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
-![arena](img/arena-2021.jpg)
+![arena](img/arena-2022.jpg)
 <p class="image-caption"> Figure 3. Top & side views of the Arena. </p>
 
 ![arena](img/arena-2017.jpg)
