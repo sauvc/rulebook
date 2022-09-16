@@ -1,5 +1,5 @@
 stitle: The Singapore AUV Challenge 2022 Rulebook
-version: "4.4"
+version: "4.3.1"
 last_updated_date: 16 Sep 2022
 year: 2022
 ---
