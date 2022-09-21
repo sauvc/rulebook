@@ -1,6 +1,6 @@
 stitle: The Singapore AUV Challenge 2022 Rulebook
-version: "4.3.1"
-last_updated_date: 16 Sep 2022
+version: "4.3.2"
+last_updated_date: 21 Sep 2022
 year: 2022
 ---
 
@@ -221,7 +221,7 @@ Points would be awarded as follows. If the AUV successfully causes the ball to d
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Yellow Flares    | 80cm tall, ~4cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
+| 1 | Yellow Flares    | 80cm tall, ~1.6cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
 | 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/yellow-flare.jpg)
