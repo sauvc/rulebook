@@ -85,25 +85,28 @@ The organizers reserve the right to publish the video submissions after the comp
 ![flare](img/qualification.jpg)
 <p class="image-caption"> Figure 2. A team attempting qualification in the 2017 Competition.</p>
 
+![flare](img/qualification-2022.jpg)
+<p class="image-caption"> Figure 2. Top view of the qualification areanas from the 2022 Competition.</p>
+
 ## The Arena
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
-![arena](img/arena-2022.jpg)
-<p class="image-caption"> Figure 3. Top & side views of the Arena. </p>
+![arena](img/arena-2024.jpg)
+<p class="image-caption"> Figure 3. Top & side views of the Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
 <p class="image-caption"> Figure 4. Picture of the Arena from 2017 Competition.</p>
 
-![arena](img/arena-2-2017.jpg)
-<p class="image-caption"> Figure 5. Picture of the Arena from 2017 Competition.</p>
+![arena](img/arena-top-2022.jpg)
+<p class="image-caption"> Figure 5. Picture of the Arena from 2022 Competition.</p>
 
 ### Qualification Arena(s)
 The qualification rounds would be held on the side of the main arena.
 
 The qualification starting line is a marked 1m wide section of the pool wall from where the AUV should be deployed from. The AUV **has to touch the wall** at the begining of the run.
 
-At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate to qualify. If the AUV touches ANY 3 sides of the qualification gate, the attempt is considered a failure.
+At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate to qualify. If the AUV touches **ANY** of the 3 sides of the qualification gate, the attempt is considered a failure.
 
 #### Specification of props
 
@@ -118,8 +121,8 @@ At approximately 10m from the starting line the qualification gate is hanging fr
 
 The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone. Teams may also place their [communication equipment](#specification-of-auv) in the starting zone.
 
-![arena](img/starting-zone-2017.jpg)
-<p class="image-caption"> Figure 7. Picture of the Starting Zone from 2017 Competition.</p>
+![arena](img/starting-zone-2022.jpg)
+<p class="image-caption"> Figure 7. Picture of the Starting Zone from 2022 Competition.</p>
 
 ## Tasks
 
@@ -138,8 +141,8 @@ The aim of this task is to swim through a gate placed at the bottom of the pool.
 
 **A orange flare** may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV **has to avoid** touching the orange flare. Any part of the AUV touching the orange flare causes an immediate <span class="important">abort</span> of the attempt.
 
-![flare](img/gate-2016.jpg)
-<p class="image-caption"> Figure 8. Picture of the gate from 2016 Competition.</p>
+![flare](img/gate-2022.jpg)
+<p class="image-caption"> Figure 8. Picture of the gate from 2022 Competition.</p>
 
 #### Points
 
@@ -149,14 +152,20 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Gate             | 150cm wide and 150cm tall gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
+| 1 | Gate             | 150cm wide and 150cm tall gate with striped <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
 | 2 | Orange Flare        | 150cm tall and ~15cm diameter flare, and <span class="indicate-orange">red</span> in color. |
 
-![flare](img/gate.jpg)
+![gate](img/gate-2024.jpg)
 <p class="image-caption"> Figure 9. Front-view of the gate.</p>
 
-![flare](img/red-flare.jpg)
+![flare](img/orange-flare.jpg)
 <p class="image-caption"> Figure 10. Front-view of the orange flare. </p>
+
+![flare](img/orange-flare-2022.jpg)
+<p class="image-caption"> Figure 10. Front-view of the orange flare. </p>
+
+![flare](img/gate+flare-2022.jpg)
+<p class="image-caption"> Figure 11. Gate and orange flare from 2022 Competition. </p>
 
 ### 2. Target Acquisition
 
@@ -215,7 +224,7 @@ If the AUV successfully picks up the ball and holds on to it till the <span clas
 
 The aim of this task is to localize on coloured flares and bump them causing a golf ball to drop out. There are **3 coloured flares** in the arena, one **yellow coloured flare**, one **red coloured flare** and one **blue coloured flare**. These flares could be located **anywhere** within the main arena. The AUV should locate and bump a flares in **a specified order** to receive bonus points.
 
-On every attempt, after the AUV successfully completes the _Navigation task_, the team will be informed of the **order** in which the flares have to be bumped. The **specified order** may be different between two attempts. The order will specified using the following notation.
+On every attempt, after the AUV successfully completes the _Navigation task_, the team will be informed of the **order** in which the flares have to be bumped. The **specified order** may be different between different attempts. The order will specified using the following notation.
 
 - Red : **R**
 - Blue : **B**
@@ -240,14 +249,8 @@ Points would be awarded as follows.
 | 1 | Red Flare        | 80cm tall, ~1.6cm in diameter, and <span class="indicate-red">red</span> in color.|
 | 1 | Blue Flare       | 80cm tall, ~1.6cm in diameter, and <span class="indicate-blue">blue</span> in color.|
 
-![flare](img/yellow-flare.jpg)
-<p class="image-caption"> Figure 13. Side-view of the yellow flare. </p>
-
-![flare](img/flare-2-2016.jpg)
-<p class="image-caption"> Figure 14. Picture of the yellow flare from 2016 Competition (with pinger).</p>
-
-![flare](img/flare-2016.jpg)
-<p class="image-caption"> Figure 15. Picture of the yellow flare from 2016 Competition.</p>
+![flare](img/flares-2024.jpg)
+<p class="image-caption"> Figure 13. Side-view of the flares. </p>
 
 ### Surfacing
 
@@ -388,19 +391,20 @@ Here are some examples scenarios and how they would be scored.
 ### Communications
 
 - Untethered communications with the AUV **are allowed** in the main arena.
-- All commuication equipment on the AUV _MUST fit_ within the size limits for the AUV.
-- Any communication equipment (antenna, cable) on the AUV touching any part of the arena will be considered as the AUV touching that part of the arena, including water surface.
-- Teams are allowed to deploy top side communication equipment in the starting zone during the game.
-- Any communication equipment deployed in the starting zone must stay within the starting zone. It may be submered in the water, and can have **a single tether** to the surface.
-- Any communication equipment deployed in the starting zone submered in the water, must not leak and pollute the pool.
-- Any communication equipment deployed in the starting zone must be removed at the end of the game.
+- AUVs can carry their own "underwater" communication equipment.
+- Teams are allowed to deploy "top-side" communication equipment in the starting zone during the game.
+- All "underwater" communication equipment on the AUV _MUST fit_ within the size limits for the AUV.
+- Any "underwater" communication equipment on the AUV is considered a part of the AUV.
+- Any "top-side" communication equipment must stay within the starting zone. It may be submered in the water, and can have **a single tether** to the surface.
+- Any "top-side" communication equipment submered in the water, must not leak and pollute the pool.
+- Any "top-side" communication equipment must be removed at the end of the game.
 
 ## Game Procedure
 
 ### Sequence of events during the competition
 
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
-- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
+- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.f
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
 - Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
 
