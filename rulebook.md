@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2024 Rulebook
 version: "5.0.0"
-last_updated_date: 20 Jul 2023
+last_updated_date: 22 Aug 2023
 year: 2024
 ---
 
@@ -64,7 +64,7 @@ A team may consist of up to **11 participants** including **faculty supervisors*
 All teams have to submit a video of their AUV prior to the competition. The video **HAS TO**
 
 -  be maximum **1 minute** long,
--  be submitted before 23:59 March 31, 2022, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
+-  be submitted before 23:59 January 7th, 2024, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
 -  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
 -  showcase the **operation** of the [Kill Switch](#safety); pressing the Kill Switch should stop all thrusters immediately.
 
