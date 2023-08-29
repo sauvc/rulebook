@@ -1,49 +1,61 @@
-stitle: The Singapore AUV Challenge 2022 Rulebook
-version: "4.3.2"
-last_updated_date: 21 Sep 2022
-year: 2022
+title: The Singapore AUV Challenge 2024 Rulebook
+version: "5.0.0"
+last_updated_date: 22 Aug 2023
+year: 2024
 ---
 
 ## Table of Contents
 
-* [Objectives](#objectives)
-* [Structure of the Team](#structure-of-the-team)
-* [Video Submission](#video-submission)
-* [Qualification](#qualification)
-* [The Arena](#the-arena)
+- [Table of Contents](#table-of-contents)
+- [Objectives](#objectives)
+- [Structure of the Team](#structure-of-the-team)
+- [Video Submission](#video-submission)
+- [Qualification](#qualification)
+- [The Arena](#the-arena)
+  * [Qualification Arena(s)](#qualification-arenas)
+    + [Specification of props](#specification-of-props)
   * [Starting Zone](#starting-zone)
-* [Tasks](#tasks)
-	* [1. Navigation](#1.-navigation)
-	  * [Points](#points)
-	  * [Specification of props](#specification-of-props)
-	* [2. Target Acquisition](#2.-target-acquisition)
-	  * [Points](#points-1)
-	  * [Specification of props](#specification-of-props-1)
-	* [3. Target Reacquisition](#3.-target-reacquisition)
-	  * [Points](#points-2)
-	  * [Specification of props](#specification-of-props-2)
-	* [4. Localization](#4.-localization)
-	  * [Points](#points-3)
-	  * [Specification of props](#specification-of-props-3)
-	* [Surfacing](#surfacing)
-	* [Aborting](#aborting)
-	* [Automatic Abort](#automatic-abort)
-	* [Timing Bonus](#timing-bonus)
-	* [Penalties](#penalties)
-* [Specification of AUV](#specification-of-auv)
-	* [Size](#size)
-	* [Power](#power)
-	* [Safety](#safety)
-	* [Communications](#communications)
-* [Game Procedure](#game-procedure)
-	* [Sequence of events during the competition](#sequence-of-events-during-the-competition)
-	* [Practice Rounds](#practice-rounds)
-	* [Length of a game](#length-of-a-game)
-	* [Retries](#retries)
-* [Certificate of Participation](#certificate-of-participation)
-* [General Restrictions](#general-restrictions)
-* [Disqualification](#disqualification)
-* [Others](#others)
+- [Tasks](#tasks)
+  * [1. Navigation](#1-navigation)
+    + [Points](#points)
+    + [Specification of props](#specification-of-props-1)
+  * [2. Target Acquisition](#2-target-acquisition)
+    + [Points](#points-1)
+    + [Specification of props](#specification-of-props-2)
+  * [3. Target Reacquisition](#3-target-reacquisition)
+    + [Points](#points-2)
+    + [Specification of props](#specification-of-props-3)
+  * [4. Communication & Localization](#4-communication--localization)
+    + [Points](#points-3)
+    + [Specification of props](#specification-of-props-4)
+  * [Surfacing](#surfacing)
+  * [Aborting](#aborting)
+  * [Automatic Abort](#automatic-abort)
+  * [Timing Bonus](#timing-bonus)
+  * [Penalties](#penalties)
+  * [Examples](#examples)
+    + [Example 1](#example-1)
+    + [Example 2](#example-2)
+    + [Example 3](#example-3)
+    + [Example 4](#example-4)
+    + [Example 5](#example-5)
+    + [Example 6](#example-6)
+    + [Example 7](#example-7)
+- [Specification of AUV](#specification-of-auv)
+  * [Size](#size)
+  * [Power](#power)
+  * [Safety](#safety)
+  * [Communications](#communications)
+- [Game Procedure](#game-procedure)
+  * [Sequence of events during the competition](#sequence-of-events-during-the-competition)
+  * [Practice Rounds](#practice-rounds)
+  * [Length of a game](#length-of-a-game)
+  * [Retries](#retries)
+- [Certificate of Participation](#certificate-of-participation)
+- [General Restrictions](#general-restrictions)
+- [Disqualification](#disqualification)
+- [Others](#others)
+- [Feedback](#feedback)
 
 ## Objectives
 
@@ -63,10 +75,10 @@ A team may consist of up to **11 participants** including **faculty supervisors*
 
 All teams have to submit a video of their AUV prior to the competition. The video **HAS TO**
 
--  be maximum **1 minute** long,
--  be submitted before 23:59 March 31, 2022, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
+-  be maximum **30 seconds** long,
+-  be submitted before 23:59 January 7th, 2024, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
 -  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
--  showcase the **operation** of the [Kill Switch](#safety); pressing the Kill Switch should stop all thrusters immediately.
+-  show clearly that someone pressing the [Kill Switch](#safety) should stop all thrusters immediately.
 
 Videos will be reviewed by the organizing committee and **30 teams with the best vehicles will be short-listed to attend the competition**.
 
@@ -82,28 +94,31 @@ The organizers reserve the right to publish the video submissions after the comp
 - **Only the top 15** qualified teams, with the fastest time for the qualifying round, will advance to the final round.
 - The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
-![flare](img/qualification.jpg)
+![flares](img/qualification.jpg)
 <p class="image-caption"> Figure 2. A team attempting qualification in the 2017 Competition.</p>
+
+![flares](img/qualification-2022.jpg)
+<p class="image-caption"> Figure 2. Top view of the qualification areanas from the 2022 Competition.</p>
 
 ## The Arena
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
-![arena](img/arena-2022.jpg)
-<p class="image-caption"> Figure 3. Top & side views of the Arena. </p>
+![arena](img/arena-2024.jpg)
+<p class="image-caption"> Figure 3. Top & side views of the Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
 <p class="image-caption"> Figure 4. Picture of the Arena from 2017 Competition.</p>
 
-![arena](img/arena-2-2017.jpg)
-<p class="image-caption"> Figure 5. Picture of the Arena from 2017 Competition.</p>
+![arena](img/arena-top-2022.jpg)
+<p class="image-caption"> Figure 5. Picture of the Arena from 2022 Competition.</p>
 
 ### Qualification Arena(s)
 The qualification rounds would be held on the side of the main arena.
 
 The qualification starting line is a marked 1m wide section of the pool wall from where the AUV should be deployed from. The AUV **has to touch the wall** at the begining of the run.
 
-At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate to qualify.
+At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate to qualify. If the AUV touches **ANY** of the 3 sides of the qualification gate, the attempt is considered a failure.
 
 #### Specification of props
 
@@ -111,32 +126,35 @@ At approximately 10m from the starting line the qualification gate is hanging fr
 |---|:--------------------:|:---------------------------------------:|
 | 1 | Qualification Gate   | 150cm wide and ~100cm deep gate hanging from the water surface with <span class="indicate-orange">orange</span> markings on both port and starboard sides.
 
-![flare](img/qualification-gate.jpg)
+![flares](img/qualification-gate.jpg)
 <p class="image-caption"> Figure 6. Front-view of the qualification gate.</p>
 
 ### Starting Zone
-The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
-![arena](img/starting-zone-2017.jpg)
-<p class="image-caption"> Figure 7. Picture of the Starting Zone from 2017 Competition.</p>
+The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone. Teams may also place their [communication equipment](#specification-of-auv) in the starting zone.
+
+![arena](img/starting-zone-2022.jpg)
+<p class="image-caption"> Figure 7. Picture of the Starting Zone from 2022 Competition.</p>
 
 ## Tasks
+
 There are 4 tasks in the challenge:
 
 1. [Navigation](#1.-navigation)
 1. [Target Acquisition](#2.-target-acquisition)
 1. [Target Reacquisition](#3.-target-reacquisition)
-1. [Localization](#4.-localization)
+1. [Communication & Localization](#4.-localization)
 
 The first task, Navigation, is mandatory and **must be completed** before attempting any other task. The other tasks can be attempted in any order. Surfacing at any point signifies <span class="emphasis">end of the attempt</span>.
 
 ### 1. Navigation
+
 The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 12m away from the starting zone. See Figure 4. The AUV has to swim through the 150 cm tall gate without touching the gate.
 
-**A red flare** may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV **has to avoid** touching the red flare. Any part of the AUV touching the red flare causes an immediate <span class="important">abort</span> of the attempt.
+**A orange flare** may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV **has to avoid** touching the orange flare. Any part of the AUV touching the orange flare causes an immediate <span class="important">abort</span> of the attempt.
 
-![flare](img/gate-2016.jpg)
-<p class="image-caption"> Figure 8. Picture of the gate from 2016 Competition.</p>
+![flare](img/gate-2022.jpg)
+<p class="image-caption"> Figure 8. Picture of the gate from 2022 Competition.</p>
 
 #### Points
 
@@ -146,16 +164,23 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Gate             | 150cm wide and 150cm tall gate with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
-| 2 | Red Flare        | 150cm tall and ~15cm diameter flare, and <span class="indicate-red">red</span> in color. |
+| 1 | Gate             | 150cm wide and 150cm tall gate with striped <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
+| 2 | Orange Flare        | 150cm tall and ~15cm diameter flare, and <span class="indicate-orange">red</span> in color. |
 
-![flare](img/gate.jpg)
+![gate](img/gate-2024.jpg)
 <p class="image-caption"> Figure 9. Front-view of the gate.</p>
 
-![flare](img/red-flare.jpg)
-<p class="image-caption"> Figure 10. Front-view of the red flare. </p>
+![flare](img/orange-flare.jpg)
+<p class="image-caption"> Figure 10. Front-view of the orange flare. </p>
+
+![flare](img/orange-flare-2022.jpg)
+<p class="image-caption"> Figure 10. Front-view of the orange flare. </p>
+
+![flare](img/gate+flare-2022.jpg)
+<p class="image-caption"> Figure 11. Gate and orange flare from 2022 Competition. </p>
 
 ### 2. Target Acquisition
+
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
 A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 5. shows the location of the mat with respect to the arena.
@@ -186,8 +211,8 @@ Points will be awarded as follows.
 ![pinger](img/pinger.jpg)
 <p class="image-caption"> Figure 12. Picture of a 45kHz pinger.</p>
 
-
 ### 3. Target Reacquisition
+
 The aim of this task is to reacquire a previously detected target.
 
 This task is only attempt-able if the [Target Acquisition](#2.-target-acquisition) has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
@@ -207,42 +232,50 @@ If the AUV successfully picks up the ball and holds on to it till the <span clas
 | 1 | Target zone      | <span class="indicate-green">Green</span> mat 8m x 2m in size.|
 | 2 | Ball             | Same ball used in target acquisition task. Provided by the teams.|
 
-### 4. Localization
-The aim of this task is to localize on a yellow flare. There are **two yellow flares** in the arena, only one yellow flare is marked with an acoustic pinger. These flare could be located **anywhere** within the main arena. The AUV should locate and bump a flare causing the golf ball on the flare to drop out. The flares will be <span class="indicate-yellow">yellow</span> in color. Only the **first flare** that is successfully bumped by the AUV is taken into consideration.
+### 4. Communication & Localization
+
+The aim of this task is to localize on coloured flares and bump them causing a golf ball to drop out. There are **3 coloured flares** in the arena, one **red coloured flare**, one **yellow coloured flare** and one **blue coloured flare**. These flares could be located **anywhere** within the main arena. The AUV may locate and bump a flares in **a specified order**, which may be communicated to the AUV, to receive bonus points.
+
+On every attempt, after the AUV successfully completes the _Navigation task_, the team will be informed of the **order** in which the flares have to be bumped. The **specified order** may be different between different attempts. The order will specified using the following notation, joined by a hyphen (-).
+
+- <span class="indicate-red">Red</span> : **R**
+- <span class="indicate-yellow">Yellow</span> : **Y**
+- <span class="indicate-blue">Blue</span> : **B**
+
+So, for example, specifying the order as **R-B-Y** would mean that the AUV has to bump the **red flare** first, followed by the **blue flare** and finally the **yellow flare**.
+
+The team is then allowed to communicate the **order** with their AUVs using their [communication equipment](#specification-of-auv).
 
 #### Points
 
-Points would be awarded as follows. If the AUV successfully causes the ball to drop from :
+Points would be awarded as follows.
 
-- flare with the pinger: <span class="info">40 Points</span>
-- flare without the pinger: <span class="info">20 Points</span>
+- Successfully causes the ball to drop from any flare via contact or proximity : <span class="info">20 Points per flare</span>
+- Successfully causes the ball to drop all 3 flares in the **specified order** : <span class="info">60 Points</span> (in addition to above)
 
 #### Specification of props
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Yellow Flares    | 80cm tall, ~1.6cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
-| 2 | Flare Pinger     | [RJE International Pinger Model No. ULB-362B/37.5 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
+| 1 | Red Flare        | 80cm tall, ~1.6cm in diameter, and <span class="indicate-red">red</span> in color.|
+| 1 | Yellow Flare     | 80cm tall, ~1.6cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
+| 1 | Blue Flare       | 80cm tall, ~1.6cm in diameter, and <span class="indicate-blue">blue</span> in color.|
 
-![flare](img/yellow-flare.jpg)
-<p class="image-caption"> Figure 13. Side-view of the yellow flare. </p>
-
-![flare](img/flare-2-2016.jpg)
-<p class="image-caption"> Figure 14. Picture of the yellow flare from 2016 Competition (with pinger).</p>
-
-![flare](img/flare-2016.jpg)
-<p class="image-caption"> Figure 15. Picture of the yellow flare from 2016 Competition.</p>
+![flare](img/flares-2024.jpg)
+<p class="image-caption"> Figure 13. Side-view of the flares. </p>
 
 ### Surfacing
 
 Breaching the surface any point during the mission causes <span class="emphasis">end of the current attempt</span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="info">5 Points</span> bonus for ending. The team may wish to retry if they still have time left.
 
 ### Aborting
+
 At any time during the mission, current attempt can be <span class="important">aborted</span>, by indicating to the <span class="inverse">Game Master</span>. The divers would then retrieve the AUV back to the starting zone. The timing for the current attempt is stopped at the time of indication. The team may wish to retry if they still have time left.
 
 In the case of an aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the current attempt.
 
 ### Automatic Abort
+
 If the AUV touches the bottom or the side walls of the pool for **a cumulative time of more than 10 seconds or 5 discrete touches**, the current attempt would be automatically <span class="important">aborted</span>. The divers would then retrieve the AUV back to the starting zone. The team may wish to retry if they still have time left.
 
 In the case of an automatic aborted attempt, the team would be awarded the points for all previously successfully completed tasks during the attempt.
@@ -263,7 +296,6 @@ There are penalty points for touching the floor or wall of the pool at any time,
 |---|:---------------------------------------:|:--------------:|
 | 1 | Touching the gate                       |        2       |
 | 2 | Touching the bottom of the pool or wall |        5       |
-
 
 ### Examples
 
@@ -293,13 +325,12 @@ Here are some examples scenarios and how they would be scored.
 | 1 | Navigation Task                         |        10      |
 |   | **Attempt Total**                       |        10      |
 
-
 #### Example 3
 
 - Team launches AUV from starting zone.
 - AUV crosses the gate and completes the Navigation task.
 - AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>, but touches the side of the wall momentarily while looking for the drum.
-- AUV tries to find the flare, but can't find it and has to be aborted and retrieved by divers.
+- AUV tries to find the flares, but can't find it and has to be aborted and retrieved by divers.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
@@ -308,53 +339,95 @@ Here are some examples scenarios and how they would be scored.
 | 3 | Touching the wall                       |        -5      |
 |   | **Attempt Total**                       |        35      |
 
-
-#### Example 3
+#### Example 4
 
 - Team launches AUV from starting zone.
 - AUV crosses the gate and completes the Navigation task.
 - AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>.
-- AUV locates the flare and knocks off the golf ball.
+- AUV locates the <span class="indicate-red">red flare</span> and knocks off the golf ball.
 - AUV surfaces with run time of 400 seconds.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
 | 1 | Navigation Task                         |        10      |
 | 2 | Target Acquisition Task (Visual)        |        30      |
-| 3 | Localization Task (Acoustic)            |        40      |
+| 3 | Communication & Localization Task       |        20      |
 | 4 | Surface Bonus                           |         5      |
 | 5 | Run time Bonus                          |        15      |
 |   | **Attempt Total**                       |        100     |
 
-#### Example 4
+#### Example 5
 
 - Team launches AUV from starting zone.
 - AUV crosses the gate and completes the Navigation task.
+- Team is given the squence of R-B-Y for the flares.
 - AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>.
-- AUV locates the flare and knocks off the golf ball.
-- AUV touches the bottom of the pool for more than 10 seconds while trying to find the target zone and gets automatically aborted by divers.
+- AUV locates the <span class="indicate-red">red flare</span> and knocks off the golf ball.
+- AUV locates the <span class="indicate-yellow">yellow flare</span> and knocks off the golf ball.
+- AUV touches the bottom of the pool for more than 10 seconds while trying to find 3rd flare and gets automatically aborted by divers.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
 | 1 | Navigation Task                         |        10      |
 | 2 | Target Acquisation Task (Visual)        |        30      |
-| 3 | Localization Task (Visual)              |        20      |
-|   | **Attempt Total**                       |        60      |
+| 3 | Communication & Localization Task       |        40      |
+|   | **Attempt Total**                       |        80      |
+
+#### Example 6
+
+- Team launches AUV from starting zone.
+- AUV crosses the gate and completes the Navigation task.
+- Team is given the squence of R-B-Y for the flares.
+- AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>.
+- AUV locates the <span class="indicate-red">red flare</span> and knocks off the golf ball.
+- AUV locates the <span class="indicate-yellow">yellow flare</span> and knocks off the golf ball.
+- AUV locates the <span class="indicate-blue">blue flare</span> and knocks off the golf ball.
+- AUV touches the bottom of the pool for more than 10 seconds while trying to find 3rd flare and gets automatically aborted by divers.
+
+|   |                 Task                    |     Points     |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Navigation Task                         |        10      |
+| 2 | Target Acquisation Task (Visual)        |        30      |
+| 3 | Communication & Localization Task       |        60      |
+|   | **Attempt Total**                       |        100     |
+
+#### Example 7
+
+- Team launches AUV from starting zone.
+- AUV crosses the gate and completes the Navigation task.
+- Team is given the squence of R-B-Y for the flares.
+- AUV find the drums and successfully drops the ball in the <span class="indicate-blue">blue drum</span>.
+- AUV locates the <span class="indicate-red">red flare</span> and knocks off the golf ball.
+- AUV locates the <span class="indicate-blue">blue flare</span> and knocks off the golf ball.
+- AUV locates the <span class="indicate-yellow">yellow flare</span> and knocks off the golf ball.
+- AUV surfaces with run time of 400 seconds.
+
+|   |                 Task                    |     Points     |
+|---|:---------------------------------------:|:--------------:|
+| 1 | Navigation Task                         |        10      |
+| 2 | Target Acquisation Task (Visual)        |        30      |
+| 3 | Communication & Localization Task       |        120     |
+| 4 | Surface Bonus                           |         5      |
+| 5 | Run time Bonus                          |        15      |
+|   | **Attempt Total**                       |        180     |
 
 ## Specification of AUV
 
 ### Size
+
 - The AUV must fit within a 140 × 100 × 100 cm box.
 - An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus <span class="info">10 points</span>.
-- The AUV must not weigh more than 50 kg in air.
-- An AUV weighing less than 40 kg in air will be given bonus <span class="info">10 points</span>.
+- The AUV must not weigh more than 52 kg in air.
+- An AUV weighing less than 42 kg in air will be given bonus <span class="info">10 points</span>.
 
 ### Power
+
 - Power must be self contained.
 - **Tethers of any sort are not allowed**, except when [calibrating AUV sensors during practice rounds](#practice-rounds).
 - The voltage of the power source used by each AUV must not exceed 24VDC.
 
 ### Safety
+
 - AUVs must not leak and pollute the pool.
 - AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
 - AUVs **must have a kill switch** that turns off the vehicle including thrusters, or any other population mechanism.
@@ -364,28 +437,38 @@ Here are some examples scenarios and how they would be scored.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
-![flare](img/killswitch.jpg)
+![flares](img/killswitch.jpg)
 <p class="image-caption"> Figure 16. Example a kill switch on an AUV from 2015 Competition.</p>
 
-
 ### Communications
-- No communication from/to the AUV of any sort is allowed during the game.
+
+- Untethered communications with the AUV **are allowed** in the main arena.
+- AUVs can carry their own "underwater" communication equipment.
+- Teams are allowed to deploy "top-side" communication equipment in the starting zone during the game.
+- All "underwater" communication equipment on the AUV _MUST fit_ within the size limits for the AUV.
+- Any "underwater" communication equipment on the AUV is considered a part of the AUV.
+- The "top-side" communication equipment _MUST fit_ within the dimensions of the starting zone and weigh no more than 42 kg in air.
+- Any "top-side" communication equipment must stay within the starting zone. It may be submerged in the water, and can have **a single tether** to the surface.
+- Any "top-side" communication equipment submered in the water, must not leak and pollute the pool.
+- Any "top-side" communication equipment must be removed at the end of the game.
 
 ## Game Procedure
 
 ### Sequence of events during the competition
 
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
-- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
+- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.f
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
 - Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
 
 ### Practice Rounds
+
 - Teams will be allowed to practice in the main arena after they successfully complete the qualifying round, subject to availability of time slots and the schedule during the competition.
 - No tethers are allowed at ANY time inside the main arena.
 - Teams will be allowed calibrate their AUV sensors with tethers, at the edge of the pool, with the vehicle held **stationary**.
 
 ### Length of a game
+
 - Each team is given **15 minutes** to complete the tasks.
 - In any of the following cases, the game ends immediately.
   - Disqualification is announced in the game.
@@ -400,6 +483,7 @@ Here are some examples scenarios and how they would be scored.
   - The AUV must start its maneuver only after it has **completely submerged** in the water.
 
 ### Retries
+
 - A retry attempt can be made only after the <span class="inverse">Judges'</span> permission.
 - The AUV will be passed to the two designated team members standing beside the pool by the divers.
 - A retry would mean that the AUV starts from the start zone with 0 points
@@ -440,4 +524,4 @@ Teams may be disqualified if :
 
 ## Feedback
 
-If you spot any errors in the rulebook or have queries about the rules, please email auvc.singapore@outlook.com or contact us through [our website](https://sauvc.org/#contact).
+If you spot any errors in the rulebook or have queries about the rules, please email rules@sauvc.org or contact us through [our website](https://sauvc.org/#contact).
