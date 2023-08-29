@@ -417,8 +417,8 @@ Here are some examples scenarios and how they would be scored.
 
 - The AUV must fit within a 140 × 100 × 100 cm box.
 - An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus <span class="info">10 points</span>.
-- The AUV must not weigh more than 50 kg in air.
-- An AUV weighing less than 40 kg in air will be given bonus <span class="info">10 points</span>.
+- The AUV must not weigh more than 52 kg in air.
+- An AUV weighing less than 42 kg in air will be given bonus <span class="info">10 points</span>.
 
 ### Power
 
@@ -447,7 +447,7 @@ Here are some examples scenarios and how they would be scored.
 - Teams are allowed to deploy "top-side" communication equipment in the starting zone during the game.
 - All "underwater" communication equipment on the AUV _MUST fit_ within the size limits for the AUV.
 - Any "underwater" communication equipment on the AUV is considered a part of the AUV.
-- The "top-side" communication equipment _MUST fit_ within the dimensions of the starting zone and weigh no more than 40 kg in air.
+- The "top-side" communication equipment _MUST fit_ within the dimensions of the starting zone and weigh no more than 42 kg in air.
 - Any "top-side" communication equipment must stay within the starting zone. It may be submerged in the water, and can have **a single tether** to the surface.
 - Any "top-side" communication equipment submered in the water, must not leak and pollute the pool.
 - Any "top-side" communication equipment must be removed at the end of the game.
