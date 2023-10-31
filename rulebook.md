@@ -1,61 +1,69 @@
 title: The Singapore AUV Challenge 2024 Rulebook
-version: "5.0.1"
-last_updated_date: 24 Dec 2023
+version: "5.1.0"
+last_updated_date: 5 Dec 2023
 year: 2024
 ---
 
-## Table of Contents
+Table of Contents
+=================
 
-- [Table of Contents](#table-of-contents)
-- [Objectives](#objectives)
-- [Structure of the Team](#structure-of-the-team)
-- [Video Submission](#video-submission)
-- [Qualification](#qualification)
-- [The Arena](#the-arena)
-  * [Qualification Arena(s)](#qualification-arenas)
-    + [Specification of props](#specification-of-props)
-  * [Starting Zone](#starting-zone)
-- [Tasks](#tasks)
-  * [1. Navigation](#1-navigation)
-    + [Points](#points)
-    + [Specification of props](#specification-of-props-1)
-  * [2. Target Acquisition](#2-target-acquisition)
-    + [Points](#points-1)
-    + [Specification of props](#specification-of-props-2)
-  * [3. Target Reacquisition](#3-target-reacquisition)
-    + [Points](#points-2)
-    + [Specification of props](#specification-of-props-3)
-  * [4. Communication & Localization](#4-communication--localization)
-    + [Points](#points-3)
-    + [Specification of props](#specification-of-props-4)
-  * [Surfacing](#surfacing)
-  * [Aborting](#aborting)
-  * [Automatic Abort](#automatic-abort)
-  * [Timing Bonus](#timing-bonus)
-  * [Penalties](#penalties)
-  * [Examples](#examples)
-    + [Example 1](#example-1)
-    + [Example 2](#example-2)
-    + [Example 3](#example-3)
-    + [Example 4](#example-4)
-    + [Example 5](#example-5)
-    + [Example 6](#example-6)
-    + [Example 7](#example-7)
-- [Specification of AUV](#specification-of-auv)
-  * [Size](#size)
-  * [Power](#power)
-  * [Safety](#safety)
-  * [Communications](#communications)
-- [Game Procedure](#game-procedure)
-  * [Sequence of events during the competition](#sequence-of-events-during-the-competition)
-  * [Practice Rounds](#practice-rounds)
-  * [Length of a game](#length-of-a-game)
-  * [Retries](#retries)
-- [Certificate of Participation](#certificate-of-participation)
-- [General Restrictions](#general-restrictions)
-- [Disqualification](#disqualification)
-- [Others](#others)
-- [Feedback](#feedback)
+   * [Table of Contents](#table-of-contents)
+   * [Objectives](#objectives)
+   * [Structure of the Team](#structure-of-the-team)
+   * [Video Submission](#video-submission)
+   * [Qualification](#qualification)
+   * [The Arena](#the-arena)
+      * [Qualification Arena(s)](#qualification-arenas)
+         * [Specification of props](#specification-of-props)
+      * [Starting Zone](#starting-zone)
+   * [Tasks](#tasks)
+      * [1. Navigation](#1-navigation)
+         * [Points](#points)
+         * [Specification of props](#specification-of-props-1)
+      * [2. Target Acquisition](#2-target-acquisition)
+         * [Points](#points-1)
+         * [Specification of props](#specification-of-props-2)
+      * [3. Target Reacquisition](#3-target-reacquisition)
+         * [Points](#points-2)
+         * [Specification of props](#specification-of-props-3)
+      * [4. Communication &amp; Localization](#4-communication--localization)
+         * [Points](#points-3)
+         * [Specification of props](#specification-of-props-4)
+      * [Surfacing](#surfacing)
+      * [Aborting](#aborting)
+      * [Automatic Abort](#automatic-abort)
+      * [Timing Bonus](#timing-bonus)
+      * [Penalties](#penalties)
+      * [Examples](#examples)
+         * [Example 1](#example-1)
+         * [Example 2](#example-2)
+         * [Example 3](#example-3)
+         * [Example 4](#example-4)
+         * [Example 5](#example-5)
+         * [Example 6](#example-6)
+         * [Example 7](#example-7)
+   * [Specification of AUV](#specification-of-auv)
+      * [Size](#size)
+      * [Power](#power)
+      * [Safety](#safety)
+      * [Communications](#communications)
+   * [Game Procedure](#game-procedure)
+      * [Sequence of events during the competition](#sequence-of-events-during-the-competition)
+      * [Practice Rounds](#practice-rounds)
+      * [Length of a game](#length-of-a-game)
+      * [Retries](#retries)
+   * [Certificate of Participation](#certificate-of-participation)
+   * [General Restrictions](#general-restrictions)
+   * [Disqualification](#disqualification)
+   * [Others](#others)
+   * [Feedback](#feedback)
+   * [Bonus Round](#bonus-round--oceanic-navigation)
+      * [Arena (Ocean Basin)](#arena-ocean-basin)
+      * [Starting Zone](#starting-zone-1)
+      * [Points](#points-4)
+      * [Timing Bonus (Bonus Task)](#timing-bonus-bonus-task)
+      * [Specification of props](#specification-of-props-5)
+      * [Gameplay (Bonus Task)](#gameplay-bonus-task)
 
 ## Objectives
 
@@ -98,20 +106,20 @@ The organizers reserve the right to publish the video submissions after the comp
 <p class="image-caption"> Figure 2. A team attempting qualification in the 2017 Competition.</p>
 
 ![flares](img/qualification-2022.jpg)
-<p class="image-caption"> Figure 2. Top view of the qualification areanas from the 2022 Competition.</p>
+<p class="image-caption"> Figure 3. Top view of the qualification areanas from the 2022 Competition.</p>
 
 ## The Arena
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
 ![arena](img/arena-2024.jpg)
-<p class="image-caption"> Figure 3. Top & side views of the Arena (not to scale). </p>
+<p class="image-caption"> Figure 4. Top & side views of the Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
-<p class="image-caption"> Figure 4. Picture of the Arena from 2017 Competition.</p>
+<p class="image-caption"> Figure 5. Picture of the Arena from 2017 Competition.</p>
 
 ![arena](img/arena-top-2022.jpg)
-<p class="image-caption"> Figure 5. Picture of the Arena from 2022 Competition.</p>
+<p class="image-caption"> Figure 6. Picture of the Arena from 2022 Competition.</p>
 
 ### Qualification Arena(s)
 The qualification rounds would be held on the side of the main arena.
@@ -127,14 +135,14 @@ At approximately 10m from the starting line the qualification gate is hanging fr
 | 1 | Qualification Gate   | 150cm wide and ~100cm deep gate hanging from the water surface with <span class="indicate-orange">orange</span> markings on both port and starboard sides.
 
 ![flares](img/qualification-gate.jpg)
-<p class="image-caption"> Figure 6. Front-view of the qualification gate.</p>
+<p class="image-caption"> Figure 7. Front-view of the qualification gate.</p>
 
 ### Starting Zone
 
 The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone. Teams may also place their [communication equipment](#specification-of-auv) in the starting zone.
 
 ![arena](img/starting-zone-2022.jpg)
-<p class="image-caption"> Figure 7. Picture of the Starting Zone from 2022 Competition.</p>
+<p class="image-caption"> Figure 8. Picture of the Starting Zone from 2022 Competition.</p>
 
 ## Tasks
 
@@ -154,7 +162,7 @@ The aim of this task is to swim through a gate placed at the bottom of the pool.
 **A orange flare** may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV **has to avoid** touching the orange flare. Any part of the AUV touching the orange flare causes an immediate <span class="important">abort</span> of the attempt.
 
 ![flare](img/gate-2022.jpg)
-<p class="image-caption"> Figure 8. Picture of the gate from 2022 Competition.</p>
+<p class="image-caption"> Figure 9. Picture of the gate from 2022 Competition.</p>
 
 #### Points
 
@@ -165,25 +173,25 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
 | 1 | Gate             | 150cm wide and 150cm tall gate with striped <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
-| 2 | Orange Flare        | 150cm tall and ~15cm diameter flare, and <span class="indicate-orange">red</span> in color. |
+| 2 | Orange Flare        | 150cm tall and ~15cm diameter flare, and <span class="indicate-orange">orange</span> in color. |
 
 ![gate](img/gate-2024.jpg)
-<p class="image-caption"> Figure 9. Front-view of the gate.</p>
+<p class="image-caption"> Figure 10. Front-view of the gate.</p>
 
 ![flare](img/orange-flare.jpg)
-<p class="image-caption"> Figure 10. Front-view of the orange flare. </p>
+<p class="image-caption"> Figure 11. Front-view of the orange flare. </p>
 
 ![flare](img/orange-flare-2022.jpg)
-<p class="image-caption"> Figure 10. Front-view of the orange flare. </p>
+<p class="image-caption"> Figure 12. Orange flare from 2022 Competition. </p>
 
 ![flare](img/gate+flare-2022.jpg)
-<p class="image-caption"> Figure 11. Gate and orange flare from 2022 Competition. </p>
+<p class="image-caption"> Figure 13. Gate and orange flare from 2022 Competition. </p>
 
 ### 2. Target Acquisition
 
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
-A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 5. shows the location of the mat with respect to the arena.
+A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 4. shows the location of the mat with respect to the arena.
 
 There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span class="indicate-blue">blue</span> in color, while the rest are <span class="indicate-red">red</span> in color. One of the <span class="indicate-red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
 
@@ -206,10 +214,10 @@ Points will be awarded as follows.
 | 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
-<p class="image-caption"> Figure 11. Picture target zone and drums from the 2017 Competition.</p>
+<p class="image-caption"> Figure 14. Picture target zone and drums from the 2017 Competition.</p>
 
 ![pinger](img/pinger.jpg)
-<p class="image-caption"> Figure 12. Picture of a 45kHz pinger.</p>
+<p class="image-caption"> Figure 15. Picture of a 45kHz pinger.</p>
 
 ### 3. Target Reacquisition
 
@@ -262,7 +270,7 @@ Points would be awarded as follows.
 | 1 | Blue Flare       | 80cm tall, ~1.6cm in diameter, and <span class="indicate-blue">blue</span> in color.|
 
 ![flare](img/flares-2024.jpg)
-<p class="image-caption"> Figure 13. Side-view of the flares. </p>
+<p class="image-caption"> Figure 16. Side-view of the flares. </p>
 
 ### Surfacing
 
@@ -438,7 +446,7 @@ Here are some examples scenarios and how they would be scored.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
 ![flares](img/killswitch.jpg)
-<p class="image-caption"> Figure 16. Example a kill switch on an AUV from 2015 Competition.</p>
+<p class="image-caption"> Figure 17. Example a kill switch on an AUV from 2015 Competition.</p>
 
 ### Communications
 
@@ -460,6 +468,8 @@ Here are some examples scenarios and how they would be scored.
 - AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.f
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
 - Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
+- The final round will be held in the main arena.
+- The top five teams from the final round will be allowed to attempt the [bonus round](./bonus-round.md).
 
 ### Practice Rounds
 
