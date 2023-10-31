@@ -27,17 +27,13 @@ Since the basin is a research facility, and the area is not open to the public, 
 
 The starting zone is a **140×140cm area** marked on the surface of water. The teams **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
+### Surfacing
+
+Breaching the surface any point during the mission causes <span class="emphasis">end of the current attempt</span>. The team may wish to retry if they still have time left.
+
 #### Points
 
-If the AUV successfully passes through the gate, <span class="info">200 Points</span> will be awarded.
-
-#### Timing Bonus (Bonus Task)
-
-At the <span class="emphasis">end of the bonus attempt</span>, if the AUV successfully passes through the gate, the team will be awarded a timing bonus. The timing bonus is calculated as follows:
-
-`Bonus points = (900 - RUN_TIME) • 0.03`
-
-For eg. For a run time of 420s, Bonus = (900-420)•0.03 = 14.4 Points
+There will be no points awarded for the bonus round. The teams will be ranked based on the time taken to the <span class="emphasis">end of the attempt</span> ONLY IF the team successfully managed to complete the task. The team with the fastest time will be ranked first for the bonus round.
 
 #### Specification of props
 
@@ -56,13 +52,13 @@ The gate is located in the middle of the basin, ~25m from the starting zone. The
 ![flare](img/orange-flare.jpg)
 <p class="image-caption"> Front-view of the orange flare. </p>
 
-#### Gameplay (Bonus Task)
+#### Gameplay (Bonus round)
 
-Only the top teams from the final round will be allowed to attempt the bonus task. Points from the bonus task will be tabulated separately from the main competition. The top teams in the bonus task will receive a special bonus prize regardless of their performance in the main competition.
+Only the top teams from the final round will be allowed to attempt the bonus round. Ranking for the bonus round will be tabulated separately from the main competition. The top teams in the bonus round will receive a special bonus prize regardless of their performance in the main competition.
 
-There will be NO practice time for the bonus task. The teams will be given a time slot to attempt the bonus task. The teams will be given 15 minutes to attempt the bonus task. The teams may attempt the bonus task as many times as they wish within the 15 minutes time slot. The team may choose to abort the attempt at any time. However, the retreival of the AUV might take some time because of the logistics involved.
+There will be NO practice time for the bonus round. The teams will be given a time slot to attempt the bonus round. The teams will be given 15 minutes to attempt the bonus round. The teams may attempt the bonus round as many times as they wish within the 15 minutes time slot. The team may choose to abort the attempt at any time. However, the retreival of the AUV might take some time because of the logistics involved.
 
-- All the [safety](#safety) conditions and [game procedures](#game-procedure) including [aborting](#aborting) still apply during the bonus task.
-- **No communication** with the AUV is allowed during the bonus task.
+- All the [safety](#safety) conditions and [game procedures](#game-procedure) including [aborting](#aborting) still apply during the bonus round.
+- **No communication** with the AUV is allowed during the bonus round.
 - The teams are **not allowed deploy any other equipment** into the basin.
 - Due to the sensitive nature of the equipment in the basin, the AUVs **must not touch the walls or the floor of the basin**. Any part of the AUV touching the walls of the basin causes an immediate <span class="important">abort</span> of the attempt.
