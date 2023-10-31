@@ -14,6 +14,13 @@
     @media print {
       .print-only{}
     }
+    body { counter-reset: figureCounter; }
+    .img-container {
+      counter-increment: figureCounter;
+    }
+    .img-container + .image-caption:before {
+      content: "▲ Figure " counter(figureCounter) ": "
+    }
   </style>
 </head>
 <body>
@@ -128,12 +135,12 @@
 <h2 id="objectives"><a class="header-link" href="#objectives"></a>Objectives</h2>
 <p>The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) which can negotiate the tasks put forth under a prescribed time and at the same time, to learn about underwater robotics and have fun in the process.</p>
 <p class="img-container"><img src="img/sauvc-2017.jpg" alt="arena"></p>
-<p class="image-caption"> The SAUVC 2017 Participants.</p>
+<p class="image-caption">The SAUVC 2017 Participants.</p>
 
 <h2 id="structure-of-the-team"><a class="header-link" href="#structure-of-the-team"></a>Structure of the Team</h2>
 <p>A team may consist of up to <strong>11 participants</strong> including <strong>faculty supervisors</strong>. At least half of the participants must be non-professionals (students, hobbyists, hackerspace members, etc) at the time of registration.</p>
 <p class="img-container"><img src="img/team.jpg" alt="arena"></p>
-<p class="image-caption"> Figure 1. One of the teams with faculty co-supervisors from the 2017 Competition.</p>
+<p class="image-caption">One of the teams with faculty co-supervisors from the 2017 Competition.</p>
 
 <h2 id="video-submission"><a class="header-link" href="#video-submission"></a>Video Submission</h2>
 <p>All teams have to submit a video of their AUV prior to the competition. The video <strong>HAS TO</strong></p>
@@ -156,21 +163,21 @@
 <li>The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.</li>
 </ul>
 <p class="img-container"><img src="img/qualification.jpg" alt="flares"></p>
-<p class="image-caption"> Figure 2. A team attempting qualification in the 2017 Competition.</p>
+<p class="image-caption">A team attempting qualification in the 2017 Competition.</p>
 
 <p class="img-container"><img src="img/qualification-2022.jpg" alt="flares"></p>
-<p class="image-caption"> Figure 3. Top view of the qualification areanas from the 2022 Competition.</p>
+<p class="image-caption">Top view of the qualification areanas from the 2022 Competition.</p>
 
 <h2 id="the-arena"><a class="header-link" href="#the-arena"></a>The Arena</h2>
 <p>The challenge will be held in an olympic sized swimming pool (50m x 25m).</p>
 <p class="img-container"><img src="img/arena-2024.jpg" alt="arena"></p>
-<p class="image-caption"> Figure 4. Top & side views of the Arena (not to scale). </p>
+<p class="image-caption">Top & side views of the Arena (not to scale). </p>
 
 <p class="img-container"><img src="img/arena-2017.jpg" alt="arena"></p>
-<p class="image-caption"> Figure 5. Picture of the Arena from 2017 Competition.</p>
+<p class="image-caption">Picture of the Arena from 2017 Competition.</p>
 
 <p class="img-container"><img src="img/arena-top-2022.jpg" alt="arena"></p>
-<p class="image-caption"> Figure 6. Picture of the Arena from 2022 Competition.</p>
+<p class="image-caption">Picture of the Arena from 2022 Competition.</p>
 
 <h3 id="qualification-arenas"><a class="header-link" href="#qualification-arenas"></a>Qualification Arena(s)</h3>
 <p>The qualification rounds would be held on the side of the main arena.</p>
@@ -192,12 +199,12 @@
 </tr>
 </tbody></table>
 <p class="img-container"><img src="img/qualification-gate.jpg" alt="flares"></p>
-<p class="image-caption"> Figure 7. Front-view of the qualification gate.</p>
+<p class="image-caption">Front-view of the qualification gate.</p>
 
 <h3 id="starting-zone"><a class="header-link" href="#starting-zone"></a>Starting Zone</h3>
 <p>The starting zone is a <strong>140×140cm area</strong> marked on the surface of water. The teams  <strong>must</strong> start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge <strong>before</strong> leaving the starting zone. Teams may also place their <a href="#specification-of-auv">communication equipment</a> in the starting zone.</p>
 <p class="img-container"><img src="img/starting-zone-2022.jpg" alt="arena"></p>
-<p class="image-caption"> Figure 8. Picture of the Starting Zone from 2022 Competition.</p>
+<p class="image-caption">Picture of the Starting Zone from 2022 Competition.</p>
 
 <h2 id="tasks"><a class="header-link" href="#tasks"></a>Tasks</h2>
 <p>There are 4 tasks in the challenge:</p>
@@ -212,7 +219,7 @@
 <p>The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 12m away from the starting zone. See Figure 4. The AUV has to swim through the 150 cm tall gate without touching the gate.</p>
 <p><strong>A orange flare</strong> may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV <strong>has to avoid</strong> touching the orange flare. Any part of the AUV touching the orange flare causes an immediate <span class="important">abort</span> of the attempt.</p>
 <p class="img-container"><img src="img/gate-2022.jpg" alt="flare"></p>
-<p class="image-caption"> Figure 9. Picture of the gate from 2022 Competition.</p>
+<p class="image-caption">Picture of the gate from 2022 Competition.</p>
 
 <h4 id="points"><a class="header-link" href="#points"></a>Points</h4>
 <p>If the AUV successfully passes through the gate,<span class="info">15 Points</span> will be awarded.</p>
@@ -237,16 +244,16 @@
 </tr>
 </tbody></table>
 <p class="img-container"><img src="img/gate-2024.jpg" alt="gate"></p>
-<p class="image-caption"> Figure 10. Front-view of the gate.</p>
+<p class="image-caption">Front-view of the gate.</p>
 
 <p class="img-container"><img src="img/orange-flare.jpg" alt="flare"></p>
-<p class="image-caption"> Figure 11. Front-view of the orange flare. </p>
+<p class="image-caption">Front-view of the orange flare. </p>
 
 <p class="img-container"><img src="img/orange-flare-2022.jpg" alt="flare"></p>
-<p class="image-caption"> Figure 12. Orange flare from 2022 Competition. </p>
+<p class="image-caption">Orange flare from 2022 Competition. </p>
 
 <p class="img-container"><img src="img/gate+flare-2022.jpg" alt="flare"></p>
-<p class="image-caption"> Figure 13. Gate and orange flare from 2022 Competition. </p>
+<p class="image-caption">Gate and orange flare from 2022 Competition. </p>
 
 <h3 id="2-target-acquisition"><a class="header-link" href="#2-target-acquisition"></a>2. Target Acquisition</h3>
 <p>The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.</p>
@@ -286,10 +293,10 @@
 </tr>
 </tbody></table>
 <p class="img-container"><img src="img/drums-2017.jpg" alt="flare"></p>
-<p class="image-caption"> Figure 14. Picture target zone and drums from the 2017 Competition.</p>
+<p class="image-caption">Picture target zone and drums from the 2017 Competition.</p>
 
 <p class="img-container"><img src="img/pinger.jpg" alt="pinger"></p>
-<p class="image-caption"> Figure 15. Picture of a 45kHz pinger.</p>
+<p class="image-caption">Picture of a 45kHz pinger.</p>
 
 <h3 id="3-target-reacquisition"><a class="header-link" href="#3-target-reacquisition"></a>3. Target Reacquisition</h3>
 <p>The aim of this task is to reacquire a previously detected target.</p>
@@ -360,7 +367,7 @@
 </tr>
 </tbody></table>
 <p class="img-container"><img src="img/flares-2024.jpg" alt="flare"></p>
-<p class="image-caption"> Figure 16. Side-view of the flares. </p>
+<p class="image-caption">Side-view of the flares. </p>
 
 <h3 id="surfacing"><a class="header-link" href="#surfacing"></a>Surfacing</h3>
 <p>Breaching the surface any point during the mission causes <span class="emphasis">end of the current attempt</span>, the total points for that attempt will be computed based on the tasks accomplished in that attempt and the timing bonus (if applicable) and a <span class="info">5 Points</span> bonus for ending. The team may wish to retry if they still have time left.</p>
@@ -695,7 +702,7 @@
 <li>If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.</li>
 </ul>
 <p class="img-container"><img src="img/killswitch.jpg" alt="flares"></p>
-<p class="image-caption"> Figure 17. Example a kill switch on an AUV from 2015 Competition.</p>
+<p class="image-caption">Example a kill switch on an AUV from 2015 Competition.</p>
 
 <h3 id="communications"><a class="header-link" href="#communications"></a>Communications</h3>
 <ul class="list">
@@ -784,7 +791,7 @@
 <li>The <span class="inverse">Judges</span> may demand additional explanations on safety issues when the safety of a vehicle is deemed to be in question.</li>
 </ul>
 <h2 id="feedback"><a class="header-link" href="#feedback"></a>Feedback</h2>
-<p>If you spot any errors in the rulebook or have queries about the rules, please email <a href="mailto:&#x72;&#117;&#x6c;&#x65;&#x73;&#64;&#x73;&#x61;&#x75;&#x76;&#99;&#x2e;&#111;&#114;&#103;">&#x72;&#117;&#x6c;&#x65;&#x73;&#64;&#x73;&#x61;&#x75;&#x76;&#99;&#x2e;&#111;&#114;&#103;</a> or contact us through <a href="https://sauvc.org/#contact">our website</a>.</p>
+<p>If you spot any errors in the rulebook or have queries about the rules, please email <a href="mailto:&#114;&#x75;&#x6c;&#101;&#x73;&#64;&#115;&#97;&#x75;&#118;&#99;&#46;&#111;&#114;&#x67;">&#114;&#x75;&#x6c;&#101;&#x73;&#64;&#115;&#97;&#x75;&#118;&#99;&#46;&#111;&#114;&#x67;</a> or contact us through <a href="https://sauvc.org/#contact">our website</a>.</p>
 <hr>
 <h3 id="bonus-round--oceanic-navigation"><a class="header-link" href="#bonus-round--oceanic-navigation"></a>Bonus Round : Oceanic Navigation</h3>
 <p>For SAUVC 2024, there is a bonus round with a single task called Oceanic Navigation. This was created to allow teams allow teams to experience the challenges of operating in an oceanic environment. The bonus round will be held in the <a href="https://www.tcoms.sg/">TCOMS Ocean Basin</a>, a cutting edge facility for testing and developing marine technology. The basin is located at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>.</p>
