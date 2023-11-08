@@ -57,7 +57,7 @@ The gate is located in the middle of the basin, ~25m from the starting zone. The
 
 Only the top teams from the final round will be allowed to attempt the bonus round. Ranking for the bonus round will be tabulated separately from the main competition. The top teams in the bonus round will receive a special bonus prize regardless of their performance in the main competition.
 
-There will be NO practice time for the bonus round. The teams will be given 15 minutes to attempt the bonus round. The teams may attempt the bonus round as many times as they wish within the 15-minute time slot. The team may choose to abort the attempt at any time. However, the retrieval of the AUV might take some time because of the logistics involved.
+There will be NO practice time for the bonus round. The teams will be given 30 minutes to attempt the bonus round. The teams may attempt the bonus round as many times as they wish within the 30-minute time slot. The team may choose to abort the attempt at any time. However, the retrieval of the AUV might take some time because of the logistics involved.
 
 - All the [safety](#safety) conditions and [game procedures](#game-procedure) including [aborting](#aborting) still apply during the bonus round.
 - **No communication** with the AUV is allowed during the bonus round.
