@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2024 Rulebook
-version: "5.0.0"
-last_updated_date: 22 Aug 2023
+version: "5.0.1"
+last_updated_date: 24 Dec 2023
 year: 2024
 ---
 
@@ -309,10 +309,10 @@ Here are some examples scenarios and how they would be scored.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
-| 1 | Navigation Task                         |        10      |
+| 1 | Navigation Task                         |        15      |
 | 2 | Touching the gate                       |        -2      |
 | 3 | Surfacing                               |        5       |
-|   | **Attempt Total**                       |        13      |
+|   | **Attempt Total**                       |        18      |
 
 #### Example 2
 
@@ -322,8 +322,8 @@ Here are some examples scenarios and how they would be scored.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
-| 1 | Navigation Task                         |        10      |
-|   | **Attempt Total**                       |        10      |
+| 1 | Navigation Task                         |        15      |
+|   | **Attempt Total**                       |        15      |
 
 #### Example 3
 
@@ -334,10 +334,10 @@ Here are some examples scenarios and how they would be scored.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
-| 1 | Navigation Task                         |        10      |
+| 1 | Navigation Task                         |        15      |
 | 2 | Target Acquisation Task (Visual)        |        30      |
 | 3 | Touching the wall                       |        -5      |
-|   | **Attempt Total**                       |        35      |
+|   | **Attempt Total**                       |        40      |
 
 #### Example 4
 
@@ -349,12 +349,12 @@ Here are some examples scenarios and how they would be scored.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
-| 1 | Navigation Task                         |        10      |
+| 1 | Navigation Task                         |        15      |
 | 2 | Target Acquisition Task (Visual)        |        30      |
 | 3 | Communication & Localization Task       |        20      |
 | 4 | Surface Bonus                           |         5      |
 | 5 | Run time Bonus                          |        15      |
-|   | **Attempt Total**                       |        100     |
+|   | **Attempt Total**                       |        105     |
 
 #### Example 5
 
@@ -368,10 +368,10 @@ Here are some examples scenarios and how they would be scored.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
-| 1 | Navigation Task                         |        10      |
+| 1 | Navigation Task                         |        15      |
 | 2 | Target Acquisation Task (Visual)        |        30      |
 | 3 | Communication & Localization Task       |        40      |
-|   | **Attempt Total**                       |        80      |
+|   | **Attempt Total**                       |        85      |
 
 #### Example 6
 
@@ -386,10 +386,10 @@ Here are some examples scenarios and how they would be scored.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
-| 1 | Navigation Task                         |        10      |
+| 1 | Navigation Task                         |        15      |
 | 2 | Target Acquisation Task (Visual)        |        30      |
 | 3 | Communication & Localization Task       |        60      |
-|   | **Attempt Total**                       |        100     |
+|   | **Attempt Total**                       |        105     |
 
 #### Example 7
 
@@ -404,12 +404,12 @@ Here are some examples scenarios and how they would be scored.
 
 |   |                 Task                    |     Points     |
 |---|:---------------------------------------:|:--------------:|
-| 1 | Navigation Task                         |        10      |
+| 1 | Navigation Task                         |        15      |
 | 2 | Target Acquisation Task (Visual)        |        30      |
 | 3 | Communication & Localization Task       |        120     |
 | 4 | Surface Bonus                           |         5      |
 | 5 | Run time Bonus                          |        15      |
-|   | **Attempt Total**                       |        180     |
+|   | **Attempt Total**                       |        185     |
 
 ## Specification of AUV
 
