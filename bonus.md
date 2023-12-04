@@ -5,6 +5,9 @@
 
 For SAUVC 2024, there is a bonus round with a single task called Oceanic Navigation. This was created to allow teams to experience the challenges of operating in an oceanic environment. The bonus round will be held in the [TCOMS Ocean Basin](https://www.tcoms.sg/), a cutting-edge facility for testing and developing marine technology. The basin is located at the [National University of Singapore](https://www.nus.edu.sg/).
 
+![arena](img/ocean-basin.jpg)
+<p class="image-caption"> Ocean basin at TCOMS. </p>
+
 The aim of this task is for the AUV to swim through a gate in the middle of the pool. At the ocean basin, the AUVs will have to deal with waves and currents. Only the top teams from the final round will be invited to the bonus round.
 
 **An orange flare** may be located anywhere in the ocean basin. The AUV **has to avoid** touching the orange flare. Any part of the AUV touching the orange flare causes an immediate <span class="important">abort</span> of the attempt.
