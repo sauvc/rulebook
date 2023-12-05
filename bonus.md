@@ -19,7 +19,7 @@ The basin is equipped with a wave generator capable of generating waves up to 0.
 ![arena](img/arena-ocean-basin.jpg)
 <p class="image-caption"> Top view of the ocean basin arena. </p>
 
-_This layout is for illustration purposes only; Deployment and retrieval location may be subject to changes._
+**This layout is for illustration purposes only; Deployment and retrieval location may be subject to changes.**
 
 Since the basin is a research facility, and the area is not typically open to the public, only a small predetermined number of the participants and viewers will be allowed into the facility to watch the attempt from the viewing gallery.
 
