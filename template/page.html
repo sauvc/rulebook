@@ -14,6 +14,13 @@
     @media print {
       .print-only{}
     }
+    body { counter-reset: figureCounter; }
+    .img-container {
+      counter-increment: figureCounter;
+    }
+    .img-container + .image-caption:before {
+      content: "▲ Figure " counter(figureCounter) ": "
+    }
   </style>
 </head>
 <body>
