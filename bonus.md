@@ -1,7 +1,7 @@
 
 ---
 
-### Bonus Round: Oceanic Navigation
+## Bonus Round: Oceanic Navigation
 
 For SAUVC 2024, there is a bonus round with a single task called Oceanic Navigation. This was created to allow teams to experience the challenges of operating in an oceanic environment. The bonus round will be held in the [TCOMS Ocean Basin](https://www.tcoms.sg/), a cutting-edge facility for testing and developing marine technology. The basin is located at the [National University of Singapore](https://www.nus.edu.sg/).
 
@@ -31,7 +31,7 @@ Details on the number of participants allowed to enter the viewing gallery will 
 
 The starting zone is a **140×140cm area** marked on the surface of the water. The teams **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone.
 
-### Surfacing
+#### Surfacing
 
 Breaching the surface at any point during the mission causes <span class="emphasis">end of the current attempt</span>. The team may wish to retry if they still have time left.
 

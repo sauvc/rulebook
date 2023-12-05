@@ -57,13 +57,14 @@ Table of Contents
    * [Disqualification](#disqualification)
    * [Others](#others)
    * [Feedback](#feedback)
-   * [Bonus Round](#bonus-round--oceanic-navigation)
+   * [Bonus Round](#bonus-round-oceanic-navigation)
       * [Arena (Ocean Basin)](#arena-ocean-basin)
       * [Starting Zone](#starting-zone-1)
+      * [Surfacing](#surfacing)
       * [Points](#points-4)
       * [Timing Bonus (Bonus Task)](#timing-bonus-bonus-task)
       * [Specification of props](#specification-of-props-5)
-      * [Gameplay (Bonus Task)](#gameplay-bonus-task)
+      * [Gameplay (Bonus round)](#gameplay-bonus-round)
 
 ## Objectives
 
@@ -469,7 +470,7 @@ Here are some examples scenarios and how they would be scored.
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
 - Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
 - The final round will be held in the main arena.
-- The top five teams from the final round will be allowed to attempt the [bonus round](./bonus-round.md).
+- The top five teams from the final round will be allowed to attempt the [bonus round](#bonus-round-oceanic-navigation).
 
 ### Practice Rounds
 
