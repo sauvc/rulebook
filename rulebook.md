@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2024 Rulebook
-version: "5.1.0"
-last_updated_date: 5 Dec 2023
+version: "5.1.1"
+last_updated_date: 12 Dec 2023
 year: 2024
 ---
 
