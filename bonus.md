@@ -37,6 +37,10 @@ The starting zone is a **140×140cm area** marked on the surface of the water. T
 
 Breaching the surface at any point during the mission causes <span class="emphasis">end of the current attempt</span>. The team may wish to retry if they still have time left.
 
+#### Deployment
+
+Due to the logistics involved in deploying the AUV, teams are not allowed to manually deploy the AUV. The AUV will be deployed to the starting zone by Ocean Basin staff. The team **must** provision a **delayed start function** for the AUV to start its thrusters **120 seconds** after they have passed it to the Ocean Basin staff. That way the Ocean Basin staff have enough time to move the AUV to the starting zone and leave the area before the AUV starts its mission. The start time for the first attempt will be measured from the time the AUV starts thrusting in the starting zone.
+
 #### Points
 
 There will be no points awarded for the bonus round. The teams will be ranked based on the time taken to the <span class="emphasis">end of the attempt</span> ONLY IF the team successfully managed to complete the task. The team with the fastest time will be ranked first in the bonus round.
