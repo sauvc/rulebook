@@ -47,7 +47,7 @@ There will be no points awarded for the bonus round. The teams will be ranked ba
 
 #### Specification of props
 
-The gate is located in the middle of the basin, ~25m from the starting zone. The gate is 200cm tall and 200cm wide. The gate is marked with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> stripes on the port and starboard sides respectively.
+The gate is located in the middle of the basin, ~25m from the starting zone. The gate is 200cm tall and 200cm wide. The gate is marked with <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on the port and starboard sides respectively.
 
 
 |   |       Prop       |              Description                |
