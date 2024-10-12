@@ -76,13 +76,13 @@ A team may consist of up to **11 participants** including **faculty supervisors*
 
 All teams have to submit a video of their AUV prior to the competition. The video **HAS TO**
 
--  be maximum **30 seconds** long,
+-  be **maximum 30 seconds** long,
 -  be submitted before 23:59 January 7th, 2024, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
 -  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
 -  show clearly that someone pressing the [Kill Switch](#safety) should stop all thrusters immediately.
 
 Note that teams **DO NOT NEED to showcase an intro of their team structure, university details etc - this will only take up valuable time in your video.**
-Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition.** The above criteria are the basic necessary criteria, failing which the teams wont be short-listed. The organizing committee will judge the best 35 teams based on the video.
+Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** 
 
 **Note: The video will not be played beyond 30 seconds, so whatever you want to showcase, must be done strictly within the 30 seconds.**
 
