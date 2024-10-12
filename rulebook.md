@@ -81,10 +81,13 @@ All teams have to submit a video of their AUV prior to the competition. The vide
 -  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
 -  show clearly that someone pressing the [Kill Switch](#safety) should stop all thrusters immediately.
 
-Note that teams **DO NOT NEED to showcase an intro of their team structure, university details etc - this will only take up valuable time in your video.**
-Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** 
-
 **Note: The video will not be played beyond 30 seconds, so whatever you want to showcase, must be done strictly within the 30 seconds.**
+
+Donts: For your video, DO NOT 
+- put the most important parts of the video after 30 seconds (safety, control etc.), as it will not be reviewed, without exception.
+- you do not need to showcase an intro of team structure, university details etc - this will only take up valuable time in your video.
+
+Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** 
 
 The organizers reserve the right to publish the video submissions after the competition.
 
