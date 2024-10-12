@@ -1,5 +1,5 @@
 title: The Singapore AUV Challenge 2024 Rulebook
-version: "5.1.3"
+version: "5.1.4"
 last_updated_date: 30 Mar 2024
 year: 2024
 ---
@@ -57,14 +57,6 @@ Table of Contents
    * [Disqualification](#disqualification)
    * [Others](#others)
    * [Feedback](#feedback)
-   * [Bonus Round](#bonus-round-oceanic-navigation)
-      * [Arena (Ocean Basin)](#arena-ocean-basin)
-      * [Starting Zone](#starting-zone-1)
-      * [Surfacing](#surfacing)
-      * [Points](#points-4)
-      * [Timing Bonus (Bonus Task)](#timing-bonus-bonus-task)
-      * [Specification of props](#specification-of-props-5)
-      * [Gameplay (Bonus round)](#gameplay-bonus-round)
 
 ## Objectives
 
@@ -89,7 +81,10 @@ All teams have to submit a video of their AUV prior to the competition. The vide
 -  showcase the tether-less operation of AUV swimming underwater for at least **10 seconds**.
 -  show clearly that someone pressing the [Kill Switch](#safety) should stop all thrusters immediately.
 
-Videos will be reviewed by the organizing committee and **30 teams with the best vehicles will be short-listed to attend the competition**.
+Note that teams **DO NOT NEED to showcase an intro of their team structure, university details etc - this will only take up valuable time in your video.**
+Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition.** The above criteria are the basic necessary criteria, failing which the teams wont be short-listed. The organizing committee will judge the best 35 teams based on the video.
+
+**Note: The video will not be played beyond 30 seconds, so whatever you want to showcase, must be done strictly within the 30 seconds.**
 
 The organizers reserve the right to publish the video submissions after the competition.
 
@@ -470,7 +465,6 @@ Here are some examples scenarios and how they would be scored.
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
 - Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
 - The final round will be held in the main arena.
-- The top five teams from the final round will be allowed to attempt the [bonus round](#bonus-round-oceanic-navigation).
 
 ### Practice Rounds
 
