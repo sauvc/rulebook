@@ -467,9 +467,9 @@ Here are some examples scenarios and how they would be scored.
 ### Sequence of events during the competition
 
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
-- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.f
+- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
-- Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
+- Top 15 qualified teams (according to qualification score and the qualification time) will proceed to the final rounds of competition.
 - The final round will be held in the main arena.
 
 ### Practice Rounds
