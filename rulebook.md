@@ -128,7 +128,7 @@ The qualification rounds would be held on the side of the main arena.
 
 The qualification starting line is a marked 1m wide section of the pool wall from where the AUV should be deployed from. The AUV **has to touch the wall** at the begining of the run.
 
-At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate to qualify. If the AUV touches **ANY** of the 3 sides of the qualification gate, the attempt is considered a failure.
+At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate completely to get 1 qualifying point. If the AUV touches **ANY** of the 3 sides of the qualification gate, the attempt is considered a failure.
 
 #### Specification of props
 
