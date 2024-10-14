@@ -7,56 +7,56 @@ year: 2025
 Table of Contents
 =================
 
-   * [Table of Contents](#table-of-contents)
-   * [Objectives](#objectives)
-   * [Structure of the Team](#structure-of-the-team)
-   * [Video Submission](#video-submission)
-   * [Qualification](#qualification)
-   * [The Arena](#the-arena)
-      * [Qualification Arena(s)](#qualification-arenas)
-         * [Specification of props](#specification-of-props)
-      * [Starting Zone](#starting-zone)
-   * [Tasks](#tasks)
-      * [1. Navigation](#1-navigation)
-         * [Points](#points)
-         * [Specification of props](#specification-of-props-1)
-      * [2. Target Acquisition](#2-target-acquisition)
-         * [Points](#points-1)
-         * [Specification of props](#specification-of-props-2)
-      * [3. Target Reacquisition](#3-target-reacquisition)
-         * [Points](#points-2)
-         * [Specification of props](#specification-of-props-3)
-      * [4. Communication &amp; Localization](#4-communication--localization)
-         * [Points](#points-3)
-         * [Specification of props](#specification-of-props-4)
-      * [Surfacing](#surfacing)
-      * [Aborting](#aborting)
-      * [Automatic Abort](#automatic-abort)
-      * [Timing Bonus](#timing-bonus)
-      * [Penalties](#penalties)
-      * [Examples](#examples)
-         * [Example 1](#example-1)
-         * [Example 2](#example-2)
-         * [Example 3](#example-3)
-         * [Example 4](#example-4)
-         * [Example 5](#example-5)
-         * [Example 6](#example-6)
-         * [Example 7](#example-7)
-   * [Specification of AUV](#specification-of-auv)
-      * [Size](#size)
-      * [Power](#power)
-      * [Safety](#safety)
-      * [Communications](#communications)
-   * [Game Procedure](#game-procedure)
-      * [Sequence of events during the competition](#sequence-of-events-during-the-competition)
-      * [Practice Rounds](#practice-rounds)
-      * [Length of a game](#length-of-a-game)
-      * [Retries](#retries)
-   * [Certificate of Participation](#certificate-of-participation)
-   * [General Restrictions](#general-restrictions)
-   * [Disqualification](#disqualification)
-   * [Others](#others)
-   * [Feedback](#feedback)
+- [Table of Contents](#table-of-contents)
+  - [Objectives](#objectives)
+  - [Structure of the Team](#structure-of-the-team)
+  - [Video Submission](#video-submission)
+  - [Qualification](#qualification)
+  - [The Arena](#the-arena)
+    - [Qualification Arena(s)](#qualification-arenas)
+      - [Specification of props](#specification-of-props)
+    - [Starting Zone](#starting-zone)
+  - [Tasks](#tasks)
+    - [1. Navigation](#1-navigation)
+      - [Points](#points)
+      - [Specification of props](#specification-of-props-1)
+    - [2. Target Acquisition](#2-target-acquisition)
+      - [Points](#points-1)
+      - [Specification of props](#specification-of-props-2)
+    - [3. Target Reacquisition](#3-target-reacquisition)
+      - [Points](#points-2)
+      - [Specification of props](#specification-of-props-3)
+    - [4. Communication \& Localization](#4-communication--localization)
+      - [Points](#points-3)
+      - [Specification of props](#specification-of-props-4)
+    - [Surfacing](#surfacing)
+    - [Aborting](#aborting)
+    - [Automatic Abort](#automatic-abort)
+    - [Timing Bonus](#timing-bonus)
+    - [Penalties](#penalties)
+    - [Examples](#examples)
+      - [Example 1](#example-1)
+      - [Example 2](#example-2)
+      - [Example 3](#example-3)
+      - [Example 4](#example-4)
+      - [Example 5](#example-5)
+      - [Example 6](#example-6)
+      - [Example 7](#example-7)
+  - [Specification of AUV](#specification-of-auv)
+    - [Size](#size)
+    - [Power](#power)
+    - [Safety](#safety)
+    - [Communications](#communications)
+  - [Game Procedure](#game-procedure)
+    - [Sequence of events during the competition](#sequence-of-events-during-the-competition)
+    - [Practice Rounds](#practice-rounds)
+    - [Length of a game](#length-of-a-game)
+    - [Retries](#retries)
+  - [Certificate of Participation](#certificate-of-participation)
+  - [General Restrictions](#general-restrictions)
+  - [Disqualification](#disqualification)
+  - [Others](#others)
+  - [Feedback](#feedback)
 
 ## Objectives
 
@@ -93,13 +93,16 @@ The organizers reserve the right to publish the video submissions after the comp
 
 ## Qualification
 
-- AUVs have to pass a qualifying round before they can participate in the main arena.
-- To qualify, an AUV has to swim from **qualification starting line** and pass through the **qualification gate** without surfacing, touching the bottom/wall or the qualification gate.
-- The time taken for the **last part** of the AUV to pass through the **qualification gate** will be counted towards the qualification time.
+- To qualify, an AUV must swim from the **qualification starting line, pass completely through the qualification gate, perform a U-turn, and completely pass through the gate again**. Note: It is necessary to perform a U-Turn after passing through the gate in the forward run, before attempting the reverse run.
+- "Passing through the gate" implies the back-most part of the AUV crosses the line.
+- The AUV must complete the entire course without surfacing, touching the bottom, walls, or the qualification gate.
+- Passing through the gate once (in the forward run) earns 1 qualification point. 2 qualification points are awarded only after the AUV passes through the gate both times (i.e, on both the forward and reverse run).
+- The total run time will be measured from when the **AUV starts the qualification run to when it completely passes through the gate for the second time or when the team requests an abort**.
+- Timing of the run will be used for tie-breakers only and does not directly contribute to the qualification score.
 - Teams will be allocated a time slot for the qualification round. Teams may attempt multiple qualifying runs during the qualifying slot.
-- If multiple qualifying runs are attempted during the qualifying slot, the fastest successful run will be considered for the final round.
-- **Only the top 15** qualified teams, with the fastest time for the qualifying round, will advance to the final round.
-- The time taken to pass the qualifier round decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
+- If multiple qualifying runs are attempted during the qualifying slot, the most successful run will be considered for the final round (i.e the run with highest qualification points, and the fastest amongst those).
+- **Only the top 15** qualified teams, with the highest qualification score, will advance to the final round.
+- The qualification score, followed by the time taken to pass the qualifier round, decides the sequence in which the teams will participate in the final round of the competition. The team that finished the last in the qualifying round would participate first in the final round.
 
 ![flares](img/qualification.jpg)
 <p class="image-caption">A team attempting qualification in the 2017 Competition.</p>
@@ -125,7 +128,7 @@ The qualification rounds would be held on the side of the main arena.
 
 The qualification starting line is a marked 1m wide section of the pool wall from where the AUV should be deployed from. The AUV **has to touch the wall** at the begining of the run.
 
-At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate to qualify. If the AUV touches **ANY** of the 3 sides of the qualification gate, the attempt is considered a failure.
+At approximately 10m from the starting line the qualification gate is hanging from the surface of the water. The AUV has to go through the gate completely to get 1 qualifying point. If the AUV touches **ANY** of the 3 sides of the qualification gate, the attempt is considered a failure.
 
 #### Specification of props
 
@@ -464,9 +467,9 @@ Here are some examples scenarios and how they would be scored.
 ### Sequence of events during the competition
 
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
-- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.f
+- AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
-- Top 15 qualified teams (according to fastest qualifying round times) will proceed to the final rounds of competition.
+- Top 15 qualified teams (according to qualification score and the qualification time) will proceed to the final rounds of competition.
 - The final round will be held in the main arena.
 
 ### Practice Rounds
