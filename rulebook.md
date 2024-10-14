@@ -93,12 +93,12 @@ The organizers reserve the right to publish the video submissions after the comp
 
 ## Qualification
 
-- To qualify, an AUV must swim from the **qualification starting line, pass completely through the qualification gate, perform a U-turn, and completely pass through the gate again**. Note: It is necessary to perform a U-Turn.
+- To qualify, an AUV must swim from the **qualification starting line, pass completely through the qualification gate, perform a U-turn, and completely pass through the gate again**. Note: It is necessary to perform a U-Turn after passing through the gate in the forward run, before attempting the reverse run.
 - "Passing through the gate" implies the back-most part of the AUV crosses the line.
 - The AUV must complete the entire course without surfacing, touching the bottom, walls, or the qualification gate.
-- Passing through the gate once earns 1 qualification point. 2 qualification points are awarded only after the AUV passes through the gate both times (i.e, on both the forward and reverse run).
-- The total run time will be measured from when the **AUV crosses the qualification starting line to when it completely passes through the gate for the second time or when the team requests an abort**.
-- Timing will be used for tie-breakers only and does not directly contribute to the qualification score.
+- Passing through the gate once (in the forward run) earns 1 qualification point. 2 qualification points are awarded only after the AUV passes through the gate both times (i.e, on both the forward and reverse run).
+- The total run time will be measured from when the **AUV starts the qualification run to when it completely passes through the gate for the second time or when the team requests an abort**.
+- Timing of the run will be used for tie-breakers only and does not directly contribute to the qualification score.
 - Teams will be allocated a time slot for the qualification round. Teams may attempt multiple qualifying runs during the qualifying slot.
 - If multiple qualifying runs are attempted during the qualifying slot, the most successful run will be considered for the final round (i.e the run with highest qualification points, and the fastest amongst those).
 - **Only the top 15** qualified teams, with the highest qualification score, will advance to the final round.
