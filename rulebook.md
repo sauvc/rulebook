@@ -67,7 +67,7 @@ The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) whic
 
 ## Structure of the Team
 
-A team may consist of up to **11 participants** including **faculty supervisors**. At least half of the participants must be non-professionals (students, hobbyists, hackerspace members, etc) at the time of registration.
+A team may consist of up to **11 participants** including **faculty supervisors**. At least half of the participants must be full-time students at the time of registration.
 
 ![arena](img/team.jpg)
 <p class="image-caption">One of the teams with faculty co-supervisors from the 2017 Competition.</p>
