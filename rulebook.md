@@ -439,7 +439,7 @@ Here are some examples scenarios and how they would be scored.
 ### Safety
 
 - AUVs must not leak and pollute the pool.
-- AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue.
+- AUVs must be designed and manufactured as to pose no danger of any kind to anyone or anything at the venue. This includes making sure that thrusters/propeller blades are shrouded.
 - AUVs **must have a kill switch** that turns off the vehicle including thrusters, or any other population mechanism.
 - The kill switch must be **easily accessible** to a diver. This must be marked in bright color.
 - Pressure of any compressed gas used must not exceed **6 bars**.
