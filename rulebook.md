@@ -307,6 +307,8 @@ There are penalty points for touching the floor or wall of the pool at any time,
 | 1 | Touching the gate                       |        2       |
 | 2 | Touching the bottom of the pool or wall |        5       |
 
+There is no penalty for your actuator touching the inner part of the drum during the act of deploying or retrieving during Task 2 and 3. However, touching the outer part of the drum or with the vehicle body can incur the same penalty as touching the pool floor.
+
 ### Examples
 
 Here are some examples scenarios and how they would be scored.
