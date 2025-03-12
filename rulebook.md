@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2025 Rulebook
-version: "5.1.4"
-last_updated_date: 12 Oct 2024
+version: "5.1.5"
+last_updated_date: 12 March 2025
 year: 2025
 ---
 
@@ -83,11 +83,11 @@ All teams have to submit a video of their AUV prior to the competition. The vide
 
 **Note: The video will not be played beyond 30 seconds, so whatever you want to showcase, must be done strictly within the 30 seconds.**
 
-Donts: For your video, DO NOT 
+Donts: For your video, DO NOT
 - put the most important parts of the video after 30 seconds (safety, control etc.), as it will not be reviewed, without exception.
 - you do not need to showcase an intro of team structure, university details etc - this will only take up valuable time in your video.
 
-Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** 
+Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.**
 
 The organizers reserve the right to publish the video submissions after the competition.
 
@@ -114,7 +114,7 @@ The organizers reserve the right to publish the video submissions after the comp
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m).
 
-![arena](img/arena-2024.jpg)
+![arena](img/arena-2025.jpg)
 <p class="image-caption">Top & side views of the Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
