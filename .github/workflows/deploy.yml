@@ -22,6 +22,12 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
+
+      - name: Install wkhtmltopdf
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wkhtmltopdf
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
