@@ -1,7 +1,5 @@
 # rulebook
 
-[![Build Status](https://travis-ci.org/sauvc/rulebook.svg?branch=master)](https://travis-ci.org/sauvc/rulebook)
-
 Rules for the Singapore AUV Challenge
 
 ## Development
@@ -11,5 +9,11 @@ Rules for the Singapore AUV Challenge
 1. Generate HTML and PDF
 
     ```sh
-    make index.html rulebook.pdf
+    make
     ```
+1. This generates the output index.html and rulebook.pdf in the `/dists` directory.
+
+
+## Publishing
+
+The [deploy](.github/workflows/deploy.yml) action will automatically deploy any changes to the `master` branch
