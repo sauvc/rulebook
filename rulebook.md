@@ -109,7 +109,7 @@ The organizers reserve the right to publish the video submissions after the comp
 <p class="image-caption">A team attempting qualification in the 2017 Competition.</p>
 
 ![flares](img/qualification-2022.jpg)
-<p class="image-caption">Top view of the qualification arena from the 2022 Competition.</p>
+<p class="image-caption">Top view of the qualification arena from the 2022 Competition. Note that dimensions would be different for the 2026 arena.</p>
 
 ## The Arena
 
@@ -165,7 +165,7 @@ The aim of this task is to swim through a gate placed at the bottom of the pool.
 **A orange flare** may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV **has to avoid** touching the orange flare. Any part of the AUV touching the orange flare causes an immediate <span class="important">abort</span> of the attempt.
 
 ![flare](img/gate-2022.jpg)
-<p class="image-caption">Picture of the gate from 2022 Competition.</p>
+<p class="image-caption">Picture of the gate from the 2022 Competition. Note that dimensions would be different for the 2026 competition.</p>
 
 #### Points
 
@@ -185,10 +185,10 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 <p class="image-caption">Front-view of the orange flare. </p>
 
 ![flare](img/orange-flare-2022.jpg)
-<p class="image-caption">Orange flare from 2022 Competition. </p>
+<p class="image-caption">Orange flare from 2022 Competition. Note that dimensions would be different for the 2026 arena.</p>
 
 ![flare](img/gate+flare-2022.jpg)
-<p class="image-caption">Gate and orange flare from 2022 Competition. </p>
+<p class="image-caption">Gate and orange flare from 2022 Competition. Note that dimensions would be different for the 2026 arena. </p>
 
 ### 2. Target Acquisition
 
@@ -215,7 +215,7 @@ Points will be awarded as follows.
 | 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
-<p class="image-caption">Picture target zone and drums from the 2017 Competition.</p>
+<p class="image-caption">Picture target zone and drums from the 2017 Competition. Note that the green mat may not be present to mark the target zone for the 2026 arena.</p>
 
 ![pinger](img/pinger.jpg)
 <p class="image-caption">Picture of a 45kHz pinger.</p>
