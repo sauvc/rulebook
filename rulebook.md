@@ -115,7 +115,7 @@ The organizers reserve the right to publish the video submissions after the comp
 
 The challenge will be held in an indoor swimming pool (25m x 16m).
 
-![arena](img/arena-2025.jpg)
+![arena](img/arena-2026.jpg)
 <p class="image-caption">Top & side views of the Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
@@ -137,7 +137,7 @@ At approximately 10m from the starting line the qualification gate is hanging fr
 |---|:--------------------:|:---------------------------------------:|
 | 1 | Qualification Gate   | 150cm wide spanning from bottom of the pool to the top, hanging from the water surface with <span class="indicate-orange">orange</span> markings on both port and starboard sides.
 
-![flares](img/qualification-gate.jpg)
+![flares](img/qualification-gate-2026.jpg)
 <p class="image-caption">Front-view of the qualification gate.</p>
 
 ### Starting Zone
@@ -178,10 +178,10 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 | 1 | Gate             | 150cm wide and 100cm tall gate with striped <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
 | 2 | Orange Flare        | ~15cm diameter flare with height spanning from bottom to top of the pool, and <span class="indicate-orange">orange</span> in color. |
 
-![gate](img/gate-2024.jpg)
+![gate](img/gate-2026.jpg)
 <p class="image-caption">Front-view of the gate.</p>
 
-![flare](img/orange-flare.jpg)
+![flare](img/orange-flare-2026.jpg)
 <p class="image-caption">Front-view of the orange flare. </p>
 
 ![flare](img/orange-flare-2022.jpg)
@@ -269,7 +269,7 @@ Points would be awarded as follows.
 | 1 | Yellow Flare     | 80cm tall, ~1.6cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
 | 1 | Blue Flare       | 80cm tall, ~1.6cm in diameter, and <span class="indicate-blue">blue</span> in color.|
 
-![flare](img/flares-2024.jpg)
+![flare](img/flares-2026.jpg)
 <p class="image-caption">Side-view of the flares. </p>
 
 ### Surfacing
