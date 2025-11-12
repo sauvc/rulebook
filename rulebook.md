@@ -109,7 +109,7 @@ The organizers reserve the right to publish the video submissions after the comp
 <p class="image-caption">A team attempting qualification in the 2017 Competition.</p>
 
 ![flares](img/qualification-2022.jpg)
-<p class="image-caption">Top view of the qualification areanas from the 2022 Competition.</p>
+<p class="image-caption">Top view of the qualification arena from the 2022 Competition.</p>
 
 ## The Arena
 
