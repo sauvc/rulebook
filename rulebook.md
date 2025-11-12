@@ -121,8 +121,8 @@ The challenge will be held in an indoor swimming pool (25m x 16m).
 ![arena](img/arena-2017.jpg)
 <p class="image-caption">Picture of the Arena from 2017 Competition.</p>
 
-![arena](img/arena-top-2022.jpg)
-<p class="image-caption">Picture of the Arena from 2022 Competition.</p>
+![arena](img/sanyavenue2.jpg)
+<p class="image-caption">Picture of the 2026 Arena.</p>
 
 ### Qualification Arena(s)
 The qualification rounds would be held in the pool.
