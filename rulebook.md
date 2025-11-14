@@ -67,7 +67,8 @@ The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) whic
 
 ## Structure of the Team
 
-A team may consist of up to **11 participants** including **faculty supervisors**. At least half of the participants must be full-time students at the time of registration.
+A team may consist of up to **11 participants** including **faculty supervisors**. 
+There are two categories of teams - student and open. For a team to be in student category, at least half of the participants must be full-time students at the time of registration.
 
 ![arena](img/team.jpg)
 <p class="image-caption">One of the teams with faculty co-supervisors from the 2017 Competition.</p>
@@ -87,7 +88,7 @@ Donts: For your video, DO NOT
 - put the most important parts of the video after 30 seconds (safety, control etc.), as it will not be reviewed, without exception.
 - you do not need to showcase an intro of team structure, university details etc - this will only take up valuable time in your video.
 
-Videos will be reviewed by the organizing committee and **35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.**
+Videos will be reviewed by the organizing committee and **around 35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** The exact number of teams to be short-listed will be finalized based on logistical developments.
 
 The organizers reserve the right to publish the video submissions after the competition.
 
@@ -108,23 +109,23 @@ The organizers reserve the right to publish the video submissions after the comp
 <p class="image-caption">A team attempting qualification in the 2017 Competition.</p>
 
 ![flares](img/qualification-2022.jpg)
-<p class="image-caption">Top view of the qualification areanas from the 2022 Competition.</p>
+<p class="image-caption">Top view of the qualification arena from the 2022 Competition. Note that dimensions would be different for the 2026 arena.</p>
 
 ## The Arena
 
-The challenge will be held in an olympic sized swimming pool (50m x 25m).
+The challenge will be held in an indoor swimming pool (25m x 16m).
 
-![arena](img/arena-2025.jpg)
+![arena](img/arena-2026.jpg)
 <p class="image-caption">Top & side views of the Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
 <p class="image-caption">Picture of the Arena from 2017 Competition.</p>
 
-![arena](img/arena-top-2022.jpg)
-<p class="image-caption">Picture of the Arena from 2022 Competition.</p>
+![arena](img/sanyavenue2.jpg)
+<p class="image-caption">Picture of the 2026 Arena.</p>
 
 ### Qualification Arena(s)
-The qualification rounds would be held on the side of the main arena.
+The qualification rounds would be held in the pool.
 
 The qualification starting line is a marked 1m wide section of the pool wall from where the AUV should be deployed from. The AUV **has to touch the wall** at the begining of the run.
 
@@ -134,9 +135,9 @@ At approximately 10m from the starting line the qualification gate is hanging fr
 
 |   |       Prop           |              Description                |
 |---|:--------------------:|:---------------------------------------:|
-| 1 | Qualification Gate   | 150cm wide and ~100cm deep gate hanging from the water surface with <span class="indicate-orange">orange</span> markings on both port and starboard sides.
+| 1 | Qualification Gate   | 150cm wide spanning from bottom of the pool to the top, hanging from the water surface with <span class="indicate-orange">orange</span> markings on both port and starboard sides.
 
-![flares](img/qualification-gate.jpg)
+![flares](img/qualification-gate-2026.jpg)
 <p class="image-caption">Front-view of the qualification gate.</p>
 
 ### Starting Zone
@@ -159,12 +160,12 @@ The first task, Navigation, is mandatory and **must be completed** before attemp
 
 ### 1. Navigation
 
-The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 12m away from the starting zone. See Figure 4. The AUV has to swim through the 150 cm tall gate without touching the gate.
+The aim of this task is to swim through a gate placed at the bottom of the pool. The gate may be located anywhere on a horizontal line, parallel to the side of the swimming pool, approximately 16m away from the starting zone. See Figure 4. The AUV has to swim through the 100 cm tall gate without touching the gate or touching or knocking the ball from any of the flares (including the ones placed for the communication task, read more below).
 
 **A orange flare** may be located anywhere in a rectangular zone 4m-8m from side of the arena, before the gate. The AUV **has to avoid** touching the orange flare. Any part of the AUV touching the orange flare causes an immediate <span class="important">abort</span> of the attempt.
 
 ![flare](img/gate-2022.jpg)
-<p class="image-caption">Picture of the gate from 2022 Competition.</p>
+<p class="image-caption">Picture of the gate from the 2022 Competition. Note that dimensions would be different for the 2026 competition.</p>
 
 #### Points
 
@@ -174,28 +175,26 @@ If the AUV successfully passes through the gate,<span class="info">15 Points</sp
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Gate             | 150cm wide and 150cm tall gate with striped <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
-| 2 | Orange Flare        | 150cm tall and ~15cm diameter flare, and <span class="indicate-orange">orange</span> in color. |
+| 1 | Gate             | 150cm wide and 100cm tall gate with striped <span class="indicate-red">red</span> and <span class="indicate-green">green</span> markings on port and starboard sides respectively. |
+| 2 | Orange Flare        | ~15cm diameter flare with height spanning from bottom to top of the pool, and <span class="indicate-orange">orange</span> in color. |
 
-![gate](img/gate-2024.jpg)
+![gate](img/gate-2026.jpg)
 <p class="image-caption">Front-view of the gate.</p>
 
-![flare](img/orange-flare.jpg)
+![flare](img/orange-flare-2026.jpg)
 <p class="image-caption">Front-view of the orange flare. </p>
 
 ![flare](img/orange-flare-2022.jpg)
-<p class="image-caption">Orange flare from 2022 Competition. </p>
+<p class="image-caption">Orange flare from 2022 Competition. Note that dimensions would be different for the 2026 arena.</p>
 
 ![flare](img/gate+flare-2022.jpg)
-<p class="image-caption">Gate and orange flare from 2022 Competition. </p>
+<p class="image-caption">Gate and orange flare from 2022 Competition. Note that dimensions would be different for the 2026 arena. </p>
 
 ### 2. Target Acquisition
 
 The aim of the task is to detect and acquire a target among a series of drums at the bottom of the pool, in the target zone.
 
-A target zone is defined by a <span class="indicate-green">green colored mat</span> laid out on the floor of the pool. The mat is 8m x 2m in size. Figure 4. shows the location of the mat with respect to the arena.
-
-There are 4 colored drums in the arena. All of them are on the mat. One of the drums, chosen at random, will be <span class="indicate-blue">blue</span> in color, while the rest are <span class="indicate-red">red</span> in color. One of the <span class="indicate-red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
+There are 4 colored drums in the arena. One of the drums, chosen at random, will be <span class="indicate-blue">blue</span> in color, while the rest are <span class="indicate-red">red</span> in color. One of the <span class="indicate-red">red drums</span>, chosen at random, will contain an acoustic pinger. The AUV needs to drop a ball in one of the drums to successfully complete this task. Points will be awarded based on which drum the ball is dropped into. In the event of multiple balls being dropped, only the **first ball** is taken to consideration.
 
 The location of the <span class="indicate-red">red drum</span> which contains the acoustic pinger may be randomized between attempts, as may be the order of the drums. The order of the drums and location of the pinger will be decided by the organizing committee.
 
@@ -212,11 +211,11 @@ Points will be awarded as follows.
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
 | 1 | Drum             | 60cm in diameter and 30cm in depth.     |
-| 2 | Ball             | 3.5-4.5cm in diameter and weigh no more than 200g in air. Provided by teams. |
+| 2 | Ball             | 3.5-4.5cm in diameter and weighs no more than 200g in air. Provided by teams. |
 | 3 | Drum Pinger    | [RJE International Pinger Model No. ULB-362B/45 kHz](http://www.rjeint.com/wp-content/uploads/2017/01/ULB-362-ULB-362PL-Manual.pdf).|
 
 ![flare](img/drums-2017.jpg)
-<p class="image-caption">Picture target zone and drums from the 2017 Competition.</p>
+<p class="image-caption">Picture target zone and drums from the 2017 Competition. Note that the green mat may not be present to mark the target zone for the 2026 arena.</p>
 
 ![pinger](img/pinger.jpg)
 <p class="image-caption">Picture of a 45kHz pinger.</p>
@@ -225,9 +224,9 @@ Points will be awarded as follows.
 
 The aim of this task is to reacquire a previously detected target.
 
-This task is only attempt-able if the [Target Acquisition](#2.-target-acquisition) has been successfully completed. Furthermore, the AUV has to leave the target zone, before it can attempt the Target Reacquisition task. Every part of the AUV needs to clear the target zone, before it can be considered outside the target zone.
+This task is only attempt-able if the [Target Acquisition](#2.-target-acquisition) has been successfully completed. Furthermore, the AUV has to pass through gate once more fully (in any direction), before it can attempt the Target Reacquisition task.
 
-After the AUV is outside the target zone, it needs to reacquire the target and pick up the ball that it dropped in the [Target Acquisition](#2.-target-acquisition) task. The AUV has to hold on to the ball till the <span class="emphasis">end of attempt</span> to successfully complete this task.
+After the AUV has crossed the gate once more after the [Target Acquisition](#2.-target-acquisition) task, it needs to reacquire the target and pick up the ball that it dropped in the [Target Acquisition](#2.-target-acquisition) task. The AUV has to hold on to the ball till the <span class="emphasis">end of attempt</span> to successfully complete this task.
 
 This task does not have to be attempted immediately after Target Acquisition task, other tasks may be attempted in between.
 
@@ -239,8 +238,7 @@ If the AUV successfully picks up the ball and holds on to it till the <span clas
 
 |   |       Prop       |              Description                |
 |---|:----------------:|:---------------------------------------:|
-| 1 | Target zone      | <span class="indicate-green">Green</span> mat 8m x 2m in size.|
-| 2 | Ball             | Same ball used in target acquisition task. Provided by the teams.|
+| 1 | Ball             | Same ball used in target acquisition task. Provided by the teams.|
 
 ### 4. Communication & Localization
 
@@ -271,7 +269,7 @@ Points would be awarded as follows.
 | 1 | Yellow Flare     | 80cm tall, ~1.6cm in diameter, and <span class="indicate-yellow">yellow</span> in color.|
 | 1 | Blue Flare       | 80cm tall, ~1.6cm in diameter, and <span class="indicate-blue">blue</span> in color.|
 
-![flare](img/flares-2024.jpg)
+![flare](img/flares-2026.jpg)
 <p class="image-caption">Side-view of the flares. </p>
 
 ### Surfacing
@@ -471,7 +469,7 @@ Here are some examples scenarios and how they would be scored.
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
 - AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
-- Top 15 qualified teams (according to qualification score and the qualification time) will proceed to the final rounds of competition.
+- Around the top 15 qualified teams (according to qualification score and the qualification time) will proceed to the final rounds of competition. The committee reserves the right to tweak the actual number of teams who make it to the final based on logistical constraints.
 - The final round will be held in the main arena.
 
 ### Practice Rounds
@@ -516,7 +514,6 @@ Here are some examples scenarios and how they would be scored.
 - Members of other teams are not allowed in the game area.
 - Nobody is allowed to wear any footwear near the pool area.
 - The <span class="inverse">Judges</span> may suspend the challenge if weather turns unfavorable.
-- The pool area must be evacuated in case of lightning.
 
 ## Disqualification
 
