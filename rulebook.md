@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2026 Rulebook
 version: "6.1.0"
-last_updated_date: 7 Nov 2025
+last_updated_date: 16 Nov 2025
 year: 2026
 ---
 
@@ -67,7 +67,7 @@ The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) whic
 
 ## Structure of the Team
 
-A team may consist of up to **11 participants** including **faculty supervisors**. 
+A team may consist of up to **11 participants** including **faculty supervisors**.
 There are two categories of teams - student and open. For a team to be in student category, at least half of the participants must be full-time students at the time of registration.
 
 ![arena](img/team.jpg)
@@ -115,8 +115,8 @@ The organizers reserve the right to publish the video submissions after the comp
 
 The challenge will be held in an indoor swimming pool (25m x 16m).
 
-![arena](img/arena-2026.jpg)
-<p class="image-caption">Top & side views of the Arena (not to scale). </p>
+![finals arena](img/arena-2026-finals.png)
+<p class="image-caption">Top & side views of the Finals Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
 <p class="image-caption">Picture of the Arena from 2017 Competition.</p>
@@ -126,6 +126,9 @@ The challenge will be held in an indoor swimming pool (25m x 16m).
 
 ### Qualification Arena(s)
 The qualification rounds would be held in the pool.
+
+![qualification arena](img/arena-2026-qualifiers.png)
+<p class="image-caption">Top & side views of the Qualification Arena (not to scale). </p>
 
 The qualification starting line is a marked 1m wide section of the pool wall from where the AUV should be deployed from. The AUV **has to touch the wall** at the begining of the run.
 
