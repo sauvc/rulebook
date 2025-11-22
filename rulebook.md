@@ -145,7 +145,7 @@ At approximately 10m from the starting line the qualification gate is hanging fr
 
 ### Starting Zone
 
-The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone. Teams may also place their [communication equipment](#specification-of-auv) in the starting zone.
+The starting zone is a **140×140cm area** marked on the surface of water. The teams  **must** start their AUVs from this area. The team may only place the AUV at the water surface, it must autonomously submerge **before** leaving the starting zone. Teams may also place their [communication equipment](#specification-of-auv) in the starting zone in the finals, but not during the qualifiers.
 
 ![arena](img/starting-zone-2022.jpg)
 <p class="image-caption">Picture of the Starting Zone from 2022 Competition.</p>
@@ -446,7 +446,7 @@ Here are some examples scenarios and how they would be scored.
 - AUVs **must have a kill switch** that turns off the vehicle including thrusters, or any other population mechanism.
 - The kill switch must be **easily accessible** to a diver. This must be marked in bright color.
 - Pressure of any compressed gas used must not exceed **6 bars**.
-- AUV must be completely autonomous.
+- AUV must be completely untethered.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
 
