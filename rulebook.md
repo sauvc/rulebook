@@ -11,6 +11,7 @@ Table of Contents
   - [Objectives](#objectives)
   - [Structure of the Team](#structure-of-the-team)
   - [Video Submission](#video-submission)
+  - [Innovation Award](#innovation-award)
   - [Qualification](#qualification)
   - [The Arena](#the-arena)
     - [Qualification Arena(s)](#qualification-arenas)
@@ -91,6 +92,42 @@ Donts: For your video, DO NOT
 Videos will be reviewed by the organizing committee and **around 35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** The exact number of teams to be short-listed will be finalized based on logistical developments.
 
 The organizers reserve the right to publish the video submissions after the competition.
+
+## Innovation Award
+
+As **SAUVC will happen right after OCEANS Sanya**, we’re pleased to introduce the **Innovation Award** that will help teams connect with a wider marine robotics community. In addition to the video, you will have to **submit a 2-page extended abstract** and the **top three will earn one free student conference registration** per team to present in the OCEANS general poster session. We strongly believe it will be a great opportunity for the awardees to meet and network with industry and academic leaders in the field of marine robotics.
+
+Important Note: This will only be a **free registration grant and cannot be used for travel or accommodation**. OCEANS Sanya conference will be held from May 25-28, just a few days before SAUVC and thus **awardees will be required to arrive early** to present their work. This extended abstract submission via SAUVC submission portal will be used **ONLY for evaluating the award, and will not be published in OCEANS conference proceedings.**
+ 
+Eligibility -
+- Only for  **student teams** participating in SAUVC ’26.
+- **Only teams shortlisted based on the video submission** will be evaluated for the abstract competition (video and abstract criteria are independent).
+- Team members must be **enrolled students at the time of SAUVC’26**.
+
+What to Submit -
+- **Max 2 pages including figures/tables** describing the novelty and any validation of it (references don’t count toward the 2 pages).
+- Include **team name and a clear title** highlighting the innovation on the first page.
+- **PDF files only with font size no more than 8-pt.**
+- No prescribed template **but recommend using the IEEE 2-column format.**
+- Suggested outline for the abstract -
+  - Brief Intro to the Problem(what bottleneck you targeted and why you think it matters)
+  - Prior Work (and their limitations for teams)
+  - Your innovation (how it works; key design choices & trade-offs)
+  - Validation (experiments, metrics, comparisons, failure modes)
+  - Impact (what this unlocks for your vehicle/mission; safety considerations)
+  - References (not counted in page limit)
+- Once shortlisted, teams will be required to submit a full-poster. The guidelines and templates for the full-poster will be shared after the awardees are announced. 
+
+We would be looking for novel ideas that -
+- Solves a real constraint that might be applicable to the wider marine robotics field,
+- Improves overall vehicle performance in the areas such as speed, range and/or autonomy,
+- Or a frugal engineering solution that does not come at the cost of reducing vehicle's performance.
+
+Following will be the factors considered- Novelty of the innovation (highest), Validation, Impact and Clarity. The novel idea does not necessarily have to be hardware related but could be a combination of both hardware and software.
+
+For SAUVC’s Innovation Award, **abstracts will be submitted via Google Forms along with the videos**. Separately from this, teams are welcome (and strongly encouraged!) to **also submit their research work as a conference paper or a poster to OCEANS Sanya**.
+Please remember that the **criteria mentioned above apply only to the SAUVC Innovation Award** abstracts. The **OCEANS conference has its own submission guidelines** and review process, so do read their call for abstracts carefully before submitting:
+[https://sanya26.oceansconference.org/call-for-abstracts/](https://sanya26.oceansconference.org/call-for-abstracts/)
 
 ## Qualification
 
