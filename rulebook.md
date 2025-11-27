@@ -125,8 +125,10 @@ We would be looking for novel ideas that -
 
 Following will be the factors considered- Novelty of the innovation (highest), Validation, Impact and Clarity. The novel idea does not necessarily have to be hardware related but could be a combination of both hardware and software.
 
-For SAUVC’s Innovation Award, **abstracts will be submitted via Google Forms along with the videos**. Separately from this, teams are welcome (and strongly encouraged!) to **also submit their research work as a conference paper or a poster to OCEANS Sanya**.
-Please remember that the **criteria mentioned above apply only to the SAUVC Innovation Award** abstracts. The **OCEANS conference has its own submission guidelines** and review process, so do read their call for abstracts carefully before submitting:
+For SAUVC’s Innovation Award, **abstracts will be submitted via the Google Form for video submission that has been mailed to teams upon registration, by the same deadline as that for the video**. If you are yet to receive the registration confirmation email, please check your spam box first, or contact us at auvc.singapore@outlook.com. 
+
+Separately from this, teams are welcome (and strongly encouraged!) to **also submit their research work as a conference paper or a poster to OCEANS Sanya**.
+Please remember that the **criteria mentioned above apply only to the SAUVC Innovation Award** abstracts. The **OCEANS conference has its own submission guidelines** and review process which will be undertaken by separate reviewers, so do read their call for abstracts carefully before submitting:
 [https://sanya26.oceansconference.org/call-for-abstracts/](https://sanya26.oceansconference.org/call-for-abstracts/)
 
 ## Qualification
