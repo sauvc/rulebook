@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2026 Rulebook
 version: "6.1.0"
-last_updated_date: 27 Nov 2025
+last_updated_date: 15 May 2026
 year: 2026
 ---
 
