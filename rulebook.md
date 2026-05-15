@@ -467,6 +467,8 @@ Here are some examples scenarios and how they would be scored.
 
 ### Size
 
+The size and weight will be measured at (or right before) deployment time, and these are the measurements that will count towards the penalty/limits. Any overhanging cables/antennas will count towards the size/weight. Equipment or appendages that protrude and retract during a run will not count towards the penalty/limit.
+
 - The AUV must fit within a 140 × 100 × 100 cm box.
 - An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus <span class="info">10 points</span>.
 - The AUV must not weigh more than 52 kg in air.
