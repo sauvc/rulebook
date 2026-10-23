@@ -1,5 +1,5 @@
 title: The Singapore AUV Challenge 2027 Rulebook
-version: "7.0.0"
+version: "2027.1.1"
 last_updated_date: 10 October 2026
 year: 2027
 ---
@@ -119,7 +119,7 @@ The organizers reserve the right to publish the video submissions after the comp
 
 The challenge will be held in an olympic sized swimming pool (50m x 25m). Divers will be in the pool during the games.
 
-![arena](img/arena-2025.jpg)
+![arena](img/arena-2027.png)
 <p class="image-caption">Top & side views of the Arena (not to scale). </p>
 
 ![arena](img/arena-2017.jpg)
@@ -293,7 +293,10 @@ If the AUV touches any side of the square while surfacing, or surfaces outside i
 
 |   |       Prop        |              Description                |
 |---|:-----------------:|:---------------------------------------:|
-| 1 | Surfacing Square  | 200×200cm PVC pipe frame floating on the water surface, held in place by a line. Markers hang below the frame to make it visible from underwater. |
+| 1 | Surfacing Square  | 200×200cm PVC pipe frame floating on the water surface, held in place by a line. Blue markers hang about 30cm below the frame to make it visible from underwater. |
+
+![surfacing square](img/surfacing-square-2027.png)
+<p class="image-caption">Top & side views of the Surfacing Square (not to scale).</p>
 
 ### Aborting
 

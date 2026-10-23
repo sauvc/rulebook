@@ -13,6 +13,13 @@ Rules for the Singapore AUV Challenge
     ```
 1. This generates the output index.html and rulebook.pdf in the `/dists` directory.
 
+## Versioning
+
+The `version` in `rulebook.md` follows `YYYY.MAJOR.PATCH`.
+
+- `YYYY` is the competition year, e.g. `2027`.
+- `MAJOR` goes up when the rules change. It starts at `1` each year.
+- `PATCH` goes up for fixes that don't change the rules, such as typos and wording. It resets to `1` when `MAJOR` goes up.
 
 ## Publishing
 
