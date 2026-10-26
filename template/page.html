@@ -4,16 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
   <title>{{title}}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900"/>
   <link rel="stylesheet" href="https://sauvc.org/css/style.css"/>
   <style>
-    @media screen {
-      .print-only {
-        display: none;
-      }
-    }
-    @media print {
-      .print-only{}
-    }
+    /* Keep headings with the content that follows, and figures and table rows whole, across PDF pages */
+    h2, h3, h4, .img-container { break-after: avoid; }
+    img, tr, .image-caption { break-inside: avoid; }
+
     body { counter-reset: figureCounter; }
     .img-container {
       counter-increment: figureCounter;
