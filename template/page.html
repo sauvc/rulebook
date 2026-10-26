@@ -1,46 +1,149 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{title}}</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900"/>
   <link rel="stylesheet" href="https://sauvc.org/css/style.css"/>
   <style>
+    /* Rulebook layer on top of the sauvc.org styles. Colours are the site palette. */
+    :root {
+      --navy: #1C455D;
+      --sky: #A0DCF1;
+      --pale: #E5F2F7;
+      --orange: #F59A63;
+      --link: #227BA3;   /* site link blue #35A6D3, darkened to 4.7:1 on white */
+      --red: #C93C2E;    /* site coral #F15E50, darkened to 5:1 on white */
+    }
+
+    ::selection { background: var(--sky); color: var(--navy); }
+    :focus-visible { outline: 3px solid var(--navy); outline-offset: 2px; }
+    [id] { scroll-margin-top: 1rem; }
+    @media (prefers-reduced-motion: no-preference) {
+      html { scroll-behavior: smooth; }
+    }
+
+    /* Cover */
+    .hero .synopsis { font-size: 1.5em; font-weight: normal; }
+    .hero .synopsis strong { font-size: 1.2em; }
+    .hero .welcome span { font-size: .5em; }
+    .stats li { width: auto; min-width: 12em; }
+    .num { padding: .5em 1em; }
+
+    /* Links: darker blue, underlined inside running text */
+    section a:link, section a:visited { color: var(--link); }
+    section > p a, section > ul a, section > ol a, td a {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: .15em;
+    }
+
+    /* One reading width for text, figures and tables */
+    section { max-width: 90ch; }
+
+    h1, h2, h3, h4 { overflow-wrap: break-word; text-wrap: balance; }
+
+    /* Section numbers (added by scripts/postprocess.mjs), also links to the section */
+    section a.header-link:link, section a.header-link:visited {
+      color: inherit;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    section a.header-link:hover { text-decoration: underline; }
+    section > h4 { position: relative; margin: 1.5em 0 .5em; }
+    section > h4 > .header-link { position: absolute; right: 100%; opacity: 0; }
+    section > h4:hover > .header-link, section > h4 > .header-link:focus-visible { opacity: .6; }
+    .toc .header-link { display: none; }
+
+    /* Contents, numbered to match the sections */
+    .toc h2 { font-size: 1.5em; color: var(--navy); margin: 1em 0 .5em; }
+    .toc ul { list-style: none; padding-left: 0; margin: 0; }
+    .toc ul ul { padding-left: 2.2em; }
+    .toc li { margin: .15em 0; }
+    .toc a { display: flex; }
+    .toc-num { flex: none; min-width: 2.2em; color: var(--navy); }
+    .toc ul ul .toc-num { min-width: 2.6em; }
+
+    /* A button back to the contents */
+    .to-contents {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      box-sizing: border-box;
+      padding: 0 1.1em;
+      border-radius: 4px;
+      background: var(--navy);
+      box-shadow: 0 2px 8px rgba(28, 69, 93, .3);
+      font-size: .8em;
+      font-weight: bold;
+    }
+    .to-contents:link, .to-contents:visited { color: #fff; }
+    main { padding-bottom: 4rem; }   /* room to scroll the last lines clear of the button */
+    .pdf .to-contents { display: none; }
+    .pdf main { padding-bottom: 0; }
+
+    /* Tables: left-aligned text, right-aligned numbers, one neutral rule between rows */
+    section table { font-size: .9em; margin: 1em 0 2em; }
+    table tr, table tr:nth-child(n) { border-top: 1px solid var(--sky); }
+    table thead tr { border-top: none; border-bottom: 2px solid var(--navy); }
+    table th, table td { padding: .6em 1.2em .6em 0; vertical-align: top; }
+    table th:last-child, table td:last-child { padding-right: 0; }
+    table td[align="right"] { font-variant-numeric: tabular-nums; }
+    table tr:has(> td:last-child > strong:only-child) { border-top: 2px solid var(--navy); }
+    @media screen and (max-width: 40em) {
+      section > h2 { font-size: 2.2em; }
+    }
+
+    /* Highlights */
+    .penalty { color: var(--red); font-weight: bold; }
+    .important { background: var(--red); color: #fff; }
+    .indicate-orange { border: solid var(--orange) 3px; padding: 0 .2em; }
+
+    /* Figures: tap to open the full-size image */
+    .figure-link { display: block; cursor: zoom-in; }
+    .img-container img { height: auto; }
+
     /* Keep headings with the content that follows, and figures and table rows whole, across PDF pages */
     h2, h3, h4, .img-container { break-after: avoid; }
     img, tr, .image-caption { break-inside: avoid; }
 
-    body { counter-reset: figureCounter; }
-    .img-container {
-      counter-increment: figureCounter;
-    }
-    .img-container + .image-caption:before {
-      content: "▲ Figure " counter(figureCounter) ": "
+    /* Figure numbers are added by scripts/postprocess.mjs; the triangle is decoration */
+    .image-caption::before { content: "▲ " / ""; }
+
+    @media print {
+      .to-contents { display: none; }
     }
   </style>
 </head>
 <body>
-  <div class="hero bubbles">
-    <h3 class="synopsis">The Singapore AUV Challenge {{year}}<br>
-      <strong style="font-size:1.2em;">Rulebook</strong>
-    </h3>
+  <header class="hero bubbles">
+    <h1 class="synopsis">The Singapore AUV Challenge {{year}}<br>
+      <strong>Rulebook</strong>
+    </h1>
 
     <ul class="stats">
       <li>
         <div class="caption">Current Rulebook version</div>
-        <div class="num" style="width: 100%;">{{version}}</div>
+        <div class="num">{{version}}</div>
       </li>
     </ul>
 
-    <h3 class="welcome">
-      <span style="font-size: .5em;">Last updated on</span><br>
+    <p class="welcome">
+      <span>Last updated on</span><br>
       {{last_updated_date}}
-    </h3>
-  </div>
+    </p>
+  </header>
 
-  <section>
-    {{~> content}}
-  </section>
+  <main>
+    <section>
+      {{~> content}}
+    </section>
+  </main>
+
+  <a class="to-contents" href="#contents">Contents</a>
 </body>
 </html>
