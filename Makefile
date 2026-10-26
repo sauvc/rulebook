@@ -1,16 +1,17 @@
-.PHONY: clean
+.PHONY: all clean
 
-dist/index.html dist/rulebook.pdf: rulebook.md template/page.html
-	# create PDF file
-	mkdir -p dist
-	npm run build
-	wkhtmltopdf --enable-local-file-access --disable-smart-shrinking --no-print-media-type --dpi 300 rulebook.html dist/rulebook.pdf
+all: dist/index.html dist/rulebook.pdf
 
-	# create web page
-	mv rulebook.html dist/index.html
+# Web page, with its images alongside
+dist/index.html: rulebook.md template/page.html $(wildcard img/*)
+	pnpm run build:html
+	mv dist/rulebook.html dist/index.html
+	rm -rf dist/img
 	cp -r img dist/
 
+# PDF, rendered from the web page by headless Chrome
+dist/rulebook.pdf: dist/index.html scripts/pdf.mjs
+	pnpm run build:pdf
+
 clean:
-	rm -rf dist/rulebook.pdf
-	rm -rf dist/rulebook.html
-	rm -rf dist/index.html
+	rm -rf dist rulebook.html

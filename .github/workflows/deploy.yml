@@ -1,57 +1,60 @@
-name: Build and Deploy Site
+name: Build and Deploy
 
 on:
   push:
-    branches:
-      - master  # or whichever branch you edit markdown in
+    branches: [master]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
+      # pnpm version comes from packageManager in package.json
+      - uses: pnpm/action-setup@v6
 
-      - name: Install wkhtmltopdf
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wkhtmltopdf
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 22  # adjust to your Node version
+          node-version-file: .node-version
+          cache: pnpm
 
-      - name: Install dependencies
-        run: npm ci
+      - run: pnpm install --frozen-lockfile
 
+      # Google Chrome is preinstalled on GitHub's Ubuntu runners
       - name: Build HTML and PDF
-        run: |
-          make
+        run: make
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      # Pull requests: attach the output so reviewers can check the PDF
+      - if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v7
         with:
-          path: ./dist
+          name: rulebook
+          path: dist
+
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
 
   deploy:
-    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
     needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - id: deployment
+        uses: actions/deploy-pages@v5
