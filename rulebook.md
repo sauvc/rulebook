@@ -49,18 +49,11 @@ year: 2027
 
 ## What's new in 2027
 
-Changes since the 2026 rulebook:
+Changes since the 2025 rulebook:
 
-- **Bigger pool.** The challenge moves to an olympic sized pool (50m × 25m). The qualification arenas are on the side of the main arena. See [The Arena](#the-arena).
 - **Video rules.** Videos must be 40 to 45 seconds long and show at least 20 seconds of untethered swimming in which the AUV dives, swims straight, turns 180° clockwise and swims back. The kill switch must be operated underwater. The deadline is 23:59 20th December, 2026, Anywhere On Earth. See [Video Submission](#video-submission).
-- **Navigation.** The gate is 150cm tall and about 12m from the starting zone. Touching the coloured flares no longer fails the task; touching the orange flare still aborts the attempt. See [Navigation](#navigation).
-- **Target zone.** All four drums sit on an 8m × 2m green mat. For [Target Reacquisition](#target-reacquisition), the AUV must now leave the target zone completely, instead of passing through the gate again.
 - **Surfacing Square bonus.** Surfacing inside the new Surfacing Square, without touching it, earns 20 extra points. See [Surfacing Square Bonus](#surfacing-square-bonus).
-- **Communication equipment** may be placed in the starting zone during the qualifiers too, not just the finals.
-- **Pool safety.** Team members may disturb the water only when handling their AUV or top-side equipment in the starting zone, and the pool area must be evacuated if there is lightning.
-- **Size and weight.** Parts that extend and retract during a run now count towards the AUV's weight. See [Size](#size).
 - **Kill switch.** It must be the same kill switch shown in the video. See [Safety](#safety).
-- The **Innovation Award** is not offered in 2027.
 
 ## Scoring at a glance
 
