@@ -82,7 +82,7 @@ A team may consist of up to **11 participants** including **faculty supervisors*
 All teams have to submit a video of their AUV prior to the competition. The video **HAS TO**
 
 -  be **40 to 45 seconds** long,
--  be submitted before 23:59 **[TBD]**, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
+-  be submitted before 23:59 20th December, 2026, [Anywhere On Earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth),
 -  show the AUV swimming underwater without a tether for at least **20 seconds**. In this time, the AUV must **dive, swim straight, turn 180° clockwise and swim back**.
 -  show a person operating the [Kill Switch](#safety) **underwater**, and all thrusters stopping immediately.
 
