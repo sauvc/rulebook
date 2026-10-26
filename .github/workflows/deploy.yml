@@ -3,7 +3,7 @@ name: Build and Deploy Site
 on:
   push:
     branches:
-      - main  # or whichever branch you edit markdown in
+      - master  # or whichever branch you edit markdown in
   workflow_dispatch:
 
 permissions:
