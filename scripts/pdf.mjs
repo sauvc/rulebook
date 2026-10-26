@@ -30,8 +30,10 @@ try {
     console.error(`Failed to load:\n  ${failures.join('\n  ')}`)
     process.exitCode = 1
   } else {
-    // Screen media keeps the site colours; the site's print CSS turns everything black and white
+    // Screen media keeps the site colours; the site's print CSS turns everything black and white.
+    // The pdf class lets the page hide screen-only controls.
     await page.emulateMedia({ media: 'screen' })
+    await page.evaluate(() => document.documentElement.classList.add('pdf'))
     await page.pdf({
       path: output,
       format: 'A4',
