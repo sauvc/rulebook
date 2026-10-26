@@ -94,6 +94,10 @@ Donts: For your video, DO NOT
 
 Videos will be reviewed by the organizing committee and **around 35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** The committee will set the exact number based on logistics.
 
+- The judges will check each video for authenticity.
+- Teams may improve the AUV after the video, but must not change it significantly.
+- Teams must not modify the kill switch shown in the video. The judges reserve the right to disallow an AUV that breaks this rule.
+
 The organizers reserve the right to publish the video submissions after the competition.
 
 ## Qualification
@@ -516,7 +520,7 @@ Here are some examples scenarios and how they would be scored.
 
 ### Size
 
-The judges measure size and weight at, or right before, deployment. These measurements count towards the limits and bonuses below. Cables and antennas that hang over the AUV count towards its size and weight. Parts that extend and retract during a run do not.
+The judges measure size and weight at, or right before, deployment. These measurements count towards the limits and bonuses below. Cables and antennas that hang over the AUV count towards its size and weight. Parts that extend and retract during a run do not count towards its size, but still count towards its weight.
 
 - The AUV must fit within a 140 × 100 × 100 cm box.
 - An AUV with dimension of less than 70 cm × 50 cm × 50 cm will be given bonus <span class="info">10 points</span>.
@@ -540,6 +544,7 @@ The judges measure size and weight at, or right before, deployment. These measur
 - AUV must be completely untethered.
 - The use of explosives, fire or hazardous chemicals is prohibited. Certified lithium batteries are allowed.
 - If lasers are used, they must be of class 2 or lower. Care must be taken to protect all persons at the venue from harm. Beams must be oriented in such a fashion that they cannot shine into the eyes of the spectators.
+- The judges reserve the right to **disallow any team** whose AUV does not meet these safety rules, including the kill switch rules, from taking part in the competition.
 
 ![flares](img/killswitch.jpg)
 <p class="image-caption">Example a kill switch on an AUV from 2015 Competition.</p>
@@ -563,7 +568,7 @@ The judges measure size and weight at, or right before, deployment. These measur
 - AUVs will undergo weight and size check. Bonus points, if applicable, will be awarded.
 - AUVs will be tested for battery, oil or lubricant leak check, and a waterproofness check. Failing either would bar the team from attempting to qualify until the AUV passes the checks.
 - Team will proceed to qualifying round. The bonus points for size and weight is applicable only if the team passes the qualifying round.
-- Top 15 qualified teams (according to qualification score and the qualification time) will proceed to the final rounds of competition.
+- Top 15 qualified teams (according to qualification score and the qualification time) will proceed to the final rounds of competition. The committee reserves the right to change the number of teams in the final based on logistical constraints.
 - The final round will be held in the main arena.
 
 ### Practice Rounds
