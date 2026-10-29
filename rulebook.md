@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2027 Rulebook
-version: "2027.2.1"
-last_updated_date: 26 October 2026
+version: "2027.3.1"
+last_updated_date: 29 October 2026
 year: 2027
 ---
 
@@ -107,7 +107,7 @@ The goal is for each team to develop an Autonomous Underwater Vehicle (AUV) whic
 
 ## Structure of the Team
 
-A team may consist of up to **11 participants** including **faculty supervisors**. There are two team categories, student and open. A team is in the student category if at least half of its participants are full-time students at the time of registration.
+A team may consist of up to **11 participants** including **faculty supervisors**. At least half of the participants must be full-time students at the time of registration.
 
 ![A team with its faculty co-supervisors and AUV at the poolside in 2017](img/team.jpg)
 <p class="image-caption">One of the teams with faculty co-supervisors from the 2017 Competition.</p>
@@ -130,7 +130,7 @@ For your video:
 Videos will be reviewed by the organizing committee and **around 35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** The committee will set the exact number based on logistics.
 
 - The <span class="inverse">Judges</span> will check each video for authenticity.
-- Teams may improve the AUV after the video, but must not change it significantly.
+- Teams may improve the AUV after the video, but **must not** change it significantly.
 - Teams must not modify the kill switch shown in the video. The <span class="inverse">Judges</span> reserve the right to disallow an AUV that breaks this rule.
 
 The organizing committee reserves the right to publish the video submissions after the competition.
