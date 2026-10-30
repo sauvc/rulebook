@@ -4,7 +4,7 @@
 all: dist/index.html dist/rulebook.pdf
 
 # Web page, with its images alongside
-dist/index.html: rulebook.md template/page.html scripts/postprocess.mjs $(wildcard img/*)
+dist/index.html: rulebook.md template/page.html $(wildcard template/assets/css/*) scripts/postprocess.mjs $(wildcard img/*)
 	pnpm run build:html
 	mv dist/rulebook.html dist/index.html
 	rm -rf dist/img
