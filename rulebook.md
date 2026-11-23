@@ -1,6 +1,6 @@
 title: The Singapore AUV Challenge 2027 Rulebook
-version: "2027.3.2"
-last_updated_date: 30 October 2026
+version: "2027.4.1"
+last_updated_date: 23 November 2026
 year: 2027
 ---
 
@@ -54,6 +54,7 @@ Changes since the 2025 rulebook:
 - **Video rules.** Videos must be 40 to 45 seconds long and show at least 20 seconds of untethered swimming in which the AUV dives, swims straight, turns 180° clockwise and swims back. The kill switch must be operated underwater. The deadline is 23:59 20th December, 2026, Anywhere On Earth. See [Video Submission](#video-submission).
 - **Surfacing Square bonus.** Surfacing inside the new Surfacing Square, without touching it, earns 20 extra points. See [Surfacing Square Bonus](#surfacing-square-bonus).
 - **Kill switch.** It must be the same kill switch shown in the video. See [Safety](#safety).
+- **Changes after the video.** Teams may keep improving their AUV, but must bring substantially the same vehicle to the competition. See [Video Submission](#video-submission).
 
 ## Scoring at a glance
 
@@ -130,8 +131,8 @@ For your video:
 Videos will be reviewed by the organizing committee and **around 35 teams with the best vehicles will be short-listed to attend the competition. The above criteria are the basic necessary criteria, failing which the teams wont be short-listed.** The committee will set the exact number based on logistics.
 
 - The <span class="inverse">Judges</span> will check each video for authenticity.
-- Teams may improve the AUV after the video, but **must not** change it significantly.
-- Teams must not modify the kill switch shown in the video. The <span class="inverse">Judges</span> reserve the right to disallow an AUV that breaks this rule.
+- Teams may keep improving their AUV after submitting the video, including its software, electronics, sensors and task-specific mechanisms. The AUV brought to the competition must be substantially the same vehicle shown in the video.
+- Teams **must not** replace the vehicle, significantly redesign its hull, frame or propulsion configuration, or modify the kill switch shown in the video. The <span class="inverse">Judges</span> reserve the right to disallow an AUV that breaks this rule.
 
 The organizing committee reserves the right to publish the video submissions after the competition.
 
